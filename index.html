@@ -564,6 +564,80 @@
     border-radius: 3px;
     margin-top: 8px;
   }
+
+  /* ── API KEY MODAL ── */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex; align-items: center; justify-content: center;
+    animation: fadein 0.2s ease;
+  }
+  .modal-box {
+    background: var(--renault-black);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 32px 28px;
+    width: 420px;
+    max-width: 90vw;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  }
+  .modal-logo { text-align: center; margin-bottom: 20px; }
+  .modal-logo svg { width: 40px; height: 40px; }
+  .modal-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px; font-weight: 900;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--renault-yellow);
+    text-align: center; margin-bottom: 6px;
+  }
+  .modal-desc {
+    font-size: 12px; color: var(--renault-light);
+    text-align: center; line-height: 1.6; margin-bottom: 22px;
+  }
+  .modal-desc a { color: var(--renault-yellow); text-decoration: none; }
+  .modal-desc a:hover { text-decoration: underline; }
+  .modal-label {
+    font-size: 10px; font-weight: 700; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--renault-light);
+    margin-bottom: 7px; display: block;
+  }
+  .modal-input {
+    width: 100%;
+    background: var(--renault-mid);
+    border: 1px solid var(--border-dim);
+    border-radius: 3px;
+    padding: 10px 12px;
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    outline: none;
+    transition: border-color 0.2s;
+    margin-bottom: 6px;
+  }
+  .modal-input:focus { border-color: var(--border); }
+  .modal-hint {
+    font-size: 10px; color: var(--renault-muted);
+    margin-bottom: 18px; line-height: 1.5;
+  }
+  .modal-btn {
+    width: 100%;
+    background: var(--renault-yellow);
+    border: none; border-radius: 3px;
+    padding: 11px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--renault-black);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .modal-btn:hover { background: #FFE800; }
+  body.light .modal-box { background: #FFFFFF; }
+  body.light .modal-input { background: #F0F0F0; color: #1A1A1A; }
+
 </style>
 </head>
 <body>
@@ -1311,10 +1385,25 @@ async function sendMessage() {
 
   renderTyping();
 
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    removeTyping();
+    showApiKeyModal();
+    messages.pop();
+    isLoading = false;
+    sendBtn.disabled = false;
+    return;
+  }
+
   try {
     const resp = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
       body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 1000,
@@ -1327,14 +1416,18 @@ async function sendMessage() {
     removeTyping();
 
     if (data.error) {
-      renderMessage('assistant', `⚠️ Erro ao processar: ${data.error.message}`);
+      if (data.error.type === 'authentication_error') {
+        sessionStorage.removeItem('re_api_key');
+        renderMessage('assistant', '⚠️ API Key inválida ou expirada. Por favor, insira uma chave válida.');
+        showApiKeyModal();
+      } else {
+        renderMessage('assistant', `⚠️ Erro ao processar: ${data.error.message}`);
+      }
       messages.pop();
     } else {
       const aiText = data.content?.find(b => b.type === 'text')?.text || '';
       messages.push({ role: 'assistant', content: aiText });
       renderMessage('assistant', aiText);
-
-      // Keep context window manageable
       if (messages.length > 20) messages = messages.slice(-20);
     }
   } catch(e) {
@@ -1348,10 +1441,67 @@ async function sendMessage() {
   inputEl.focus();
 }
 
+
+// ═══════════════════════════════════════════════════════
+// API KEY MANAGEMENT
+// ═══════════════════════════════════════════════════════
+function getApiKey() {
+  return sessionStorage.getItem('re_api_key') || null;
+}
+
+function showApiKeyModal() {
+  document.getElementById('api-modal').style.display = 'flex';
+  setTimeout(() => document.getElementById('api-key-input').focus(), 100);
+}
+
+function saveApiKey() {
+  const key = document.getElementById('api-key-input').value.trim();
+  if (!key.startsWith('sk-ant-')) {
+    document.getElementById('api-key-input').style.borderColor = '#FF6B6B';
+    document.getElementById('api-key-input').placeholder = 'Chave inválida — deve começar com sk-ant-...';
+    return;
+  }
+  sessionStorage.setItem('re_api_key', key);
+  document.getElementById('api-modal').style.display = 'none';
+  document.getElementById('api-key-input').value = '';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('api-key-input')?.addEventListener('keydown', e => {
+    if (e.key === 'Enter') saveApiKey();
+  });
+  // Show modal on load if no key stored
+  if (!getApiKey()) showApiKeyModal();
+});
+
 function sendQuick(text) {
   inputEl.value = text;
   sendMessage();
 }
 </script>
+
+<!-- API KEY MODAL -->
+<div class="modal-overlay" id="api-modal" style="display:none">
+  <div class="modal-box">
+    <div class="modal-logo">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="20,2 38,20 20,38 2,20" fill="none" stroke="#EFDF00" stroke-width="2.5"/>
+        <polygon points="20,9 31,20 20,31 9,20" fill="none" stroke="#EFDF00" stroke-width="1.5" opacity="0.4"/>
+        <polygon points="20,16 24,20 20,24 16,20" fill="#EFDF00"/>
+      </svg>
+    </div>
+    <div class="modal-title">Chave de API</div>
+    <div class="modal-desc">
+      Para usar a RÊ, informe sua chave da API Anthropic.<br>
+      Obtenha em <a href="https://console.anthropic.com/settings/keys" target="_blank">console.anthropic.com</a>
+    </div>
+    <label class="modal-label" for="api-key-input">Anthropic API Key</label>
+    <input class="modal-input" id="api-key-input" type="password"
+      placeholder="sk-ant-api03-..." autocomplete="off" />
+    <div class="modal-hint">🔒 A chave fica salva apenas nesta sessão do navegador e nunca é enviada a terceiros.</div>
+    <button class="modal-btn" onclick="saveApiKey()">Confirmar e Entrar</button>
+  </div>
+</div>
+
 </body>
 </html>
