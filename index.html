@@ -26,6 +26,95 @@
     --border-dim: rgba(255,255,255,0.07);
   }
 
+  /* ── LIGHT MODE ── */
+  body.light {
+    --renault-black: #FFFFFF;
+    --renault-dark: #F2F2F2;
+    --renault-mid: #E8E8E8;
+    --renault-gray: #CCCCCC;
+    --renault-light: #666666;
+    --renault-muted: #999999;
+    --white: #1A1A1A;
+    --chat-bg: #F7F7F7;
+    --msg-user-bg: #ECECEC;
+    --msg-ai-bg: #FFFFFF;
+    --border: rgba(180,150,0,0.3);
+    --border-dim: rgba(0,0,0,0.08);
+    --accent-dim: rgba(180,150,0,0.1);
+    --accent-glow: rgba(180,150,0,0.05);
+  }
+  body.light .msg-body { color: #2A2A2A; }
+  body.light .msg-body.user-body { color: #444444; }
+  body.light .msg-body th { background: #F0F0F0; }
+  body.light .msg-body td { color: #333333; }
+  body.light .msg-body code { color: #8a6d00 !important; background: rgba(180,150,0,0.12) !important; }
+  body.light .sidebar { background: #FFFFFF; }
+  body.light .welcome-desc { color: #555555; }
+  body.light .welcome-card { background: #F5F5F5; }
+  body.light #chat-input { color: #1A1A1A; }
+  body.light .input-wrapper { background: #EBEBEB; }
+  body.light .data-badge { color: #7a6500; background: rgba(180,150,0,0.12); border-color: rgba(180,150,0,0.3); }
+  body.light .model-tag { background: #EBEBEB; color: #555555; }
+  body.light .msg-name.re-name { color: #8a6d00; }
+  body.light .agent-name { color: #8a6d00; }
+  body.light header { background: #FFFFFF; }
+  body.light .welcome-title { color: #8a6d00; }
+  body.light .logo-diamond polygon, body.light header .logo-diamond polygon { stroke: #8a6d00; }
+  body.light .logo-diamond polygon:last-child { fill: #8a6d00; }
+  body.light .welcome-diamond polygon { stroke: #8a6d00; }
+  body.light .welcome-diamond polygon:last-child { fill: #8a6d00; }
+  body.light .quick-btn { color: #2A2A2A; }
+  body.light .quick-btn:hover { color: #8a6d00; }
+  body.light .msg-body .data-block { background: #F0F0F0; }
+  body.light header::before { background: #EFDF00; }
+  body.light #send-btn { background: #D4B800; }
+  body.light #send-btn:hover { background: #EFDF00; }
+  body.light .msg-avatar.re { background: #D4B800; }
+  body.light .msg-avatar.user { background: #BBBBBB; }
+  body.light .typing-indicator span { background: #8a6d00; }
+
+  /* ── THEME TOGGLE BUTTON ── */
+  .theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border-dim);
+    border-radius: 20px;
+    padding: 5px 12px;
+    cursor: pointer;
+    display: flex; align-items: center; gap: 7px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--renault-light);
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .theme-toggle:hover {
+    border-color: var(--border);
+    color: var(--white);
+    background: var(--accent-dim);
+  }
+  .theme-toggle .toggle-track {
+    width: 28px; height: 15px;
+    background: var(--renault-gray);
+    border-radius: 8px;
+    position: relative;
+    transition: background 0.25s;
+  }
+  body.light .theme-toggle .toggle-track { background: #D4B800; }
+  .theme-toggle .toggle-thumb {
+    position: absolute;
+    top: 2px; left: 2px;
+    width: 11px; height: 11px;
+    border-radius: 50%;
+    background: var(--renault-light);
+    transition: transform 0.25s, background 0.25s;
+  }
+  body.light .theme-toggle .toggle-thumb {
+    transform: translateX(13px);
+    background: #FFFFFF;
+  }
+
   * { margin:0; padding:0; box-sizing:border-box; }
 
   body {
@@ -498,6 +587,11 @@
   <div class="header-right">
     <span class="status-dot">Online</span>
     <span class="data-badge">Jan–Fev 2025</span>
+    <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn" title="Alternar tema claro/escuro">
+      <span id="theme-icon">☀️</span>
+      <div class="toggle-track"><div class="toggle-thumb"></div></div>
+      <span id="theme-label">Claro</span>
+    </button>
   </div>
 </header>
 
@@ -628,6 +722,25 @@
 </div>
 
 <script>
+
+// ═══════════════════════════════════════════════════════
+// THEME TOGGLE
+// ═══════════════════════════════════════════════════════
+let isDark = true;
+function toggleTheme() {
+  isDark = !isDark;
+  document.body.classList.toggle("light", !isDark);
+  const icon = document.getElementById("theme-icon");
+  const label = document.getElementById("theme-label");
+  if (isDark) {
+    icon.textContent = "☀️";
+    label.textContent = "Claro";
+  } else {
+    icon.textContent = "🌙";
+    label.textContent = "Escuro";
+  }
+}
+
 // ═══════════════════════════════════════════════════════
 // DATA LOADING — fetch inline JSON from server
 // ═══════════════════════════════════════════════════════
