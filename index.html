@@ -1086,7 +1086,14 @@ function buildSystemPrompt() {
 - Se a pergunta pede um número → dê o número. Se pede uma tabela → dê a tabela. Ponto.
 - Seja direto: dado → resposta. Sem contexto extra.
 - Idioma: Português do Brasil.
-- Nunca invente dados. Se não houver dados para o período solicitado, diga em uma linha.
+- Nunca invente dados.
+
+## QUANDO USAR WEB SEARCH
+- Use a ferramenta web_search quando a pergunta for sobre mercado automotivo geral (não dados internos da rede).
+- Exemplos que requerem busca: segmentos de mercado, rankings nacionais de emplacamento, dados Anfavea/Fenabrave, lançamentos, concorrentes externos.
+- Priorize: anfavea.com.br, fenabrave.org.br, portais automotivos.
+- Indique brevemente a fonte ao responder (ex: "Fonte: Anfavea").
+- Dados internos da rede (emplacamentos por grupo, PDS, PDM) → sempre use as bases, NUNCA a web.
 
 ## COBERTURA
 - Base 1 (Mercado MTM): ${b1months.join(', ')}
@@ -1725,6 +1732,22 @@ async function sendMessage() {
         model: 'claude-sonnet-4-20250514',
         max_tokens: 800,
         system: buildSystemPrompt(),
+        tools: [{
+          type: 'web_search_20250305',
+          name: 'web_search',
+          max_uses: 3,
+          allowed_domains: [
+            'anfavea.com.br',
+            'fenabrave.org.br',
+            'consultacarros.com',
+            'icarros.com.br',
+            'webmotors.com.br',
+            'autoesporte.globo.com',
+            'carrosnaweb.com.br',
+            'uol.com.br',
+            'motor1.com'
+          ]
+        }],
         messages: messages
       })
     });
@@ -1740,9 +1763,13 @@ async function sendMessage() {
       }
       messages.pop();
     } else {
-      const aiText = data.content?.find(b=>b.type==='text')?.text || '';
-      messages.push({ role:'assistant', content: aiText });
-      renderMessage('assistant', aiText);
+      // Collect all text blocks (web_search may return multiple)
+      const textBlocks = (data.content || []).filter(b => b.type === 'text');
+      const aiText = textBlocks.map(b => b.text).join('\n').trim() || '';
+      if (aiText) {
+        messages.push({ role:'assistant', content: data.content }); // keep full content for context
+        renderMessage('assistant', aiText);
+      }
       if (messages.length > 20) messages = messages.slice(-20);
     }
   } catch(e) {
