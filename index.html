@@ -862,7 +862,7 @@ function buildSystemPrompt() {
 
 ## BASES DE DADOS DISPONÍVEIS
 
-Você tem acesso a 3 bases de dados (Jan e Fev de 2025):
+Você tem acesso a 3 bases de dados cobrindo Jan/2025 a Mar/2026 (15 meses Base1, 15 meses Base2):
 
 **BASE 1 — Mercado MTM** (${BASE1.length} registros)
 - Mercado de veículos emplacados por microrregião, regional, estado
@@ -944,8 +944,8 @@ Versões por modelo:
 // ═══════════════════════════════════════════════════════
 function filterBase1(filters = {}) {
   return BASE1.filter(r => {
-    if (filters.month && r.nmbr_month != filters.month) return false;
-    if (filters.year && r.nmbr_year != filters.year) return false;
+    if (filters.month !== undefined && r.nmbr_month != filters.month) return false;
+    if (filters.year  !== undefined && r.nmbr_year  != filters.year)  return false;
     if (filters.state && r.desc_state !== filters.state) return false;
     if (filters.regional && r.desc_dealer_region_original !== filters.regional) return false;
     if (filters.micro_region && r.name_micro_region !== filters.micro_region) return false;
@@ -955,10 +955,10 @@ function filterBase1(filters = {}) {
 
 function filterBase2(filters = {}) {
   return BASE2.filter(r => {
-    if (filters.month && r.nmbr_month != filters.month) return false;
-    if (filters.year && r.nmbr_year != filters.year) return false;
+    if (filters.month !== undefined && r.nmbr_month != filters.month) return false;
+    if (filters.year  !== undefined && r.nmbr_year  != filters.year)  return false;
     if (filters.state && r.desc_dealer_state !== filters.state) return false;
-    if (filters.regional && r.desc_dealer_region !== filters.regional) return false;
+    if (filters.regional && (r.desc_dealer_region !== filters.regional && r.desc_dealer_region_original !== filters.regional)) return false;
     if (filters.micro_region && r.name_micro_region !== filters.micro_region) return false;
     if (filters.group_name) {
       const gn = r.name_dealer_group?.toUpperCase() || '';
@@ -981,234 +981,253 @@ function buildDataContext(userMsg) {
   const msg = userMsg.toLowerCase();
   let ctx = '';
 
-  // Detect month
-  const month1 = msg.includes('janeiro') || msg.includes('jan') ? 1 : null;
-  const month2 = msg.includes('fevereiro') || msg.includes('fev') ? 2 : null;
-  const months = [month1, month2].filter(Boolean);
-  if (months.length === 0) months.push(1, 2); // default: both
+  // ── Detect YEAR ──
+  const hasYear2026 = msg.includes('2026') || msg.includes('26');
+  const hasYear2025 = msg.includes('2025') || msg.includes('25');
+  let detectedYears = [];
+  if (hasYear2026) detectedYears.push(2026);
+  if (hasYear2025) detectedYears.push(2025);
+  if (detectedYears.length === 0) detectedYears = [2025, 2026]; // default: all
 
-  // Detect if asking about a specific group
-  const grupoBir = BASE3.map(r => r.group_name?.toUpperCase());
-  let detectedGroup = null;
-  BASE3.forEach(r => {
-    if (r.group_name && msg.includes(r.group_name.toLowerCase())) {
-      detectedGroup = r;
-    }
-  });
-  // Also check Base2 group names
-  let detectedGroupName = null;
-  BASE2.forEach(r => {
-    if (r.name_dealer_group && msg.includes(r.name_dealer_group.toLowerCase())) {
-      detectedGroupName = r.name_dealer_group;
-    }
-  });
+  // ── Detect MONTH ──
+  const monthNames = {
+    'janeiro':1,'jan':1,'fevereiro':2,'fev':2,'março':3,'mar':3,
+    'abril':4,'abr':4,'maio':5,'mai':5,'junho':6,'jun':6,
+    'julho':7,'jul':7,'agosto':8,'ago':8,'setembro':9,'set':9,
+    'outubro':10,'out':10,'novembro':11,'nov':11,'dezembro':12,'dez':12
+  };
+  let detectedMonths = [];
+  for (const [name, num] of Object.entries(monthNames)) {
+    if (msg.includes(name) && !detectedMonths.includes(num)) detectedMonths.push(num);
+  }
+  // If no month detected, use all months from detected years
+  const periodFilters = [];
+  if (detectedMonths.length > 0) {
+    detectedYears.forEach(y => detectedMonths.forEach(m => periodFilters.push({year:y, month:m})));
+  } else {
+    detectedYears.forEach(y => periodFilters.push({year:y})); // all months of that year
+  }
 
-  // Detect state
+  // Helper: label for year+month
+  const mNames = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+  const periodLabel = (y, m) => m ? `${mNames[m]}/${String(y).slice(2)}` : `Ano ${y}`;
+
+  // ── Detect STATE ──
   const stateMap = {
-    'são paulo': 'SP', 'sp': 'SP', 'rio de janeiro': 'RJ', 'rj': 'RJ',
-    'minas gerais': 'MG', 'mg': 'MG', 'paraná': 'PR', 'pr': 'PR',
-    'santa catarina': 'SC', 'sc': 'SC', 'rio grande do sul': 'RS', 'rs': 'RS',
-    'bahia': 'BA', 'ba': 'BA', 'goiás': 'GO', 'go': 'GO',
-    'mato grosso do sul': 'MS', 'ms': 'MS', 'pernambuco': 'PE', 'pe': 'PE',
-    'ceará': 'CE', 'ce': 'CE', 'amazonas': 'AM', 'am': 'AM',
-    'pará': 'PA', 'pa': 'PA', 'maranhão': 'MA', 'ma': 'MA',
-    'espírito santo': 'ES', 'es': 'ES', 'mato grosso': 'MT', 'mt': 'MT',
-    'distrito federal': 'DF', 'df': 'DF'
+    'são paulo':'SP','sao paulo':'SP','sp':'SP','rio de janeiro':'RJ','rj':'RJ',
+    'minas gerais':'MG','mg':'MG','paraná':'PR','parana':'PR','pr':'PR',
+    'santa catarina':'SC','sc':'SC','rio grande do sul':'RS','rs':'RS',
+    'bahia':'BA','ba':'BA','goiás':'GO','goias':'GO','go':'GO',
+    'mato grosso do sul':'MS','ms':'MS','pernambuco':'PE','pe':'PE',
+    'ceará':'CE','ceara':'CE','ce':'CE','amazonas':'AM','am':'AM',
+    'pará':'PA','para':'PA','pa':'PA','maranhão':'MA','maranhao':'MA','ma':'MA',
+    'espírito santo':'ES','espirito santo':'ES','es':'ES',
+    'mato grosso':'MT','mt':'MT','distrito federal':'DF','df':'DF',
+    'tocantins':'TO','to':'TO','rondônia':'RO','rondonia':'RO','ro':'RO',
+    'acre':'AC','ac':'AC','roraima':'RR','rr':'RR','amapá':'AP','amapa':'AP','ap':'AP',
+    'sergipe':'SE','se':'SE','alagoas':'AL','al':'AL','piauí':'PI','piaui':'PI','pi':'PI',
+    'rio grande do norte':'RN','rn':'RN','paraíba':'PB','paraiba':'PB','pb':'PB'
   };
   let detectedState = null;
   for (const [key, val] of Object.entries(stateMap)) {
     if (msg.includes(key)) { detectedState = val; break; }
   }
 
-  // Detect models
+  // ── Detect MODELS ──
   const modelMap = {
-    'kwid e-tech': 'KWID E-TECH', 'kwid e tech': 'KWID E-TECH', 'mégane e-tech': 'MEGANE E-TECH',
-    'megane e-tech': 'MEGANE E-TECH', 'kangoo e-tech': 'KANGOO E-TECH',
-    'kwid': 'KWID', 'kardian': 'KARDIAN', 'duster': 'DUSTER',
-    'oroch': 'OROCH', 'boreal': 'BOREAL', 'kangoo': 'KANGOO',
-    'master': 'MASTER', 'koleos': 'KOLEOS'
+    'kwid e-tech':'KWID E-TECH','kwid e tech':'KWID E-TECH',
+    'mégane e-tech':'MEGANE E-TECH','megane e-tech':'MEGANE E-TECH','megane':'MEGANE E-TECH',
+    'kangoo e-tech':'KANGOO E-TECH',
+    'kwid':'KWID','kardian':'KARDIAN','duster':'DUSTER',
+    'oroch':'OROCH','boreal':'BOREAL','kangoo':'KANGOO',
+    'master':'MASTER','koleos':'KOLEOS'
   };
   let detectedModels = [];
   for (const [key, val] of Object.entries(modelMap)) {
     if (msg.includes(key) && !detectedModels.includes(val)) detectedModels.push(val);
   }
 
-  // ── Build relevant data snippets ──
+  // ── Detect GROUP ──
+  let detectedGroupName = null;
+  BASE2.forEach(r => {
+    if (r.name_dealer_group && msg.includes(r.name_dealer_group.toLowerCase()) && !detectedGroupName) {
+      detectedGroupName = r.name_dealer_group;
+    }
+  });
+  // Also check Base3 group names (different casing)
+  if (!detectedGroupName) {
+    BASE3.forEach(r => {
+      if (r.group_name && msg.includes(r.group_name.toLowerCase()) && !detectedGroupName) {
+        // Find matching name in BASE2
+        const match = BASE2.find(b => b.name_dealer_group?.toUpperCase().includes(
+          r.group_name.toUpperCase().replace('GRUPO ','').trim()
+        ));
+        if (match) detectedGroupName = match.name_dealer_group;
+        else detectedGroupName = r.group_name.toUpperCase();
+      }
+    });
+  }
 
-  // Model performance comparison
-  if (msg.includes('comparati') || msg.includes('vs') || msg.includes('versus') || detectedModels.length > 1) {
-    ctx += '\n### COMPARATIVO DE EMPLACAMENTO SR POR MÊS:\n';
-    const modelSRCols = {
-      'KWID': 'PLACAS_SR_KWID', 'KARDIAN': 'PLACAS_SR_KARDIAN',
-      'DUSTER': 'PLACAS_SR_DUSTER', 'OROCH': 'PLACAS_SR_OROCH',
-      'BOREAL': 'PLACAS_SR_BOREAL', 'KWID E-TECH': 'PLACAS_SR_KWID_E_TECH',
-      'MEGANE E-TECH': 'PLACAS_SR_MEGANE_E_TECH', 'KANGOO': 'PLACAS_SR_KANGOO',
-      'MASTER': 'PLACAS_SR_MASTER', 'KOLEOS': 'PLACAS_SR_KOLEOS'
-    };
+  // ── Helper to run period filters ──
+  function forEachPeriod(filterFn) {
+    const results = [];
+    periodFilters.forEach(pf => {
+      const f1 = filterBase1({...pf, ...(detectedState ? {state:detectedState}:{})});
+      const f2 = filterBase2({...pf, ...(detectedGroupName ? {group_name:detectedGroupName}:{}),...(detectedState ? {state:detectedState}:{})});
+      const label = periodLabel(pf.year, pf.month);
+      if (f1.length > 0 || f2.length > 0) results.push({label, pf, f1, f2});
+    });
+    return results;
+  }
+
+  const modelSRCols = {
+    'KWID':'PLACAS_SR_KWID','KARDIAN':'PLACAS_SR_KARDIAN','DUSTER':'PLACAS_SR_DUSTER',
+    'OROCH':'PLACAS_SR_OROCH','BOREAL':'PLACAS_SR_BOREAL','KWID E-TECH':'PLACAS_SR_KWID_E_TECH',
+    'MEGANE E-TECH':'PLACAS_SR_MEGANE_E_TECH','KANGOO':'PLACAS_SR_KANGOO',
+    'MASTER':'PLACAS_SR_MASTER','KOLEOS':'PLACAS_SR_KOLEOS'
+  };
+
+  const concMap = {
+    'KWID':['MOBI','208','ARGO','C3','ONIX','POLO','HB20'],
+    'KARDIAN':['PULSE','NIVUS','TERA'],
+    'DUSTER':['CRETA','FASTBACK','KICKS','NOVO_KICKS','RENEGADE','T_CROSS','TRACKER'],
+    'OROCH':['MONTANA','SAVEIRO','STRADA'],
+    'BOREAL':['3008','COMPASS','COROLLA_CROSS','ECLIPSE','HAVAL_H6','SONG_PLUS','SONG_PRO','TAOS','TERRITORY','TIGGO_7','TIGGO_8','TUCSON','ZR-V'],
+    'KWID E-TECH':['DOLPHIN','DOLPHIN_MINI','E-JS1','ORA_03'],
+    'MEGANE E-TECH':['DOLPHIN_PLUS','EC40','EX30','EX40','IONIQ5','XC40','YUAN_PRO'],
+    'KANGOO':['FIORINO','PARTNER_RAPID'],
+    'MASTER':['BONGO','BOXER','DAILY','DUCATO','EXPERT','EXPRESS_DRC','HYUNDAI_HR','JUMPER','JUMPY','SCUDO','SPRINTER','TRANSIT','V22'],
+    'KOLEOS':['BRONCO','COMMANDER','CRV','EQUINOX','HAVAL_H6','RAV4','SONG_PLUS','TIGUAN']
+  };
+
+  const marcas = ['RENAULT','FIAT','VOLKSWAGEN','GM','HYUNDAI','TOYOTA','JEEP','HONDA',
+                  'PEUGEOT','CITROEN','GWM','BYD','FORD','NISSAN','GEELY','JAECOO'];
+
+  // ── Build context blocks ──
+  const periods = forEachPeriod();
+
+  // Rankings / Top models
+  if (msg.includes('mais emplacou') || msg.includes('top') || msg.includes('ranking') || msg.includes('maior')) {
+    ctx += '\n### RANKING MODELOS RENAULT SR:\n';
+    periods.forEach(({label, f2}) => {
+      const ranking = Object.entries(modelSRCols)
+        .map(([m,col]) => ({model:m, placas:Math.round(sumCol(f2,col))}))
+        .filter(r => r.placas > 0)
+        .sort((a,b) => b.placas - a.placas);
+      if (ranking.length === 0) return;
+      ctx += `\n${label}:\n`;
+      ranking.forEach((r,i) => ctx += `  ${i+1}. ${r.model}: ${r.placas} placas SR\n`);
+    });
+  }
+
+  // Comparativo models
+  if (msg.includes('comparati') || msg.includes(' vs ') || msg.includes('versus') || detectedModels.length > 1) {
+    ctx += '\n### COMPARATIVO SR POR PERÍODO:\n';
     const modelsToShow = detectedModels.length > 0 ? detectedModels : Object.keys(modelSRCols);
-    [1,2].forEach(m => {
-      const rows = filterBase2({month: m});
-      if (rows.length === 0) return;
-      ctx += `\nMês ${m === 1 ? 'Jan' : 'Fev'}/2025:\n`;
+    periods.forEach(({label, f2}) => {
+      ctx += `\n${label}:\n`;
       modelsToShow.forEach(model => {
         const col = modelSRCols[model];
-        if (col) {
-          const total = Math.round(sumCol(rows, col));
-          const refat = model === 'KWID' ? Math.round(sumCol(rows, 'PLACAS_REFAT')) : 0;
-          ctx += `  ${model}: ${total} placas SR\n`;
-        }
+        if (col) ctx += `  ${model}: ${Math.round(sumCol(f2,col))} placas SR\n`;
       });
     });
   }
 
-  // Top models ranking
-  if (msg.includes('mais emplacou') || msg.includes('top') || msg.includes('ranking') || msg.includes('maior')) {
-    ctx += '\n### RANKING MODELOS RENAULT (SR + REFAT):\n';
-    const modelSRCols = {
-      'KWID': 'PLACAS_SR_KWID', 'KARDIAN': 'PLACAS_SR_KARDIAN',
-      'DUSTER': 'PLACAS_SR_DUSTER', 'OROCH': 'PLACAS_SR_OROCH',
-      'BOREAL': 'PLACAS_SR_BOREAL', 'KWID E-TECH': 'PLACAS_SR_KWID_E_TECH',
-      'MEGANE E-TECH': 'PLACAS_SR_MEGANE_E_TECH', 'KANGOO': 'PLACAS_SR_KANGOO',
-      'MASTER': 'PLACAS_SR_MASTER'
-    };
-    months.forEach(m => {
-      const rows = filterBase2({month: m});
-      if (rows.length === 0) return;
-      const totalRefat = Math.round(sumCol(rows, 'PLACAS_REFAT'));
-      ctx += `\nMês ${m === 1 ? 'Jan' : 'Fev'}/2025 (${rows.length} registros):\n`;
-      const ranking = Object.entries(modelSRCols).map(([model, col]) => ({
-        model, placas: Math.round(sumCol(rows, col))
-      })).sort((a,b) => b.placas - a.placas);
-      ranking.forEach((r, i) => ctx += `  ${i+1}. ${r.model}: ${r.placas} placas\n`);
-    });
-  }
-
-  // Concorrentes info
+  // Concorrentes / Fight
   if (msg.includes('concorrente') || msg.includes('fight') || msg.includes('segmento')) {
-    const concMap = {
-      'KWID': ['MOBI','208','ARGO','C3','ONIX','POLO','HB20'],
-      'KARDIAN': ['PULSE','NIVUS','TERA'],
-      'DUSTER': ['CRETA','FASTBACK','KICKS','NOVO_KICKS','RENEGADE','T_CROSS','TRACKER'],
-      'OROCH': ['MONTANA','SAVEIRO','STRADA'],
-      'BOREAL': ['3008','COMPASS','COROLLA_CROSS','ECLIPSE','HAVAL_H6','SONG_PLUS','SONG_PRO','TAOS','TERRITORY','TIGGO_7','TIGGO_8','TUCSON','ZR-V'],
-      'KWID E-TECH': ['DOLPHIN','DOLPHIN_MINI','E-JS1','ORA_03'],
-      'MEGANE E-TECH': ['DOLPHIN_PLUS','EC40','EX30','EX40','IONIQ5','XC40','YUAN_PRO'],
-      'KANGOO': ['FIORINO','PARTNER_RAPID'],
-      'MASTER': ['BONGO','BOXER','DAILY','DUCATO','EXPERT','EXPRESS_DRC','HYUNDAI_HR','JUMPER','JUMPY','SCUDO','SPRINTER','TRANSIT','V22'],
-      'KOLEOS': ['BRONCO','COMMANDER','CRV','EQUINOX','HAVAL_H6','RAV4','SONG_PLUS','TIGUAN']
-    };
-    ctx += '\n### FIGHT (SEGMENTOS) POR MODELO:\n';
+    ctx += '\n### FIGHT POR MODELO:\n';
+    const modelsShow = detectedModels.length > 0 ? detectedModels : Object.keys(concMap);
+    modelsShow.forEach(m => {
+      if (concMap[m]) ctx += `${m} compete com: ${concMap[m].join(', ')}\n`;
+    });
     if (detectedModels.length > 0) {
-      detectedModels.forEach(m => {
-        if (concMap[m]) ctx += `${m}: compete com ${concMap[m].join(', ')}\n`;
-      });
-    } else {
-      Object.entries(concMap).forEach(([model, concs]) => {
-        ctx += `${model}: ${concs.join(', ')}\n`;
-      });
-    }
-
-    // Placas concorrentes
-    months.forEach(mo => {
-      const rows = filterBase1({month: mo, ...(detectedState ? {state: detectedState} : {})});
-      if (rows.length === 0) return;
-      ctx += `\nPlacas concorrentes Mês ${mo === 1 ? 'Jan' : 'Fev'}/2025${detectedState ? ' - '+detectedState : ''}:\n`;
-      detectedModels.forEach(model => {
-        const concs = concMap[model] || [];
-        concs.forEach(c => {
-          const col = `PLACAS_${model}_${c}_SR`;
-          const val = Math.round(sumCol(rows, col));
-          if (val > 0) ctx += `  ${model} vs ${c}: ${val} placas SR\n`;
+      ctx += '\n### PLACAS CONCORRENTES SR:\n';
+      periods.forEach(({label, f1}) => {
+        ctx += `\n${label}:\n`;
+        detectedModels.forEach(model => {
+          (concMap[model]||[]).forEach(c => {
+            const col = `PLACAS_${model}_${c}_SR`;
+            const val = Math.round(sumCol(f1, col));
+            if (val > 0) ctx += `  ${model} vs ${c}: ${val}\n`;
+          });
         });
       });
+    }
+  }
+
+  // Top brands
+  if (msg.includes('marca') || msg.includes('top 5') || msg.includes('top 10') || msg.includes('top cinco') || msg.includes('top dez')) {
+    ctx += '\n### EMPLACAMENTO POR MARCA SR:\n';
+    periods.forEach(({label, f1}) => {
+      const ranking = marcas.map(m => ({m, sr:Math.round(sumCol(f1,`PLACAS_${m}_SR`))}))
+        .filter(r => r.sr > 0).sort((a,b) => b.sr - a.sr);
+      if (!ranking.length) return;
+      ctx += `\n${label}:\n`;
+      ranking.forEach((r,i) => ctx += `  ${i+1}. ${r.m}: ${r.sr}\n`);
     });
   }
 
-  // State-level analysis
+  // Group analysis
+  if (detectedGroupName) {
+    ctx += `\n### GRUPO "${detectedGroupName}":\n`;
+    const ziRows = BASE3.filter(z =>
+      z.group_name?.toUpperCase().includes(detectedGroupName.toUpperCase().replace('GRUPO ','').trim())
+    );
+    if (ziRows.length > 0) {
+      ctx += 'Zonas de Influência (ZI):\n';
+      ziRows.forEach(z => ctx += `  ${z.micro_region} (peso: ${z.weight})\n`);
+    }
+    periods.forEach(({label, f2}) => {
+      if (!f2.length) return;
+      ctx += `\n${label} (${f2.length} registros):\n`;
+      f2.forEach(r => {
+        ctx += `  ${r.name_micro_region||'?'} | SR:${r.PLACAS_SR||0} Refat:${r.PLACAS_REFAT||0} DVE:${r['PLACAS_DVE+TD+FAB']||0}\n`;
+        const mods = ['KWID','KARDIAN','DUSTER','OROCH','BOREAL','MASTER'].map(m => `${m}:${r[`PLACAS_SR_${m}`]||0}`).join(' ');
+        ctx += `    Modelos SR: ${mods}\n`;
+      });
+    });
+  }
+
+  // State analysis
   if (detectedState || msg.includes(' uf') || msg.includes('estado') || msg.includes('por estado')) {
     ctx += '\n### PERFORMANCE POR ESTADO:\n';
-    months.forEach(m => {
-      const b1 = filterBase1({month: m, ...(detectedState ? {state: detectedState} : {})});
-      const b2 = filterBase2({month: m, ...(detectedState ? {state: detectedState} : {})});
-
+    periods.forEach(({label, f1, f2}) => {
       if (detectedState) {
-        ctx += `\nEstado ${detectedState} - Mês ${m === 1 ? 'Jan':'Fev'}/2025:\n`;
-        ctx += `  MTM SR: ${Math.round(sumCol(b1,'nmbr_sr'))} | MTM VD: ${Math.round(sumCol(b1,'nmbr_vd'))} | MTM Total: ${Math.round(sumCol(b1,'nmbr_total'))}\n`;
-        ctx += `  Placas Renault SR: ${Math.round(sumCol(b1,'PLACAS_RENAULT_SR'))} | VD: ${Math.round(sumCol(b1,'PLACAS_RENAULT_VD'))}\n`;
+        ctx += `\n${label} - ${detectedState}:\n`;
+        ctx += `  MTM SR: ${Math.round(sumCol(f1,'nmbr_sr'))} | MTM VD: ${Math.round(sumCol(f1,'nmbr_vd'))} | Total: ${Math.round(sumCol(f1,'nmbr_total'))}\n`;
+        ctx += `  Renault SR: ${Math.round(sumCol(f1,'PLACAS_RENAULT_SR'))} | VD: ${Math.round(sumCol(f1,'PLACAS_RENAULT_VD'))}\n`;
         detectedModels.forEach(model => {
-          const fightSR = sumCol(b1, `MTM_FIGHT_${model}_SR`);
-          const placasSR = sumCol(b2, `PLACAS_SR_${model}`);
-          const placasREFAT = model === 'KWID' ? 0 : 0;
-          const pds = fightSR > 0 ? ((placasSR / fightSR) * 100).toFixed(2) : 'N/D';
-          ctx += `  ${model}: ${Math.round(placasSR)} placas SR | Fight SR: ${Math.round(fightSR)} | PDS SR: ${pds}%\n`;
+          const fight = sumCol(f1, `MTM_FIGHT_${model}_SR`);
+          const placas = sumCol(f2, `PLACAS_SR_${model}`);
+          const pds = fight > 0 ? ((placas/fight)*100).toFixed(2)+'%' : 'N/D';
+          ctx += `  ${model}: ${Math.round(placas)} placas SR | Fight SR: ${Math.round(fight)} | PDS: ${pds}\n`;
         });
       } else {
         // All states
-        const allStates = [...new Set(b1.map(r => r.desc_state))].sort();
+        const allStates = [...new Set(f1.map(r => r.desc_state))].sort();
+        ctx += `\n${label}:\n`;
         allStates.forEach(st => {
-          const sb1 = b1.filter(r => r.desc_state === st);
-          const sb2 = b2.filter(r => r.desc_dealer_state === st);
-          const renaultSR = Math.round(sumCol(sb1,'PLACAS_RENAULT_SR'));
+          const sb1 = f1.filter(r => r.desc_state === st);
+          const renSR = Math.round(sumCol(sb1,'PLACAS_RENAULT_SR'));
           const mtmSR = Math.round(sumCol(sb1,'nmbr_sr'));
-          ctx += `  ${st}: Renault SR ${renaultSR} | MTM SR ${mtmSR}\n`;
+          ctx += `  ${st}: Renault SR ${renSR} | MTM SR ${mtmSR}\n`;
         });
       }
     });
   }
 
-  // Group-specific analysis
-  if (detectedGroupName) {
-    ctx += `\n### DADOS DO GRUPO "${detectedGroupName}":\n`;
-    months.forEach(m => {
-      const rows = filterBase2({month: m, group_name: detectedGroupName});
-      if (rows.length === 0) return;
-      ctx += `\nMês ${m === 1 ? 'Jan':'Fev'}/2025 (${rows.length} registros):\n`;
-      rows.forEach(r => {
-        ctx += `  Microrregião: ${r.name_micro_region} | SR: ${r.PLACAS_SR} | Refat: ${r.PLACAS_REFAT} | DVE+TD+FAB: ${r['PLACAS_DVE+TD+FAB']}\n`;
-        ctx += `    Kwid SR: ${r.PLACAS_SR_KWID || 0} | Kardian SR: ${r.PLACAS_SR_KARDIAN || 0} | Duster SR: ${r.PLACAS_SR_DUSTER || 0}\n`;
-        ctx += `    Oroch SR: ${r.PLACAS_SR_OROCH || 0} | Boreal SR: ${r.PLACAS_SR_BOREAL || 0} | Master SR: ${r.PLACAS_SR_MASTER || 0}\n`;
-      });
-
-      // ZI info for this group
-      const ziRows = BASE3.filter(z => z.group_name?.toUpperCase() === detectedGroupName.toUpperCase() ||
-        z.group_name?.toUpperCase().includes(detectedGroupName.toUpperCase().replace('GRUPO ','').trim()));
-      if (ziRows.length > 0) {
-        ctx += `  Zonas de Influência (ZI):\n`;
-        ziRows.forEach(z => ctx += `    ${z.micro_region} (peso: ${z.weight})\n`);
-      }
-    });
-  }
-
-  // Top brands (MTM)
-  if (msg.includes('marca') || msg.includes('top 5') || msg.includes('top 10')) {
-    ctx += '\n### EMPLACAMENTO POR MARCA (SR):\n';
-    const marcas = ['RENAULT','FIAT','VOLKSWAGEN','GM','HYUNDAI','TOYOTA','JEEP','HONDA','PEUGEOT','CITROEN','GWM','BYD','FORD','NISSAN','GEELY','JAECOO'];
-    months.forEach(m => {
-      const rows = filterBase1({month: m});
-      if (rows.length === 0) return;
-      ctx += `\nMês ${m === 1 ? 'Jan':'Fev'}/2025:\n`;
-      const ranking = marcas.map(marca => ({
-        marca, sr: Math.round(sumCol(rows, `PLACAS_${marca}_SR`))
-      })).filter(r => r.sr > 0).sort((a,b) => b.sr - a.sr);
-      ranking.forEach((r,i) => ctx += `  ${i+1}. ${r.marca}: ${r.sr} placas SR\n`);
-    });
-  }
-
-  // MTM overview
+  // MTM / Mercado overview
   if (msg.includes('mercado') || msg.includes('mtm') || !ctx.includes('###')) {
-    ctx += '\n### RESUMO MTM GERAL:\n';
-    months.forEach(m => {
-      const rows = filterBase1({month: m, ...(detectedState ? {state: detectedState} : {})});
-      if (rows.length === 0) return;
-      ctx += `Mês ${m === 1 ? 'Jan':'Fev'}/2025${detectedState ? ' - '+detectedState : ''}:\n`;
-      ctx += `  MTM SR: ${Math.round(sumCol(rows,'nmbr_sr'))} | MTM VD: ${Math.round(sumCol(rows,'nmbr_vd'))} | MTM Total: ${Math.round(sumCol(rows,'nmbr_total'))}\n`;
-      ctx += `  Placas Renault SR: ${Math.round(sumCol(rows,'PLACAS_RENAULT_SR'))} | Fiat SR: ${Math.round(sumCol(rows,'PLACAS_FIAT_SR'))} | VW SR: ${Math.round(sumCol(rows,'PLACAS_VOLKSWAGEN_SR'))}\n`;
+    ctx += '\n### MERCADO MTM:\n';
+    periods.forEach(({label, f1}) => {
+      if (!f1.length) return;
+      ctx += `${label}${detectedState?' - '+detectedState:''}: MTM SR=${Math.round(sumCol(f1,'nmbr_sr'))} VD=${Math.round(sumCol(f1,'nmbr_vd'))} Total=${Math.round(sumCol(f1,'nmbr_total'))}\n`;
+      ctx += `  Renault SR=${Math.round(sumCol(f1,'PLACAS_RENAULT_SR'))} | Fiat=${Math.round(sumCol(f1,'PLACAS_FIAT_SR'))} | VW=${Math.round(sumCol(f1,'PLACAS_VOLKSWAGEN_SR'))}\n`;
     });
   }
 
-  return ctx ? `\n\n## DADOS EXTRAÍDOS DAS BASES (USE ESTES PARA CALCULAR):\n${ctx}` : '';
+  return ctx ? `\n\n## DADOS DAS BASES (USE PARA CALCULAR):\n${ctx}` : '';
 }
-
 // ═══════════════════════════════════════════════════════
 // CHAT STATE & UI
 // ═══════════════════════════════════════════════════════
