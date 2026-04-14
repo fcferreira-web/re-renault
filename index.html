@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RÊ — BI Cognitivo Renault</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300&family=Barlow+Condensed:wght@400;600;700;900&display=swap');
+
+  :root {
+    --renault-yellow: #EFDF00;
+    --renault-black: #1A1A1A;
+    --renault-dark: #111111;
+    --renault-mid: #2A2A2A;
+    --renault-gray: #3D3D3D;
+    --renault-light: #8A8A8A;
+    --renault-muted: #555555;
+    --accent: #EFDF00;
+    --accent-dim: rgba(239,223,0,0.15);
+    --accent-glow: rgba(239,223,0,0.08);
+    --white: #F5F5F5;
+    --chat-bg: #161616;
+    --msg-user-bg: #222222;
+    --msg-ai-bg: #1E1E1E;
+    --border: rgba(239,223,0,0.2);
+    --border-dim: rgba(255,255,255,0.07);
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--renault-dark);
+    color: var(--white);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--renault-black);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    background: var(--renault-yellow);
+  }
+  header::after {
+    content: '';
+    position: absolute;
+    right: -80px; top: -40px;
+    width: 180px; height: 140px;
+    background: radial-gradient(ellipse, rgba(239,223,0,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .header-left { display: flex; align-items: center; gap: 14px; }
+
+  .logo-diamond {
+    width: 36px; height: 36px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .logo-diamond svg { width: 100%; height: 100%; }
+
+  .agent-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    color: var(--renault-yellow);
+    text-transform: uppercase;
+  }
+  .agent-subtitle {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--renault-light);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 1px;
+  }
+
+  .header-right { display: flex; align-items: center; gap: 16px; }
+
+  .status-dot {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 11px; color: var(--renault-light); letter-spacing: 0.05em;
+  }
+  .status-dot::before {
+    content: '';
+    width: 7px; height: 7px; border-radius: 50%;
+    background: #4CAF50;
+    box-shadow: 0 0 6px rgba(76,175,80,0.6);
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%,100% { opacity:1; } 50% { opacity:0.5; }
+  }
+
+  .data-badge {
+    background: var(--accent-dim);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--renault-yellow);
+    text-transform: uppercase;
+  }
+
+  /* ── MAIN LAYOUT ── */
+  .main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: 240px;
+    background: var(--renault-black);
+    border-right: 1px solid var(--border-dim);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .sidebar-section {
+    padding: 16px 16px 8px;
+    border-bottom: 1px solid var(--border-dim);
+  }
+  .sidebar-label {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--renault-muted);
+    margin-bottom: 10px;
+  }
+
+  .quick-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--border-dim);
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 8px 10px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    transition: all 0.15s;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+  }
+  .quick-btn:hover {
+    background: var(--accent-dim);
+    border-color: var(--border);
+    color: var(--renault-yellow);
+  }
+  .quick-btn .qb-icon {
+    font-size: 12px;
+    margin-right: 6px;
+    opacity: 0.7;
+  }
+
+  .data-stats {
+    padding: 14px 16px;
+  }
+  .stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .stat-label { font-size: 10px; color: var(--renault-light); letter-spacing: 0.05em; }
+  .stat-value { font-size: 12px; font-weight: 700; color: var(--renault-yellow); }
+
+  .models-list {
+    padding: 0 16px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .model-tag {
+    background: var(--renault-mid);
+    border: 1px solid var(--border-dim);
+    border-radius: 2px;
+    padding: 2px 7px;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--renault-light);
+    text-transform: uppercase;
+  }
+
+  /* ── CHAT AREA ── */
+  .chat-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: var(--chat-bg);
+    overflow: hidden;
+  }
+
+  .messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 28px;
+    scroll-behavior: smooth;
+  }
+  .messages::-webkit-scrollbar { width: 4px; }
+  .messages::-webkit-scrollbar-track { background: transparent; }
+  .messages::-webkit-scrollbar-thumb { background: var(--renault-gray); border-radius: 2px; }
+
+  /* Welcome state */
+  .welcome-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    gap: 18px;
+  }
+  .welcome-diamond { margin-bottom: 8px; }
+  .welcome-diamond svg { width: 56px; height: 56px; }
+  .welcome-title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: var(--renault-yellow);
+  }
+  .welcome-desc {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--renault-light);
+    max-width: 460px;
+    line-height: 1.7;
+  }
+  .welcome-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 12px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .welcome-card {
+    background: var(--renault-black);
+    border: 1px solid var(--border-dim);
+    border-radius: 4px;
+    padding: 12px 14px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .welcome-card:hover {
+    border-color: var(--border);
+    background: var(--accent-dim);
+  }
+  .welcome-card .wc-icon { font-size: 18px; margin-bottom: 6px; display: block; }
+  .welcome-card .wc-title { font-size: 11px; font-weight: 700; color: var(--renault-yellow); letter-spacing: 0.05em; margin-bottom: 3px; }
+  .welcome-card .wc-desc { font-size: 10px; color: var(--renault-light); line-height: 1.4; }
+
+  /* Messages */
+  .msg {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    animation: fadein 0.3s ease;
+  }
+  @keyframes fadein { from { opacity:0; transform: translateY(6px); } to { opacity:1; transform: translateY(0); } }
+
+  .msg-avatar {
+    width: 32px; height: 32px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700;
+  }
+  .msg-avatar.re {
+    background: var(--renault-yellow);
+    color: var(--renault-black);
+  }
+  .msg-avatar.re svg { width: 18px; height: 18px; }
+  .msg-avatar.user {
+    background: var(--renault-gray);
+    color: var(--white);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
+
+  .msg-content { flex: 1; min-width: 0; }
+  .msg-name {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .msg-name.re-name { color: var(--renault-yellow); }
+  .msg-name.user-name { color: var(--renault-light); }
+
+  .msg-body {
+    font-size: 13.5px;
+    line-height: 1.7;
+    color: #E0E0E0;
+  }
+  .msg-body.user-body {
+    color: #C0C0C0;
+  }
+
+  /* Markdown-like formatting in AI responses */
+  .msg-body strong { color: var(--renault-yellow); font-weight: 700; }
+  .msg-body em { color: var(--renault-light); font-style: italic; }
+
+  .msg-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 12px;
+  }
+  .msg-body th {
+    background: var(--renault-black);
+    border: 1px solid var(--border-dim);
+    padding: 7px 10px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--renault-yellow);
+  }
+  .msg-body td {
+    border: 1px solid var(--border-dim);
+    padding: 6px 10px;
+    color: #CCCCCC;
+  }
+  .msg-body tr:hover td { background: var(--accent-glow); }
+
+  .msg-body .data-block {
+    background: var(--renault-black);
+    border: 1px solid var(--border-dim);
+    border-left: 3px solid var(--renault-yellow);
+    border-radius: 3px;
+    padding: 10px 14px;
+    margin: 10px 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+  }
+  .msg-body .metric-highlight {
+    display: inline-block;
+    background: var(--accent-dim);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-weight: 700;
+    color: var(--renault-yellow);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Typing indicator */
+  .typing-indicator {
+    display: flex;
+    gap: 4px;
+    padding: 4px 0;
+  }
+  .typing-indicator span {
+    width: 6px; height: 6px;
+    background: var(--renault-yellow);
+    border-radius: 50%;
+    animation: bounce 1.2s ease-in-out infinite;
+  }
+  .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+  .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes bounce {
+    0%,80%,100% { transform:scale(0.6); opacity:0.4; }
+    40% { transform:scale(1); opacity:1; }
+  }
+
+  /* ── INPUT AREA ── */
+  .input-area {
+    padding: 16px 28px 20px;
+    background: var(--renault-black);
+    border-top: 1px solid var(--border-dim);
+    flex-shrink: 0;
+  }
+
+  .input-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    background: var(--renault-mid);
+    border: 1px solid var(--border-dim);
+    border-radius: 4px;
+    padding: 10px 14px;
+    transition: border-color 0.2s;
+  }
+  .input-wrapper:focus-within {
+    border-color: var(--border);
+    box-shadow: 0 0 0 2px var(--accent-glow);
+  }
+
+  #chat-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.5;
+    resize: none;
+    min-height: 22px;
+    max-height: 120px;
+    overflow-y: auto;
+  }
+  #chat-input::placeholder { color: var(--renault-muted); }
+  #chat-input::-webkit-scrollbar { width: 3px; }
+  #chat-input::-webkit-scrollbar-thumb { background: var(--renault-gray); }
+
+  #send-btn {
+    width: 34px; height: 34px;
+    background: var(--renault-yellow);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.15s;
+  }
+  #send-btn:hover { background: #FFE800; transform: scale(1.05); }
+  #send-btn:disabled { background: var(--renault-gray); cursor: not-allowed; transform: none; }
+  #send-btn svg { width: 16px; height: 16px; }
+
+  .input-hint {
+    font-size: 10px;
+    color: var(--renault-muted);
+    margin-top: 8px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  /* Error state */
+  .error-msg {
+    color: #FF6B6B;
+    font-size: 12px;
+    padding: 8px 12px;
+    background: rgba(255,107,107,0.08);
+    border: 1px solid rgba(255,107,107,0.2);
+    border-radius: 3px;
+    margin-top: 8px;
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="header-left">
+    <div class="logo-diamond">
+      <!-- Renault Diamond Logo SVG -->
+      <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="18,2 34,18 18,34 2,18" fill="none" stroke="#EFDF00" stroke-width="2.5"/>
+        <polygon points="18,7 29,18 18,29 7,18" fill="none" stroke="#EFDF00" stroke-width="1.5" opacity="0.5"/>
+        <polygon points="18,12 24,18 18,24 12,18" fill="#EFDF00" opacity="0.9"/>
+      </svg>
+    </div>
+    <div>
+      <div class="agent-name">RÊ</div>
+      <div class="agent-subtitle">BI Cognitivo · Renault Rede Insights</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="status-dot">Online</span>
+    <span class="data-badge">Jan–Fev 2025</span>
+  </div>
+</header>
+
+<!-- MAIN -->
+<div class="main">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Análises Rápidas</div>
+      <button class="quick-btn" onclick="sendQuick('Qual modelo Renault mais emplacou no Showroom em Fevereiro de 2025?')">
+        <span class="qb-icon">🏆</span>Top modelo Showroom Fev/25
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Quais são os concorrentes do Renault Boreal?')">
+        <span class="qb-icon">⚔️</span>Concorrentes do Boreal
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Qual foi o modelo Renault com maior PDS Showroom em Janeiro de 2025 considerando todas as regionais?')">
+        <span class="qb-icon">📊</span>PDS por Regional Jan/25
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Quais foram as Top 5 marcas em emplacamento Showroom em Janeiro de 2025?')">
+        <span class="qb-icon">🥇</span>Top 5 marcas SR Jan/25
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Compare o emplacamento Showroom do Kwid vs Kardian vs Duster nos meses de Janeiro e Fevereiro de 2025.')">
+        <span class="qb-icon">📈</span>Comparativo Kwid/Kardian/Duster
+      </button>
+      <button class="quick-btn" onclick="sendQuick('Como foi a performance por estado (UF) do Renault Kwid em Showroom em Fevereiro de 2025? Liste os 10 maiores estados.')">
+        <span class="qb-icon">🗺️</span>Performance Kwid por UF
+      </button>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Bases Carregadas</div>
+      <div class="data-stats">
+        <div class="stat-row">
+          <span class="stat-label">Base 1 · Mercado MTM</span>
+          <span class="stat-value">413</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Base 2 · Placas Renault</span>
+          <span class="stat-value">1.756</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Base 3 · Pesos ZI</span>
+          <span class="stat-value">197</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Grupos (BIR)</span>
+          <span class="stat-value">104</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Microrregiões</span>
+          <span class="stat-value">176</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Gama Renault</div>
+    </div>
+    <div class="models-list">
+      <span class="model-tag">Kwid</span>
+      <span class="model-tag">Kardian</span>
+      <span class="model-tag">Duster</span>
+      <span class="model-tag">Oroch</span>
+      <span class="model-tag">Boreal</span>
+      <span class="model-tag">Kwid E-Tech</span>
+      <span class="model-tag">Mégane E-Tech</span>
+      <span class="model-tag">Kangoo</span>
+      <span class="model-tag">Kangoo E-Tech</span>
+      <span class="model-tag">Master</span>
+      <span class="model-tag">Koleos</span>
+    </div>
+  </div>
+
+  <!-- CHAT -->
+  <div class="chat-area">
+    <div class="messages" id="messages">
+      <div class="welcome-screen" id="welcome">
+        <div class="welcome-diamond">
+          <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="28,3 53,28 28,53 3,28" fill="none" stroke="#EFDF00" stroke-width="2.5"/>
+            <polygon points="28,11 45,28 28,45 11,28" fill="none" stroke="#EFDF00" stroke-width="1.5" opacity="0.4"/>
+            <polygon points="28,19 37,28 28,37 19,28" fill="#EFDF00" opacity="0.85"/>
+          </svg>
+        </div>
+        <div class="welcome-title">Olá, eu sou a RÊ</div>
+        <div class="welcome-desc">
+          Seu assistente de BI Cognitivo especializado em insights da Rede Renault. Estou aqui para te ajudar a extrair inteligência dos dados das concessionárias e identificar tendências de negócio.
+        </div>
+        <div class="welcome-grid">
+          <div class="welcome-card" onclick="sendQuick('Qual modelo Renault mais emplacou no Showroom em Fevereiro de 2025?')">
+            <span class="wc-icon">🏆</span>
+            <div class="wc-title">Top Modelos</div>
+            <div class="wc-desc">Rankings de emplacamento por canal e período</div>
+          </div>
+          <div class="welcome-card" onclick="sendQuick('Qual foi o PDS Showroom do Kwid em Fevereiro de 2025 para o estado de SP?')">
+            <span class="wc-icon">📊</span>
+            <div class="wc-title">PDS & PDM</div>
+            <div class="wc-desc">Participação de segmento e mercado por modelo/grupo</div>
+          </div>
+          <div class="welcome-card" onclick="sendQuick('Quais foram as Top 5 marcas em emplacamento Showroom em Janeiro de 2025?')">
+            <span class="wc-icon">⚔️</span>
+            <div class="wc-title">Análise Competitiva</div>
+            <div class="wc-desc">Performance vs concorrentes por modelo e microrregião</div>
+          </div>
+          <div class="welcome-card" onclick="sendQuick('Compare o emplacamento Showroom do Kwid vs Kardian vs Duster nos meses de Janeiro e Fevereiro de 2025.')">
+            <span class="wc-icon">📈</span>
+            <div class="wc-title">Comparativos</div>
+            <div class="wc-desc">Evolução e tendências mensais entre modelos</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <div class="input-wrapper">
+        <textarea id="chat-input" placeholder="Faça uma pergunta sobre dados da Rede Renault..." rows="1"></textarea>
+        <button id="send-btn" onclick="sendMessage()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+      <div class="input-hint">Enter para enviar · Shift+Enter para nova linha</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// DATA LOADING — fetch inline JSON from server
+// ═══════════════════════════════════════════════════════
+let BASE1 = [], BASE2 = [], BASE3 = [];
+let dataLoaded = false;
+
+async function loadData() {
+  try {
+    const resp = await fetch('re_data.json');
+    const d = await resp.json();
+    const b1h = d.base1[0], b1r = d.base1.slice(1);
+    const b2h = d.base2[0], b2r = d.base2.slice(1);
+    const b3h = d.base3[0], b3r = d.base3.slice(1);
+
+    BASE1 = b1r.map(row => Object.fromEntries(b1h.map((k,i) => [k, row[i]])));
+    BASE2 = b2r.map(row => Object.fromEntries(b2h.map((k,i) => [k, row[i]])));
+    BASE3 = b3r.map(row => Object.fromEntries(b3h.map((k,i) => [k, row[i]])));
+    dataLoaded = true;
+  } catch(e) {
+    console.warn('Could not load data file, using empty arrays:', e);
+    dataLoaded = true;
+  }
+}
+loadData();
+
+// ═══════════════════════════════════════════════════════
+// SYSTEM PROMPT — full RÊ instructions
+// ═══════════════════════════════════════════════════════
+function buildSystemPrompt() {
+  // Summarize data for context window (not full data — that goes inline in user messages)
+  const grupos = [...new Set(BASE2.map(r => r.name_dealer_group).filter(Boolean))].sort();
+  const microrregioes = [...new Set(BASE1.map(r => r.name_micro_region).filter(Boolean))].sort();
+  const estados = [...new Set(BASE1.map(r => r.desc_state).filter(Boolean))].sort();
+
+  return `Você é a **RÊ** (Renault Rede Insights), um agente de BI Cognitivo especializado em dados de performance da rede de concessionárias Renault no Brasil.
+
+## IDENTIDADE E POSTURA
+- Idioma: Português do Brasil
+- Tom: Formal, objetivo e analítico
+- Você é consultiva: não apenas responde perguntas, mas oferece recomendações e insights proativos baseados nos dados
+- Sempre fundamente respostas em números concretos das bases
+
+## BASES DE DADOS DISPONÍVEIS
+
+Você tem acesso a 3 bases de dados (Jan e Fev de 2025):
+
+**BASE 1 — Mercado MTM** (${BASE1.length} registros)
+- Mercado de veículos emplacados por microrregião, regional, estado
+- Colunas: nmbr_year, nmbr_month, name_micro_region, desc_dealer_region_original, desc_state
+- nmbr_sr = MTM Showroom total | nmbr_vd = MTM Venda Direta | nmbr_total = MTM Total
+- MTM_FIGHT_[MODELO]_SR/VD/TOTAL = mercado fight (segmento) de cada modelo Renault
+- PLACAS_[MODELO]_[CONCORRENTE]_SR/VD = emplacamentos de concorrentes por modelo/canal
+- PLACAS_[MARCA]_SR/VD = emplacamentos totais por marca (RENAULT, FIAT, VW, etc.)
+
+**BASE 2 — Emplacamentos Renault** (${BASE2.length} registros)
+- Emplacamento de cada grupo/concessionária (BIR)
+- Colunas: code_dealer_group, name_dealer_group, name_micro_region, desc_dealer_region, desc_dealer_state
+- PLACAS_SR = total Showroom | PLACAS_REFAT = refaturamento | PLACAS_COLAB = colaborador | PLACAS_ROD = rodoviário | PLACAS_DVE+TD+FAB = venda direta+táxi+fábrica
+- PLACAS_SR_[MODELO] = placas SR por modelo (KWID, KARDIAN, DUSTER, OROCH, BOREAL, etc.)
+- PLACAS_SR_[MODELO]_[VERSAO] = placas por versão (ex: PLACAS_SR_KWID_ZEN, PLACAS_SR_DUSTER_INT_MT)
+- PLACAS_VD_[MODELO] = placas Venda Direta por modelo
+
+**BASE 3 — Pesos por ZI** (${BASE3.length} registros)
+- Define Zonas de Influência (ZI/Praças) por grupo e seu peso na microrregião
+- Colunas: regional, state, group_name, micro_region, code_dealer_group(string), weight
+
+## REGRAS DE CÁLCULO CRÍTICAS
+
+**REGRA 1 — PDS para GRUPOS (com peso ZI):**
+PDS = Σ(PLACAS do grupo) / Σ(MTM_FIGHT × peso, apenas ZIs)
+- Placas: some TODAS as microrregiões do grupo (ZI + não-ZI)
+- Mercado Fight: some apenas ZIs com peso aplicado
+- Base2 para placas | Base1 para MTM_FIGHT | Base3 para ZIs e pesos
+
+**REGRA 2 — PDS para ESTADOS/REGIONAIS (sem peso):**
+PDS = Σ(PLACAS Showroom do modelo no estado) / Σ(MTM_FIGHT_[MODELO]_SR no estado)
+- Use Base1 e Base2 | Não use Base3 | Todas as microrregiões
+
+**REGRA 3 — Placas Showroom Renault:**
+Showroom = PLACAS_SR + PLACAS_REFAT (COLAB e ROD fazem parte mas NÃO são somados nesta análise)
+
+**REGRA 4 — Placas Concorrentes:**
+Use Base1, coluna PLACAS_[MODELO]_[CONCORRENTE]_SR ou _VD
+
+**REGRA 5 — MTM (Mercado Total de Marcas):**
+Para grupos: aplique peso ZI em nmbr_sr (Showroom) e nmbr_vd (VD)
+Para regionais/estados: sem peso, some diretamente
+
+**PDM = Σ(Placas do Modelo) / MTM**
+
+## ARREDONDAMENTOS
+- Placas: número inteiro
+- Percentuais (PDS, PDM): 2 casas decimais (ex: 13,79%)
+- Pesos: use exatamente como na Base3
+
+## FORMATO DE RESPOSTA
+- Seja direto e objetivo
+- Use tabelas markdown quando apresentar múltiplos dados
+- Destaque métricas importantes em **negrito**
+- Cite as bases utilizadas ao final
+- Sugira análises complementares quando relevante
+- Se dados estiverem incompletos ou ambíguos, informe ao usuário
+
+## GRUPOS DISPONÍVEIS (${grupos.length} grupos):
+${grupos.slice(0,30).join(', ')}${grupos.length > 30 ? '... e mais ' + (grupos.length-30) + ' grupos' : ''}
+
+## ESTADOS DISPONÍVEIS: ${estados.join(', ')}
+
+## REGIONAIS: R1, R2, R3, R4
+
+## MODELOS RENAULT NA BASE:
+Kwid, Kardian, Duster, Oroch, Boreal, Kwid E-Tech, Mégane E-Tech, Kangoo, Kangoo E-Tech, Master, Koleos
+
+Versões por modelo:
+- Kwid: ZEN, INTENSE, ICONIC, OUTSIDER
+- Kardian: EVOMT, EVOAT, TECHNO, ICONIC
+- Duster: INT_MT, INT_CVT, ICO_16, ICO_13
+- Oroch: INT, ICO, PRO
+- Boreal: EVO, ICO, TECHNO`;
+}
+
+// ═══════════════════════════════════════════════════════
+// DATA QUERY HELPERS
+// ═══════════════════════════════════════════════════════
+function filterBase1(filters = {}) {
+  return BASE1.filter(r => {
+    if (filters.month && r.nmbr_month != filters.month) return false;
+    if (filters.year && r.nmbr_year != filters.year) return false;
+    if (filters.state && r.desc_state !== filters.state) return false;
+    if (filters.regional && r.desc_dealer_region_original !== filters.regional) return false;
+    if (filters.micro_region && r.name_micro_region !== filters.micro_region) return false;
+    return true;
+  });
+}
+
+function filterBase2(filters = {}) {
+  return BASE2.filter(r => {
+    if (filters.month && r.nmbr_month != filters.month) return false;
+    if (filters.year && r.nmbr_year != filters.year) return false;
+    if (filters.state && r.desc_dealer_state !== filters.state) return false;
+    if (filters.regional && r.desc_dealer_region !== filters.regional) return false;
+    if (filters.micro_region && r.name_micro_region !== filters.micro_region) return false;
+    if (filters.group_name) {
+      const gn = r.name_dealer_group?.toUpperCase() || '';
+      const filt = filters.group_name.toUpperCase();
+      if (!gn.includes(filt)) return false;
+    }
+    if (filters.code_dealer_group && String(r.code_dealer_group) !== String(filters.code_dealer_group)) return false;
+    return true;
+  });
+}
+
+function sumCol(rows, col) {
+  return rows.reduce((s, r) => s + (Number(r[col]) || 0), 0);
+}
+
+// ═══════════════════════════════════════════════════════
+// BUILD DATA CONTEXT FOR USER QUESTION
+// ═══════════════════════════════════════════════════════
+function buildDataContext(userMsg) {
+  const msg = userMsg.toLowerCase();
+  let ctx = '';
+
+  // Detect month
+  const month1 = msg.includes('janeiro') || msg.includes('jan') ? 1 : null;
+  const month2 = msg.includes('fevereiro') || msg.includes('fev') ? 2 : null;
+  const months = [month1, month2].filter(Boolean);
+  if (months.length === 0) months.push(1, 2); // default: both
+
+  // Detect if asking about a specific group
+  const grupoBir = BASE3.map(r => r.group_name?.toUpperCase());
+  let detectedGroup = null;
+  BASE3.forEach(r => {
+    if (r.group_name && msg.includes(r.group_name.toLowerCase())) {
+      detectedGroup = r;
+    }
+  });
+  // Also check Base2 group names
+  let detectedGroupName = null;
+  BASE2.forEach(r => {
+    if (r.name_dealer_group && msg.includes(r.name_dealer_group.toLowerCase())) {
+      detectedGroupName = r.name_dealer_group;
+    }
+  });
+
+  // Detect state
+  const stateMap = {
+    'são paulo': 'SP', 'sp': 'SP', 'rio de janeiro': 'RJ', 'rj': 'RJ',
+    'minas gerais': 'MG', 'mg': 'MG', 'paraná': 'PR', 'pr': 'PR',
+    'santa catarina': 'SC', 'sc': 'SC', 'rio grande do sul': 'RS', 'rs': 'RS',
+    'bahia': 'BA', 'ba': 'BA', 'goiás': 'GO', 'go': 'GO',
+    'mato grosso do sul': 'MS', 'ms': 'MS', 'pernambuco': 'PE', 'pe': 'PE',
+    'ceará': 'CE', 'ce': 'CE', 'amazonas': 'AM', 'am': 'AM',
+    'pará': 'PA', 'pa': 'PA', 'maranhão': 'MA', 'ma': 'MA',
+    'espírito santo': 'ES', 'es': 'ES', 'mato grosso': 'MT', 'mt': 'MT',
+    'distrito federal': 'DF', 'df': 'DF'
+  };
+  let detectedState = null;
+  for (const [key, val] of Object.entries(stateMap)) {
+    if (msg.includes(key)) { detectedState = val; break; }
+  }
+
+  // Detect models
+  const modelMap = {
+    'kwid e-tech': 'KWID E-TECH', 'kwid e tech': 'KWID E-TECH', 'mégane e-tech': 'MEGANE E-TECH',
+    'megane e-tech': 'MEGANE E-TECH', 'kangoo e-tech': 'KANGOO E-TECH',
+    'kwid': 'KWID', 'kardian': 'KARDIAN', 'duster': 'DUSTER',
+    'oroch': 'OROCH', 'boreal': 'BOREAL', 'kangoo': 'KANGOO',
+    'master': 'MASTER', 'koleos': 'KOLEOS'
+  };
+  let detectedModels = [];
+  for (const [key, val] of Object.entries(modelMap)) {
+    if (msg.includes(key) && !detectedModels.includes(val)) detectedModels.push(val);
+  }
+
+  // ── Build relevant data snippets ──
+
+  // Model performance comparison
+  if (msg.includes('comparati') || msg.includes('vs') || msg.includes('versus') || detectedModels.length > 1) {
+    ctx += '\n### COMPARATIVO DE EMPLACAMENTO SR POR MÊS:\n';
+    const modelSRCols = {
+      'KWID': 'PLACAS_SR_KWID', 'KARDIAN': 'PLACAS_SR_KARDIAN',
+      'DUSTER': 'PLACAS_SR_DUSTER', 'OROCH': 'PLACAS_SR_OROCH',
+      'BOREAL': 'PLACAS_SR_BOREAL', 'KWID E-TECH': 'PLACAS_SR_KWID_E_TECH',
+      'MEGANE E-TECH': 'PLACAS_SR_MEGANE_E_TECH', 'KANGOO': 'PLACAS_SR_KANGOO',
+      'MASTER': 'PLACAS_SR_MASTER', 'KOLEOS': 'PLACAS_SR_KOLEOS'
+    };
+    const modelsToShow = detectedModels.length > 0 ? detectedModels : Object.keys(modelSRCols);
+    [1,2].forEach(m => {
+      const rows = filterBase2({month: m});
+      if (rows.length === 0) return;
+      ctx += `\nMês ${m === 1 ? 'Jan' : 'Fev'}/2025:\n`;
+      modelsToShow.forEach(model => {
+        const col = modelSRCols[model];
+        if (col) {
+          const total = Math.round(sumCol(rows, col));
+          const refat = model === 'KWID' ? Math.round(sumCol(rows, 'PLACAS_REFAT')) : 0;
+          ctx += `  ${model}: ${total} placas SR\n`;
+        }
+      });
+    });
+  }
+
+  // Top models ranking
+  if (msg.includes('mais emplacou') || msg.includes('top') || msg.includes('ranking') || msg.includes('maior')) {
+    ctx += '\n### RANKING MODELOS RENAULT (SR + REFAT):\n';
+    const modelSRCols = {
+      'KWID': 'PLACAS_SR_KWID', 'KARDIAN': 'PLACAS_SR_KARDIAN',
+      'DUSTER': 'PLACAS_SR_DUSTER', 'OROCH': 'PLACAS_SR_OROCH',
+      'BOREAL': 'PLACAS_SR_BOREAL', 'KWID E-TECH': 'PLACAS_SR_KWID_E_TECH',
+      'MEGANE E-TECH': 'PLACAS_SR_MEGANE_E_TECH', 'KANGOO': 'PLACAS_SR_KANGOO',
+      'MASTER': 'PLACAS_SR_MASTER'
+    };
+    months.forEach(m => {
+      const rows = filterBase2({month: m});
+      if (rows.length === 0) return;
+      const totalRefat = Math.round(sumCol(rows, 'PLACAS_REFAT'));
+      ctx += `\nMês ${m === 1 ? 'Jan' : 'Fev'}/2025 (${rows.length} registros):\n`;
+      const ranking = Object.entries(modelSRCols).map(([model, col]) => ({
+        model, placas: Math.round(sumCol(rows, col))
+      })).sort((a,b) => b.placas - a.placas);
+      ranking.forEach((r, i) => ctx += `  ${i+1}. ${r.model}: ${r.placas} placas\n`);
+    });
+  }
+
+  // Concorrentes info
+  if (msg.includes('concorrente') || msg.includes('fight') || msg.includes('segmento')) {
+    const concMap = {
+      'KWID': ['MOBI','208','ARGO','C3','ONIX','POLO','HB20'],
+      'KARDIAN': ['PULSE','NIVUS','TERA'],
+      'DUSTER': ['CRETA','FASTBACK','KICKS','NOVO_KICKS','RENEGADE','T_CROSS','TRACKER'],
+      'OROCH': ['MONTANA','SAVEIRO','STRADA'],
+      'BOREAL': ['3008','COMPASS','COROLLA_CROSS','ECLIPSE','HAVAL_H6','SONG_PLUS','SONG_PRO','TAOS','TERRITORY','TIGGO_7','TIGGO_8','TUCSON','ZR-V'],
+      'KWID E-TECH': ['DOLPHIN','DOLPHIN_MINI','E-JS1','ORA_03'],
+      'MEGANE E-TECH': ['DOLPHIN_PLUS','EC40','EX30','EX40','IONIQ5','XC40','YUAN_PRO'],
+      'KANGOO': ['FIORINO','PARTNER_RAPID'],
+      'MASTER': ['BONGO','BOXER','DAILY','DUCATO','EXPERT','EXPRESS_DRC','HYUNDAI_HR','JUMPER','JUMPY','SCUDO','SPRINTER','TRANSIT','V22'],
+      'KOLEOS': ['BRONCO','COMMANDER','CRV','EQUINOX','HAVAL_H6','RAV4','SONG_PLUS','TIGUAN']
+    };
+    ctx += '\n### FIGHT (SEGMENTOS) POR MODELO:\n';
+    if (detectedModels.length > 0) {
+      detectedModels.forEach(m => {
+        if (concMap[m]) ctx += `${m}: compete com ${concMap[m].join(', ')}\n`;
+      });
+    } else {
+      Object.entries(concMap).forEach(([model, concs]) => {
+        ctx += `${model}: ${concs.join(', ')}\n`;
+      });
+    }
+
+    // Placas concorrentes
+    months.forEach(mo => {
+      const rows = filterBase1({month: mo, ...(detectedState ? {state: detectedState} : {})});
+      if (rows.length === 0) return;
+      ctx += `\nPlacas concorrentes Mês ${mo === 1 ? 'Jan' : 'Fev'}/2025${detectedState ? ' - '+detectedState : ''}:\n`;
+      detectedModels.forEach(model => {
+        const concs = concMap[model] || [];
+        concs.forEach(c => {
+          const col = `PLACAS_${model}_${c}_SR`;
+          const val = Math.round(sumCol(rows, col));
+          if (val > 0) ctx += `  ${model} vs ${c}: ${val} placas SR\n`;
+        });
+      });
+    });
+  }
+
+  // State-level analysis
+  if (detectedState || msg.includes(' uf') || msg.includes('estado') || msg.includes('por estado')) {
+    ctx += '\n### PERFORMANCE POR ESTADO:\n';
+    months.forEach(m => {
+      const b1 = filterBase1({month: m, ...(detectedState ? {state: detectedState} : {})});
+      const b2 = filterBase2({month: m, ...(detectedState ? {state: detectedState} : {})});
+
+      if (detectedState) {
+        ctx += `\nEstado ${detectedState} - Mês ${m === 1 ? 'Jan':'Fev'}/2025:\n`;
+        ctx += `  MTM SR: ${Math.round(sumCol(b1,'nmbr_sr'))} | MTM VD: ${Math.round(sumCol(b1,'nmbr_vd'))} | MTM Total: ${Math.round(sumCol(b1,'nmbr_total'))}\n`;
+        ctx += `  Placas Renault SR: ${Math.round(sumCol(b1,'PLACAS_RENAULT_SR'))} | VD: ${Math.round(sumCol(b1,'PLACAS_RENAULT_VD'))}\n`;
+        detectedModels.forEach(model => {
+          const fightSR = sumCol(b1, `MTM_FIGHT_${model}_SR`);
+          const placasSR = sumCol(b2, `PLACAS_SR_${model}`);
+          const placasREFAT = model === 'KWID' ? 0 : 0;
+          const pds = fightSR > 0 ? ((placasSR / fightSR) * 100).toFixed(2) : 'N/D';
+          ctx += `  ${model}: ${Math.round(placasSR)} placas SR | Fight SR: ${Math.round(fightSR)} | PDS SR: ${pds}%\n`;
+        });
+      } else {
+        // All states
+        const allStates = [...new Set(b1.map(r => r.desc_state))].sort();
+        allStates.forEach(st => {
+          const sb1 = b1.filter(r => r.desc_state === st);
+          const sb2 = b2.filter(r => r.desc_dealer_state === st);
+          const renaultSR = Math.round(sumCol(sb1,'PLACAS_RENAULT_SR'));
+          const mtmSR = Math.round(sumCol(sb1,'nmbr_sr'));
+          ctx += `  ${st}: Renault SR ${renaultSR} | MTM SR ${mtmSR}\n`;
+        });
+      }
+    });
+  }
+
+  // Group-specific analysis
+  if (detectedGroupName) {
+    ctx += `\n### DADOS DO GRUPO "${detectedGroupName}":\n`;
+    months.forEach(m => {
+      const rows = filterBase2({month: m, group_name: detectedGroupName});
+      if (rows.length === 0) return;
+      ctx += `\nMês ${m === 1 ? 'Jan':'Fev'}/2025 (${rows.length} registros):\n`;
+      rows.forEach(r => {
+        ctx += `  Microrregião: ${r.name_micro_region} | SR: ${r.PLACAS_SR} | Refat: ${r.PLACAS_REFAT} | DVE+TD+FAB: ${r['PLACAS_DVE+TD+FAB']}\n`;
+        ctx += `    Kwid SR: ${r.PLACAS_SR_KWID || 0} | Kardian SR: ${r.PLACAS_SR_KARDIAN || 0} | Duster SR: ${r.PLACAS_SR_DUSTER || 0}\n`;
+        ctx += `    Oroch SR: ${r.PLACAS_SR_OROCH || 0} | Boreal SR: ${r.PLACAS_SR_BOREAL || 0} | Master SR: ${r.PLACAS_SR_MASTER || 0}\n`;
+      });
+
+      // ZI info for this group
+      const ziRows = BASE3.filter(z => z.group_name?.toUpperCase() === detectedGroupName.toUpperCase() ||
+        z.group_name?.toUpperCase().includes(detectedGroupName.toUpperCase().replace('GRUPO ','').trim()));
+      if (ziRows.length > 0) {
+        ctx += `  Zonas de Influência (ZI):\n`;
+        ziRows.forEach(z => ctx += `    ${z.micro_region} (peso: ${z.weight})\n`);
+      }
+    });
+  }
+
+  // Top brands (MTM)
+  if (msg.includes('marca') || msg.includes('top 5') || msg.includes('top 10')) {
+    ctx += '\n### EMPLACAMENTO POR MARCA (SR):\n';
+    const marcas = ['RENAULT','FIAT','VOLKSWAGEN','GM','HYUNDAI','TOYOTA','JEEP','HONDA','PEUGEOT','CITROEN','GWM','BYD','FORD','NISSAN','GEELY','JAECOO'];
+    months.forEach(m => {
+      const rows = filterBase1({month: m});
+      if (rows.length === 0) return;
+      ctx += `\nMês ${m === 1 ? 'Jan':'Fev'}/2025:\n`;
+      const ranking = marcas.map(marca => ({
+        marca, sr: Math.round(sumCol(rows, `PLACAS_${marca}_SR`))
+      })).filter(r => r.sr > 0).sort((a,b) => b.sr - a.sr);
+      ranking.forEach((r,i) => ctx += `  ${i+1}. ${r.marca}: ${r.sr} placas SR\n`);
+    });
+  }
+
+  // MTM overview
+  if (msg.includes('mercado') || msg.includes('mtm') || !ctx.includes('###')) {
+    ctx += '\n### RESUMO MTM GERAL:\n';
+    months.forEach(m => {
+      const rows = filterBase1({month: m, ...(detectedState ? {state: detectedState} : {})});
+      if (rows.length === 0) return;
+      ctx += `Mês ${m === 1 ? 'Jan':'Fev'}/2025${detectedState ? ' - '+detectedState : ''}:\n`;
+      ctx += `  MTM SR: ${Math.round(sumCol(rows,'nmbr_sr'))} | MTM VD: ${Math.round(sumCol(rows,'nmbr_vd'))} | MTM Total: ${Math.round(sumCol(rows,'nmbr_total'))}\n`;
+      ctx += `  Placas Renault SR: ${Math.round(sumCol(rows,'PLACAS_RENAULT_SR'))} | Fiat SR: ${Math.round(sumCol(rows,'PLACAS_FIAT_SR'))} | VW SR: ${Math.round(sumCol(rows,'PLACAS_VOLKSWAGEN_SR'))}\n`;
+    });
+  }
+
+  return ctx ? `\n\n## DADOS EXTRAÍDOS DAS BASES (USE ESTES PARA CALCULAR):\n${ctx}` : '';
+}
+
+// ═══════════════════════════════════════════════════════
+// CHAT STATE & UI
+// ═══════════════════════════════════════════════════════
+let messages = [];
+let isLoading = false;
+
+const messagesEl = document.getElementById('messages');
+const inputEl = document.getElementById('chat-input');
+const sendBtn = document.getElementById('send-btn');
+
+inputEl.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage();
+  }
+});
+inputEl.addEventListener('input', () => {
+  inputEl.style.height = 'auto';
+  inputEl.style.height = Math.min(inputEl.scrollHeight, 120) + 'px';
+});
+
+function hideWelcome() {
+  const w = document.getElementById('welcome');
+  if (w) w.style.display = 'none';
+}
+
+function renderMessage(role, content) {
+  hideWelcome();
+  const div = document.createElement('div');
+  div.className = 'msg';
+
+  const avatar = document.createElement('div');
+  avatar.className = `msg-avatar ${role === 'assistant' ? 're' : 'user'}`;
+
+  if (role === 'assistant') {
+    avatar.innerHTML = `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="12,2 22,12 12,22 2,12" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+      <polygon points="12,7 17,12 12,17 7,12" fill="#1A1A1A" opacity="0.8"/>
+    </svg>`;
+  } else {
+    avatar.textContent = 'EU';
+  }
+
+  const contentDiv = document.createElement('div');
+  contentDiv.className = 'msg-content';
+
+  const name = document.createElement('div');
+  name.className = `msg-name ${role === 'assistant' ? 're-name' : 'user-name'}`;
+  name.textContent = role === 'assistant' ? 'RÊ — BI Cognitivo' : 'Você';
+
+  const body = document.createElement('div');
+  body.className = `msg-body ${role === 'user' ? 'user-body' : ''}`;
+
+  if (role === 'assistant') {
+    body.innerHTML = formatResponse(content);
+  } else {
+    body.textContent = content;
+  }
+
+  contentDiv.appendChild(name);
+  contentDiv.appendChild(body);
+  div.appendChild(avatar);
+  div.appendChild(contentDiv);
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+  return div;
+}
+
+function renderTyping() {
+  hideWelcome();
+  const div = document.createElement('div');
+  div.className = 'msg';
+  div.id = 'typing-msg';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'msg-avatar re';
+  avatar.innerHTML = `<svg viewBox="0 0 24 24" fill="none">
+    <polygon points="12,2 22,12 12,22 2,12" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <polygon points="12,7 17,12 12,17 7,12" fill="#1A1A1A" opacity="0.8"/>
+  </svg>`;
+
+  const contentDiv = document.createElement('div');
+  contentDiv.className = 'msg-content';
+  const name = document.createElement('div');
+  name.className = 'msg-name re-name';
+  name.textContent = 'RÊ — Analisando dados...';
+  const body = document.createElement('div');
+  body.className = 'msg-body';
+  body.innerHTML = '<div class="typing-indicator"><span></span><span></span><span></span></div>';
+
+  contentDiv.appendChild(name);
+  contentDiv.appendChild(body);
+  div.appendChild(avatar);
+  div.appendChild(contentDiv);
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function removeTyping() {
+  const t = document.getElementById('typing-msg');
+  if (t) t.remove();
+}
+
+function formatResponse(text) {
+  // Convert markdown-ish to HTML
+  let html = text
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/`(.+?)`/g, '<code style="background:rgba(239,223,0,0.1);padding:1px 5px;border-radius:2px;font-family:monospace;font-size:12px;color:#EFDF00">$1</code>');
+
+  // Tables
+  const lines = html.split('\n');
+  let result = [];
+  let inTable = false;
+  let tableRows = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const isSep = /^\|[\s\-:|]+\|/.test(line);
+    const isRow = line.trim().startsWith('|') && line.trim().endsWith('|');
+
+    if (isRow && !isSep) {
+      if (!inTable) { inTable = true; tableRows = []; }
+      tableRows.push(line);
+    } else if (isSep) {
+      // skip separator
+    } else {
+      if (inTable && tableRows.length > 0) {
+        result.push(renderTable(tableRows));
+        tableRows = [];
+        inTable = false;
+      }
+      result.push(line);
+    }
+  }
+  if (inTable && tableRows.length > 0) result.push(renderTable(tableRows));
+
+  return result.join('\n').replace(/\n/g, '<br>');
+}
+
+function renderTable(rows) {
+  const cells = rows.map(r =>
+    r.split('|').filter((_, i, a) => i > 0 && i < a.length - 1).map(c => c.trim())
+  );
+  if (cells.length === 0) return '';
+  let html = '<table>';
+  cells.forEach((row, i) => {
+    html += '<tr>';
+    row.forEach(cell => {
+      html += i === 0 ? `<th>${cell}</th>` : `<td>${cell}</td>`;
+    });
+    html += '</tr>';
+  });
+  return html + '</table>';
+}
+
+// ═══════════════════════════════════════════════════════
+// SEND MESSAGE
+// ═══════════════════════════════════════════════════════
+async function sendMessage() {
+  const text = inputEl.value.trim();
+  if (!text || isLoading) return;
+
+  isLoading = true;
+  sendBtn.disabled = true;
+  inputEl.value = '';
+  inputEl.style.height = 'auto';
+
+  renderMessage('user', text);
+
+  // Add data context to message
+  const dataCtx = buildDataContext(text);
+  const userMsgWithCtx = text + dataCtx;
+
+  messages.push({ role: 'user', content: userMsgWithCtx });
+
+  renderTyping();
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        system: buildSystemPrompt(),
+        messages: messages
+      })
+    });
+
+    const data = await resp.json();
+    removeTyping();
+
+    if (data.error) {
+      renderMessage('assistant', `⚠️ Erro ao processar: ${data.error.message}`);
+      messages.pop();
+    } else {
+      const aiText = data.content?.find(b => b.type === 'text')?.text || '';
+      messages.push({ role: 'assistant', content: aiText });
+      renderMessage('assistant', aiText);
+
+      // Keep context window manageable
+      if (messages.length > 20) messages = messages.slice(-20);
+    }
+  } catch(e) {
+    removeTyping();
+    renderMessage('assistant', `⚠️ Erro de conexão: ${e.message}. Verifique sua conexão e tente novamente.`);
+    messages.pop();
+  }
+
+  isLoading = false;
+  sendBtn.disabled = false;
+  inputEl.focus();
+}
+
+function sendQuick(text) {
+  inputEl.value = text;
+  sendMessage();
+}
+</script>
+</body>
+</html>
