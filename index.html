@@ -701,15 +701,15 @@
       <div class="data-stats">
         <div class="stat-row">
           <span class="stat-label">Base 1 · Mercado MTM</span>
-          <span class="stat-value">3.007</span>
+          <span class="stat-value" id="stat-b1">3.007</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">Base 2 · Placas Renault</span>
-          <span class="stat-value">11.604</span>
+          <span class="stat-value" id="stat-b2">11.604</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">Base 3 · Pesos ZI</span>
-          <span class="stat-value">197</span>
+          <span class="stat-value" id="stat-b3">197</span>
         </div>
         <div class="stat-row">
           <span class="stat-label">Grupos (BIR)</span>
@@ -822,8 +822,14 @@ let BASE1 = [], BASE2 = [], BASE3 = [];
 let dataLoaded = false;
 
 async function loadData() {
+  // Show loading indicator in sidebar stats
+  ['stat-b1','stat-b2','stat-b3'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = '…';
+  });
   try {
     const resp = await fetch('re_data.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
     const d = await resp.json();
     const b1h = d.base1[0], b1r = d.base1.slice(1);
     const b2h = d.base2[0], b2r = d.base2.slice(1);
@@ -833,9 +839,33 @@ async function loadData() {
     BASE2 = b2r.map(row => Object.fromEntries(b2h.map((k,i) => [k, row[i]])));
     BASE3 = b3r.map(row => Object.fromEntries(b3h.map((k,i) => [k, row[i]])));
     dataLoaded = true;
+
+    // Update sidebar stats with real counts
+    const sb1 = document.getElementById('stat-b1');
+    const sb2 = document.getElementById('stat-b2');
+    const sb3 = document.getElementById('stat-b3');
+    if (sb1) sb1.textContent = BASE1.length.toLocaleString('pt-BR');
+    if (sb2) sb2.textContent = BASE2.length.toLocaleString('pt-BR');
+    if (sb3) sb3.textContent = BASE3.length.toLocaleString('pt-BR');
+    console.log(`✓ Dados carregados: B1=${BASE1.length}, B2=${BASE2.length}, B3=${BASE3.length}`);
   } catch(e) {
-    console.warn('Could not load data file, using empty arrays:', e);
-    dataLoaded = true;
+    dataLoaded = true; // allow chat to work even without data
+    console.error('Erro ao carregar re_data.json:', e);
+    // Show error in sidebar
+    ['stat-b1','stat-b2','stat-b3'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) { el.textContent = 'erro'; el.style.color = '#FF6B6B'; }
+    });
+    // Show warning in chat area
+    setTimeout(() => {
+      hideWelcome();
+      renderMessage('assistant',
+        '⚠️ **Atenção:** Não foi possível carregar o arquivo `re_data.json`.\n\n' +
+        'Certifique-se de que o arquivo está na **mesma pasta** que o `re_agent.html` no servidor. ' +
+        'Sem os dados, as análises não funcionarão corretamente.\n\n' +
+        `Detalhe técnico: ${e.message}`
+      );
+    }, 500);
   }
 }
 loadData();
@@ -1369,6 +1399,10 @@ function renderTable(rows) {
 async function sendMessage() {
   const text = inputEl.value.trim();
   if (!text || isLoading) return;
+  if (!dataLoaded) {
+    renderMessage('assistant', '⏳ Aguarde — os dados ainda estão sendo carregados. Tente novamente em instantes.');
+    return;
+  }
 
   isLoading = true;
   sendBtn.disabled = true;
@@ -1432,13 +1466,25 @@ async function sendMessage() {
     }
   } catch(e) {
     removeTyping();
-    renderMessage('assistant', `⚠️ Erro de conexão: ${e.message}. Verifique sua conexão e tente novamente.`);
+    const msg = e.message || String(e);
+    if (msg.toLowerCase().includes('failed to fetch') || msg.toLowerCase().includes('networkerror')) {
+      renderMessage('assistant',
+        '⚠️ **Erro de conexão com a API.**\n\n' +
+        'Verifique se:\n' +
+        '• A API Key foi inserida corretamente\n' +
+        '• Você tem conexão com a internet\n' +
+        '• O bloqueador de anúncios não está bloqueando a chamada\n\n' +
+        `Detalhe: ${msg}`
+      );
+    } else {
+      renderMessage('assistant', `⚠️ Erro inesperado: ${msg}`);
+    }
     messages.pop();
+  } finally {
+    isLoading = false;
+    sendBtn.disabled = false;
+    inputEl.focus();
   }
-
-  isLoading = false;
-  sendBtn.disabled = false;
-  inputEl.focus();
 }
 
 
