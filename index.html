@@ -2,6 +2,9 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RÊ — BI Cognitivo Renault</title>
 <style>
@@ -843,6 +846,7 @@ body.light .modal-input { background: #f5f5f5; color: #1A1A1A; }
       <span>Online</span>
     </div>
     <div class="badge" id="data-badge">JAN/25–MAR/26</div>
+    <div style="font-size:8px;color:var(--text-muted);letter-spacing:0.1em">v20260415-1309</div>
     <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">
       <span id="theme-icon">🌙</span>
       <div class="toggle-track"><div class="toggle-thumb"></div></div>
@@ -1069,6 +1073,7 @@ let BASE1=[], BASE2=[], BASE3=[], dataLoaded=false;
     if(e3)e3.textContent=BASE3.length.toLocaleString('pt-BR');
   },0);
   console.log('✓ RÊ dados: B1='+BASE1.length+' B2='+BASE2.length+' B3='+BASE3.length);
+  console.log('✓ RÊ versão: 20260415-1309 | isMarcas fix: ATIVO');
 })();
 
 function buildSystemPrompt() {
@@ -1171,18 +1176,34 @@ function buildDataContext(userMsg) {
   }
 
   // ── STATE detection
-  const STATE_MAP = {'sao paulo':'SP','sp':'SP','rio de janeiro':'RJ','rj':'RJ',
-    'minas gerais':'MG','mg':'MG','parana':'PR','pr':'PR','santa catarina':'SC','sc':'SC',
-    'rio grande do sul':'RS','rs':'RS','bahia':'BA','ba':'BA','goias':'GO','go':'GO',
-    'mato grosso do sul':'MS','ms':'MS','pernambuco':'PE','pe':'PE','ceara':'CE','ce':'CE',
-    'amazonas':'AM','am':'AM','para':'PA','pa':'PA','maranhao':'MA','ma':'MA',
-    'espirito santo':'ES','es':'ES','mato grosso':'MT','mt':'MT',
-    'distrito federal':'DF','df':'DF','tocantins':'TO','to':'TO',
-    'rondonia':'RO','ro':'RO','acre':'AC','ac':'AC','roraima':'RR','rr':'RR',
-    'amapa':'AP','ap':'AP','sergipe':'SE','se':'SE','alagoas':'AL','al':'AL',
-    'piaui':'PI','pi':'PI','rio grande do norte':'RN','rn':'RN','paraiba':'PB','pb':'PB'};
+  // State map: long names checked with includes(), abbreviations with word-boundary regex
+  const STATE_NAMES = {
+    'sao paulo':'SP','rio de janeiro':'RJ','minas gerais':'MG','parana':'PR',
+    'santa catarina':'SC','rio grande do sul':'RS','bahia':'BA','goias':'GO',
+    'mato grosso do sul':'MS','pernambuco':'PE','ceara':'CE','amazonas':'AM',
+    'maranhao':'MA','espirito santo':'ES','mato grosso':'MT','distrito federal':'DF',
+    'tocantins':'TO','rondonia':'RO','acre':'AC','roraima':'RR','amapa':'AP',
+    'sergipe':'SE','alagoas':'AL','piaui':'PI','rio grande do norte':'RN','paraiba':'PB',
+    'para':'PA'
+  };
+  // Abbreviations: only match as standalone word (space or start/end of string)
+  const STATE_ABBR = {
+    'sp':'SP','rj':'RJ','mg':'MG','pr':'PR','sc':'SC','rs':'RS','ba':'BA','go':'GO',
+    'ms':'MS','pe':'PE','ce':'CE','am':'AM','ma':'MA','es':'ES','mt':'MT','df':'DF',
+    'to':'TO','ro':'RO','ac':'AC','rr':'RR','ap':'AP','se':'SE','al':'AL','pi':'PI',
+    'rn':'RN','pb':'PB','pa':'PA'
+  };
   let detectedState = null;
-  for (const [k,v] of Object.entries(STATE_MAP)) { if (msg.includes(k)) { detectedState=v; break; } }
+  // Check full names first
+  for (const [k,v] of Object.entries(STATE_NAMES)) {
+    if (msg.includes(k)) { detectedState=v; break; }
+  }
+  // Check abbreviations only as whole words (surrounded by spaces or at boundaries)
+  if (!detectedState) {
+    for (const [k,v] of Object.entries(STATE_ABBR)) {
+      if (new RegExp('(?:^|\\s)' + k + '(?:\\s|$)').test(msg)) { detectedState=v; break; }
+    }
+  }
 
   // ── MICRORREGIÃO detection
   const allMicros = [...new Set(BASE1.map(r=>r.name_micro_region).filter(Boolean))];
