@@ -1280,7 +1280,9 @@ function buildDataContext(userMsg) {
   const isPDM        = msg.includes('pdm')||msg.includes('participacao de mercado');
   const isPerformance= msg.includes('performance')||msg.includes('como foi');
   const isComparativo= msg.includes('comparativo')||msg.includes(' vs ')||msg.includes('evolucao')||msg.includes('mes a mes')||msg.includes('mensal');
-  const isMarcas     = msg.includes('marca')||(isRanking && !detectedModels.length);
+  // isMarcas: only when user explicitly asks about brands — NOT when asking about models/ranking
+  const isMarcas     = msg.includes('marca') && !msg.includes('modelo');
+  const isModelos    = msg.includes('modelo')||(!isMarcas && isRanking && !detectedModels.length);
   const isMercado    = msg.includes('mercado')||msg.includes('mtm')||msg.includes('showroom do grupo')||msg.includes('mercado showroom');
   const isTopGrupo   = msg.includes('grupo') && (isRanking || msg.includes('emplacou mais')||msg.includes('mais vend'));
   const isPracas     = msg.includes('pracas')||msg.includes('minhas pracas')||msg.includes('zona de influencia')||msg.includes('zi');
@@ -1307,7 +1309,7 @@ function buildDataContext(userMsg) {
   // ══════════════════════════════════════
   // BLOCK 2 — Ranking modelos Renault SR
   // ══════════════════════════════════════
-  if (isRanking && !isMarcas && !isTopGrupo && !detectedGroup) {
+  if ((isRanking || isModelos) && !isMarcas && !isTopGrupo && !detectedGroup) {
     ctx += '\n### RANKING MODELOS RENAULT SR:\n';
     periods.forEach(pf => {
       const rows = fb2(pf, detectedState?{state:detectedState}:{});
@@ -1323,7 +1325,7 @@ function buildDataContext(userMsg) {
   // ══════════════════════════════════════
   // BLOCK 3 — Top marcas nas praças do grupo
   // ══════════════════════════════════════
-  if (isMarcas && (detectedGroup || isPracas)) {
+  if (isMarcas && !isModelos && (detectedGroup || isPracas)) {
     const zi = detectedGroup ? ziRows : BASE3;
     const MARCAS = ['RENAULT','FIAT','VOLKSWAGEN','GM','HYUNDAI','TOYOTA','JEEP','HONDA','PEUGEOT','CITROEN','GWM','BYD','FORD','NISSAN','GEELY','JAECOO'];
     ctx += `\n### TOP MARCAS SR NAS PRAÇAS${detectedGroup?' — '+detectedGroup:''}:\n`;
