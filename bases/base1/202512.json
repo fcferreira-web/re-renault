@@ -1,0 +1,1622 @@
+{
+  "tipo": "base1",
+  "registros": 202,
+  "dados": [
+    {
+      "microrregiao": "APUCARANA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 215,
+      "mtm_vd": 155,
+      "mtm_total": 370
+    },
+    {
+      "microrregiao": "ARARANGUA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 190,
+      "mtm_vd": 79,
+      "mtm_total": 269
+    },
+    {
+      "microrregiao": "BLUMENAU",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 808,
+      "mtm_vd": 395,
+      "mtm_total": 1203
+    },
+    {
+      "microrregiao": "CACHOEIRA DO SUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 72,
+      "mtm_vd": 50,
+      "mtm_total": 122
+    },
+    {
+      "microrregiao": "CAMPANHA MERIDIONAL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 89,
+      "mtm_vd": 56,
+      "mtm_total": 145
+    },
+    {
+      "microrregiao": "CAMPANHA OCIDENTAL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 143,
+      "mtm_vd": 97,
+      "mtm_total": 240
+    },
+    {
+      "microrregiao": "CAMPO GRANDE",
+      "regional": "R1",
+      "uf": "MS",
+      "mtm_sr": 1057,
+      "mtm_vd": 575,
+      "mtm_total": 1632
+    },
+    {
+      "microrregiao": "CAMPO MOURÃO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 82,
+      "mtm_vd": 82,
+      "mtm_total": 164
+    },
+    {
+      "microrregiao": "CAMPOS DE LAGES",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 242,
+      "mtm_vd": 160,
+      "mtm_total": 402
+    },
+    {
+      "microrregiao": "CANOINHAS",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 118,
+      "mtm_vd": 92,
+      "mtm_total": 210
+    },
+    {
+      "microrregiao": "CASCAVEL",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 436,
+      "mtm_vd": 236,
+      "mtm_total": 672
+    },
+    {
+      "microrregiao": "CATANDUVA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 1,
+      "mtm_vd": 1,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "CAXIAS DO SUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 778,
+      "mtm_vd": 496,
+      "mtm_total": 1274
+    },
+    {
+      "microrregiao": "CHAPECO",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 533,
+      "mtm_vd": 306,
+      "mtm_total": 839
+    },
+    {
+      "microrregiao": "CONCORDIA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 136,
+      "mtm_vd": 107,
+      "mtm_total": 243
+    },
+    {
+      "microrregiao": "CRICIUMA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 517,
+      "mtm_vd": 228,
+      "mtm_total": 745
+    },
+    {
+      "microrregiao": "CUIABA",
+      "regional": "R1",
+      "uf": "MT",
+      "mtm_sr": 1354,
+      "mtm_vd": 713,
+      "mtm_total": 2067
+    },
+    {
+      "microrregiao": "CURITIBA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 4514,
+      "mtm_vd": 11378,
+      "mtm_total": 15892
+    },
+    {
+      "microrregiao": "CURITIBANOS",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 90,
+      "mtm_vd": 53,
+      "mtm_total": 143
+    },
+    {
+      "microrregiao": "DOURADOS",
+      "regional": "R1",
+      "uf": "MS",
+      "mtm_sr": 362,
+      "mtm_vd": 210,
+      "mtm_total": 572
+    },
+    {
+      "microrregiao": "ERECHIM",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 173,
+      "mtm_vd": 94,
+      "mtm_total": 267
+    },
+    {
+      "microrregiao": "FLORIANOPOLIS",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 1853,
+      "mtm_vd": 1324,
+      "mtm_total": 3177
+    },
+    {
+      "microrregiao": "FOZ DO IGUACU",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 326,
+      "mtm_vd": 220,
+      "mtm_total": 546
+    },
+    {
+      "microrregiao": "FRANCISCO BELTRAO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 2,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "GRAMADO-CANELA",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 297,
+      "mtm_vd": 97,
+      "mtm_total": 394
+    },
+    {
+      "microrregiao": "GUARAPUAVA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 250,
+      "mtm_vd": 105,
+      "mtm_total": 355
+    },
+    {
+      "microrregiao": "IJUI",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 125,
+      "mtm_vd": 90,
+      "mtm_total": 215
+    },
+    {
+      "microrregiao": "ITAJAI",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 1409,
+      "mtm_vd": 412,
+      "mtm_total": 1821
+    },
+    {
+      "microrregiao": "JARAGUA DO SUL",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 308,
+      "mtm_vd": 136,
+      "mtm_total": 444
+    },
+    {
+      "microrregiao": "JOACABA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 299,
+      "mtm_vd": 226,
+      "mtm_total": 525
+    },
+    {
+      "microrregiao": "JOINVILLE",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 884,
+      "mtm_vd": 480,
+      "mtm_total": 1364
+    },
+    {
+      "microrregiao": "LAJEADO-ESTRELA",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 300,
+      "mtm_vd": 155,
+      "mtm_total": 455
+    },
+    {
+      "microrregiao": "LITORAL LAGUNAR",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 100,
+      "mtm_vd": 70,
+      "mtm_total": 170
+    },
+    {
+      "microrregiao": "LONDRINA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 842,
+      "mtm_vd": 408,
+      "mtm_total": 1250
+    },
+    {
+      "microrregiao": "MARINGA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 842,
+      "mtm_vd": 430,
+      "mtm_total": 1272
+    },
+    {
+      "microrregiao": "MONTENEGRO",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 186,
+      "mtm_vd": 118,
+      "mtm_total": 304
+    },
+    {
+      "microrregiao": "NÃO IDENTIFICADO",
+      "regional": "R1",
+      "uf": "MT",
+      "mtm_sr": 4066,
+      "mtm_vd": 2927,
+      "mtm_total": 6993
+    },
+    {
+      "microrregiao": "OSASCO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "OSORIO",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 405,
+      "mtm_vd": 138,
+      "mtm_total": 543
+    },
+    {
+      "microrregiao": "PALHOCA",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 273,
+      "mtm_vd": 93,
+      "mtm_total": 366
+    },
+    {
+      "microrregiao": "PARANAGUA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 208,
+      "mtm_vd": 53,
+      "mtm_total": 261
+    },
+    {
+      "microrregiao": "PASSO FUNDO",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 292,
+      "mtm_vd": 140,
+      "mtm_total": 432
+    },
+    {
+      "microrregiao": "PATO BRANCO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 2,
+      "mtm_vd": 3,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "PELOTAS",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 327,
+      "mtm_vd": 179,
+      "mtm_total": 506
+    },
+    {
+      "microrregiao": "PONTA GROSSA",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 428,
+      "mtm_vd": 201,
+      "mtm_total": 629
+    },
+    {
+      "microrregiao": "PORTO ALEGRE DR SUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 665,
+      "mtm_vd": 197,
+      "mtm_total": 862
+    },
+    {
+      "microrregiao": "PORTO ALEGRE GALA",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 832,
+      "mtm_vd": 255,
+      "mtm_total": 1087
+    },
+    {
+      "microrregiao": "PORTO ALEGRE IESA",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 113,
+      "mtm_vd": 33,
+      "mtm_total": 146
+    },
+    {
+      "microrregiao": "PORTO ALEGRE IESA/DR SUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 2279,
+      "mtm_vd": 997,
+      "mtm_total": 3276
+    },
+    {
+      "microrregiao": "PORTO ALEGRE NISSUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 49,
+      "mtm_vd": 17,
+      "mtm_total": 66
+    },
+    {
+      "microrregiao": "PORTO UNIAO",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 55,
+      "mtm_vd": 35,
+      "mtm_total": 90
+    },
+    {
+      "microrregiao": "RIBEIRAO PRETO",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 1,
+      "mtm_vd": 1,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "RIO DE JANEIRO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "RIO DO SUL",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 190,
+      "mtm_vd": 120,
+      "mtm_total": 310
+    },
+    {
+      "microrregiao": "RONDONOPOLIS",
+      "regional": "R1",
+      "uf": "MT",
+      "mtm_sr": 372,
+      "mtm_vd": 188,
+      "mtm_total": 560
+    },
+    {
+      "microrregiao": "SALVADOR",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "SANTA CRUZ DO SUL",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 157,
+      "mtm_vd": 81,
+      "mtm_total": 238
+    },
+    {
+      "microrregiao": "SANTA MARIA",
+      "regional": "R1",
+      "uf": "RS",
+      "mtm_sr": 276,
+      "mtm_vd": 142,
+      "mtm_total": 418
+    },
+    {
+      "microrregiao": "SAO BENTO DO SUL",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 88,
+      "mtm_vd": 58,
+      "mtm_total": 146
+    },
+    {
+      "microrregiao": "SAO MIGUEL DO OESTE",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 59,
+      "mtm_vd": 71,
+      "mtm_total": 130
+    },
+    {
+      "microrregiao": "SAO PAULO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "SAO PAULO CAPITAL",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "SETE LAGOAS",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "SINOP",
+      "regional": "R1",
+      "uf": "MT",
+      "mtm_sr": 561,
+      "mtm_vd": 325,
+      "mtm_total": 886
+    },
+    {
+      "microrregiao": "TIJUCAS",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 311,
+      "mtm_vd": 185,
+      "mtm_total": 496
+    },
+    {
+      "microrregiao": "TOLEDO",
+      "regional": "R1",
+      "uf": "PR",
+      "mtm_sr": 283,
+      "mtm_vd": 186,
+      "mtm_total": 469
+    },
+    {
+      "microrregiao": "TRES LAGOAS",
+      "regional": "R1",
+      "uf": "MS",
+      "mtm_sr": 201,
+      "mtm_vd": 106,
+      "mtm_total": 307
+    },
+    {
+      "microrregiao": "TUBARAO",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 456,
+      "mtm_vd": 192,
+      "mtm_total": 648
+    },
+    {
+      "microrregiao": "XANXERE",
+      "regional": "R1",
+      "uf": "SC",
+      "mtm_sr": 75,
+      "mtm_vd": 69,
+      "mtm_total": 144
+    },
+    {
+      "microrregiao": "AMERICANA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 390,
+      "mtm_vd": 191,
+      "mtm_total": 581
+    },
+    {
+      "microrregiao": "ARACATUBA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 212,
+      "mtm_vd": 143,
+      "mtm_total": 355
+    },
+    {
+      "microrregiao": "ARARAQUARA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 403,
+      "mtm_vd": 184,
+      "mtm_total": 587
+    },
+    {
+      "microrregiao": "AVARE",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 92,
+      "mtm_vd": 85,
+      "mtm_total": 177
+    },
+    {
+      "microrregiao": "BAURU",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 524,
+      "mtm_vd": 244,
+      "mtm_total": 768
+    },
+    {
+      "microrregiao": "BOTUCATU",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 184,
+      "mtm_vd": 109,
+      "mtm_total": 293
+    },
+    {
+      "microrregiao": "BRAGANCA PAULISTA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 524,
+      "mtm_vd": 236,
+      "mtm_total": 760
+    },
+    {
+      "microrregiao": "CAMPINAS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 2175,
+      "mtm_vd": 866,
+      "mtm_total": 3041
+    },
+    {
+      "microrregiao": "CATANDUVA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 130,
+      "mtm_vd": 129,
+      "mtm_total": 259
+    },
+    {
+      "microrregiao": "CURITIBANOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 7,
+      "mtm_vd": 1,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "FRANCA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 290,
+      "mtm_vd": 185,
+      "mtm_total": 475
+    },
+    {
+      "microrregiao": "GUARULHOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 783,
+      "mtm_vd": 430,
+      "mtm_total": 1213
+    },
+    {
+      "microrregiao": "INDAIATUBA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 462,
+      "mtm_vd": 147,
+      "mtm_total": 609
+    },
+    {
+      "microrregiao": "ITAPETININGA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 119,
+      "mtm_vd": 73,
+      "mtm_total": 192
+    },
+    {
+      "microrregiao": "ITAPEVA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 66,
+      "mtm_vd": 56,
+      "mtm_total": 122
+    },
+    {
+      "microrregiao": "ITU",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 332,
+      "mtm_vd": 173,
+      "mtm_total": 505
+    },
+    {
+      "microrregiao": "JAU",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 177,
+      "mtm_vd": 150,
+      "mtm_total": 327
+    },
+    {
+      "microrregiao": "JUNDIAI",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 839,
+      "mtm_vd": 287,
+      "mtm_total": 1126
+    },
+    {
+      "microrregiao": "LIMEIRA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 501,
+      "mtm_vd": 260,
+      "mtm_total": 761
+    },
+    {
+      "microrregiao": "MARILIA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 235,
+      "mtm_vd": 145,
+      "mtm_total": 380
+    },
+    {
+      "microrregiao": "MOGI DAS CRUZES",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 702,
+      "mtm_vd": 303,
+      "mtm_total": 1005
+    },
+    {
+      "microrregiao": "MOGI-MIRIM",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 279,
+      "mtm_vd": 172,
+      "mtm_total": 451
+    },
+    {
+      "microrregiao": "NÃO IDENTIFICADO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 3346,
+      "mtm_vd": 2496,
+      "mtm_total": 5842
+    },
+    {
+      "microrregiao": "OSASCO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 1428,
+      "mtm_vd": 615,
+      "mtm_total": 2043
+    },
+    {
+      "microrregiao": "PIRACICABA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 607,
+      "mtm_vd": 533,
+      "mtm_total": 1140
+    },
+    {
+      "microrregiao": "PRESIDENTE PRUDENTE",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 310,
+      "mtm_vd": 236,
+      "mtm_total": 546
+    },
+    {
+      "microrregiao": "RIBEIRAO PRETO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 1278,
+      "mtm_vd": 559,
+      "mtm_total": 1837
+    },
+    {
+      "microrregiao": "RIO CLARO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 181,
+      "mtm_vd": 112,
+      "mtm_total": 293
+    },
+    {
+      "microrregiao": "SANTOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 1000,
+      "mtm_vd": 586,
+      "mtm_total": 1586
+    },
+    {
+      "microrregiao": "SAO CARLOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 281,
+      "mtm_vd": 134,
+      "mtm_total": 415
+    },
+    {
+      "microrregiao": "SAO JOSE DO RIO PRETO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 774,
+      "mtm_vd": 572,
+      "mtm_total": 1346
+    },
+    {
+      "microrregiao": "SAO JOSE DOS CAMPOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 1012,
+      "mtm_vd": 586,
+      "mtm_total": 1598
+    },
+    {
+      "microrregiao": "SAO PAULO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 1948,
+      "mtm_vd": 1114,
+      "mtm_total": 3062
+    },
+    {
+      "microrregiao": "SAO PAULO CAPITAL",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 10473,
+      "mtm_vd": 15338,
+      "mtm_total": 25811
+    },
+    {
+      "microrregiao": "SOROCABA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 904,
+      "mtm_vd": 525,
+      "mtm_total": 1429
+    },
+    {
+      "microrregiao": "TATUI",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 254,
+      "mtm_vd": 128,
+      "mtm_total": 382
+    },
+    {
+      "microrregiao": "VALINHOS",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 323,
+      "mtm_vd": 82,
+      "mtm_total": 405
+    },
+    {
+      "microrregiao": "VINHEDO",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 139,
+      "mtm_vd": 38,
+      "mtm_total": 177
+    },
+    {
+      "microrregiao": "VOTUPORANGA",
+      "regional": "R2",
+      "uf": "SP",
+      "mtm_sr": 82,
+      "mtm_vd": 92,
+      "mtm_total": 174
+    },
+    {
+      "microrregiao": "ANAPOLIS",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 442,
+      "mtm_vd": 129,
+      "mtm_total": 571
+    },
+    {
+      "microrregiao": "BARREIRAS",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 25,
+      "mtm_vd": 12,
+      "mtm_total": 37
+    },
+    {
+      "microrregiao": "BELO HORIZONTE",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 3792,
+      "mtm_vd": 45604,
+      "mtm_total": 49396
+    },
+    {
+      "microrregiao": "BRASILIA",
+      "regional": "R3",
+      "uf": "DF",
+      "mtm_sr": 6619,
+      "mtm_vd": 1615,
+      "mtm_total": 8234
+    },
+    {
+      "microrregiao": "CACHOEIRO DE ITAPEMIRIM",
+      "regional": "R3",
+      "uf": "ES",
+      "mtm_sr": 246,
+      "mtm_vd": 153,
+      "mtm_total": 399
+    },
+    {
+      "microrregiao": "CAMPOS DOS GOYTACAZES",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 281,
+      "mtm_vd": 137,
+      "mtm_total": 418
+    },
+    {
+      "microrregiao": "CASCAVEL",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 4,
+      "mtm_vd": 2,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "CERES",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 108,
+      "mtm_vd": 65,
+      "mtm_total": 173
+    },
+    {
+      "microrregiao": "CONTAGEM",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 304,
+      "mtm_vd": 201,
+      "mtm_total": 505
+    },
+    {
+      "microrregiao": "DIVINOPOLIS",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 211,
+      "mtm_vd": 248,
+      "mtm_total": 459
+    },
+    {
+      "microrregiao": "DUQUE DE CAXIAS",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 165,
+      "mtm_vd": 53,
+      "mtm_total": 218
+    },
+    {
+      "microrregiao": "GOIANIA",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 3256,
+      "mtm_vd": 1528,
+      "mtm_total": 4784
+    },
+    {
+      "microrregiao": "GOVERNADOR VALADARES",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 209,
+      "mtm_vd": 146,
+      "mtm_total": 355
+    },
+    {
+      "microrregiao": "GUARAPARI",
+      "regional": "R3",
+      "uf": "ES",
+      "mtm_sr": 252,
+      "mtm_vd": 87,
+      "mtm_total": 339
+    },
+    {
+      "microrregiao": "IMPERATRIZ",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 2,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "IPATINGA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 242,
+      "mtm_vd": 127,
+      "mtm_total": 369
+    },
+    {
+      "microrregiao": "ITABIRA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 78,
+      "mtm_vd": 265,
+      "mtm_total": 343
+    },
+    {
+      "microrregiao": "ITAGUAI",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 84,
+      "mtm_vd": 24,
+      "mtm_total": 108
+    },
+    {
+      "microrregiao": "JUIZ DE FORA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 436,
+      "mtm_vd": 188,
+      "mtm_total": 624
+    },
+    {
+      "microrregiao": "LAGOS",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 301,
+      "mtm_vd": 88,
+      "mtm_total": 389
+    },
+    {
+      "microrregiao": "LINHARES",
+      "regional": "R3",
+      "uf": "ES",
+      "mtm_sr": 324,
+      "mtm_vd": 306,
+      "mtm_total": 630
+    },
+    {
+      "microrregiao": "MACAE",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 158,
+      "mtm_vd": 64,
+      "mtm_total": 222
+    },
+    {
+      "microrregiao": "MEIA PONTE",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 359,
+      "mtm_vd": 113,
+      "mtm_total": 472
+    },
+    {
+      "microrregiao": "MONTES CLAROS",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 276,
+      "mtm_vd": 151,
+      "mtm_total": 427
+    },
+    {
+      "microrregiao": "NITEROI",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 909,
+      "mtm_vd": 260,
+      "mtm_total": 1169
+    },
+    {
+      "microrregiao": "NOVA IGUACU",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 319,
+      "mtm_vd": 107,
+      "mtm_total": 426
+    },
+    {
+      "microrregiao": "NÃO IDENTIFICADO",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 4353,
+      "mtm_vd": 4082,
+      "mtm_total": 8435
+    },
+    {
+      "microrregiao": "POCOS DE CALDAS",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 209,
+      "mtm_vd": 185,
+      "mtm_total": 394
+    },
+    {
+      "microrregiao": "POUSO ALEGRE",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 263,
+      "mtm_vd": 193,
+      "mtm_total": 456
+    },
+    {
+      "microrregiao": "RIO DE JANEIRO",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 4119,
+      "mtm_vd": 1642,
+      "mtm_total": 5761
+    },
+    {
+      "microrregiao": "SERRANA",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 307,
+      "mtm_vd": 100,
+      "mtm_total": 407
+    },
+    {
+      "microrregiao": "SETE LAGOAS",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 121,
+      "mtm_vd": 167,
+      "mtm_total": 288
+    },
+    {
+      "microrregiao": "SUDOESTE DE GOIAS",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 398,
+      "mtm_vd": 191,
+      "mtm_total": 589
+    },
+    {
+      "microrregiao": "UBA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 108,
+      "mtm_vd": 62,
+      "mtm_total": 170
+    },
+    {
+      "microrregiao": "UBERABA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 250,
+      "mtm_vd": 122,
+      "mtm_total": 372
+    },
+    {
+      "microrregiao": "UBERLANDIA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 841,
+      "mtm_vd": 405,
+      "mtm_total": 1246
+    },
+    {
+      "microrregiao": "UNAI",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 44,
+      "mtm_vd": 84,
+      "mtm_total": 128
+    },
+    {
+      "microrregiao": "VALE DO PARAIBA FLUMINENSE",
+      "regional": "R3",
+      "uf": "RJ",
+      "mtm_sr": 245,
+      "mtm_vd": 124,
+      "mtm_total": 369
+    },
+    {
+      "microrregiao": "VALPARAISO DE GOIAS",
+      "regional": "R3",
+      "uf": "GO",
+      "mtm_sr": 107,
+      "mtm_vd": 77,
+      "mtm_total": 184
+    },
+    {
+      "microrregiao": "VARGINHA",
+      "regional": "R3",
+      "uf": "MG",
+      "mtm_sr": 186,
+      "mtm_vd": 199,
+      "mtm_total": 385
+    },
+    {
+      "microrregiao": "VILA VELHA",
+      "regional": "R3",
+      "uf": "ES",
+      "mtm_sr": 595,
+      "mtm_vd": 307,
+      "mtm_total": 902
+    },
+    {
+      "microrregiao": "VITORIA",
+      "regional": "R3",
+      "uf": "ES",
+      "mtm_sr": 1259,
+      "mtm_vd": 1009,
+      "mtm_total": 2268
+    },
+    {
+      "microrregiao": "AGLOMERACAO URBANA DE SAO LUIS",
+      "regional": "R4",
+      "uf": "MA",
+      "mtm_sr": 1031,
+      "mtm_vd": 539,
+      "mtm_total": 1570
+    },
+    {
+      "microrregiao": "ALAGOINHAS",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 91,
+      "mtm_vd": 76,
+      "mtm_total": 167
+    },
+    {
+      "microrregiao": "ARACAJU",
+      "regional": "R4",
+      "uf": "SE",
+      "mtm_sr": 716,
+      "mtm_vd": 526,
+      "mtm_total": 1242
+    },
+    {
+      "microrregiao": "ARAGUAINA",
+      "regional": "R4",
+      "uf": "TO",
+      "mtm_sr": 333,
+      "mtm_vd": 154,
+      "mtm_total": 487
+    },
+    {
+      "microrregiao": "ARAPIRACA",
+      "regional": "R4",
+      "uf": "AL",
+      "mtm_sr": 294,
+      "mtm_vd": 143,
+      "mtm_total": 437
+    },
+    {
+      "microrregiao": "ARARAQUARA",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 0,
+      "mtm_vd": 1,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "BARREIRAS",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 353,
+      "mtm_vd": 195,
+      "mtm_total": 548
+    },
+    {
+      "microrregiao": "BELEM",
+      "regional": "R4",
+      "uf": "PA",
+      "mtm_sr": 1503,
+      "mtm_vd": 685,
+      "mtm_total": 2188
+    },
+    {
+      "microrregiao": "BOA VISTA",
+      "regional": "R4",
+      "uf": "RR",
+      "mtm_sr": 376,
+      "mtm_vd": 282,
+      "mtm_total": 658
+    },
+    {
+      "microrregiao": "CACOAL",
+      "regional": "R4",
+      "uf": "RO",
+      "mtm_sr": 233,
+      "mtm_vd": 135,
+      "mtm_total": 368
+    },
+    {
+      "microrregiao": "CAJAZEIRAS",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 116,
+      "mtm_vd": 79,
+      "mtm_total": 195
+    },
+    {
+      "microrregiao": "CAMPINA GRANDE",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 322,
+      "mtm_vd": 128,
+      "mtm_total": 450
+    },
+    {
+      "microrregiao": "CARIRI",
+      "regional": "R4",
+      "uf": "CE",
+      "mtm_sr": 282,
+      "mtm_vd": 138,
+      "mtm_total": 420
+    },
+    {
+      "microrregiao": "CARPINA",
+      "regional": "R4",
+      "uf": "PE",
+      "mtm_sr": 186,
+      "mtm_vd": 99,
+      "mtm_total": 285
+    },
+    {
+      "microrregiao": "EUNAPOLIS",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 122,
+      "mtm_vd": 145,
+      "mtm_total": 267
+    },
+    {
+      "microrregiao": "FEIRA DE SANTANA",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 571,
+      "mtm_vd": 258,
+      "mtm_total": 829
+    },
+    {
+      "microrregiao": "FORTALEZA",
+      "regional": "R4",
+      "uf": "CE",
+      "mtm_sr": 2635,
+      "mtm_vd": 1553,
+      "mtm_total": 4188
+    },
+    {
+      "microrregiao": "GARANHUNS",
+      "regional": "R4",
+      "uf": "PE",
+      "mtm_sr": 120,
+      "mtm_vd": 89,
+      "mtm_total": 209
+    },
+    {
+      "microrregiao": "GUARABIRA",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 1,
+      "mtm_vd": 4,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "GUARAPUAVA",
+      "regional": "R4",
+      "uf": "SE",
+      "mtm_sr": 0,
+      "mtm_vd": 1,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "IMPERATRIZ",
+      "regional": "R4",
+      "uf": "MA",
+      "mtm_sr": 241,
+      "mtm_vd": 121,
+      "mtm_total": 362
+    },
+    {
+      "microrregiao": "ITABUNA",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 351,
+      "mtm_vd": 230,
+      "mtm_total": 581
+    },
+    {
+      "microrregiao": "JEQUIE",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 108,
+      "mtm_vd": 86,
+      "mtm_total": 194
+    },
+    {
+      "microrregiao": "JOAO PESSOA",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 1064,
+      "mtm_vd": 565,
+      "mtm_total": 1629
+    },
+    {
+      "microrregiao": "MACAPA",
+      "regional": "R4",
+      "uf": "AP",
+      "mtm_sr": 572,
+      "mtm_vd": 117,
+      "mtm_total": 689
+    },
+    {
+      "microrregiao": "MACEIO",
+      "regional": "R4",
+      "uf": "AL",
+      "mtm_sr": 1132,
+      "mtm_vd": 538,
+      "mtm_total": 1670
+    },
+    {
+      "microrregiao": "MANAUS",
+      "regional": "R4",
+      "uf": "AM",
+      "mtm_sr": 2711,
+      "mtm_vd": 1113,
+      "mtm_total": 3824
+    },
+    {
+      "microrregiao": "MARABA",
+      "regional": "R4",
+      "uf": "PA",
+      "mtm_sr": 251,
+      "mtm_vd": 203,
+      "mtm_total": 454
+    },
+    {
+      "microrregiao": "MOSSORO",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 318,
+      "mtm_vd": 186,
+      "mtm_total": 504
+    },
+    {
+      "microrregiao": "NATAL",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 1107,
+      "mtm_vd": 530,
+      "mtm_total": 1637
+    },
+    {
+      "microrregiao": "NÃO IDENTIFICADO",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 5626,
+      "mtm_vd": 3981,
+      "mtm_total": 9607
+    },
+    {
+      "microrregiao": "PARAUAPEBAS",
+      "regional": "R4",
+      "uf": "PA",
+      "mtm_sr": 383,
+      "mtm_vd": 239,
+      "mtm_total": 622
+    },
+    {
+      "microrregiao": "PARNAIBA",
+      "regional": "R4",
+      "uf": "PI",
+      "mtm_sr": 172,
+      "mtm_vd": 104,
+      "mtm_total": 276
+    },
+    {
+      "microrregiao": "PATOS",
+      "regional": "R4",
+      "uf": "PB",
+      "mtm_sr": 67,
+      "mtm_vd": 26,
+      "mtm_total": 93
+    },
+    {
+      "microrregiao": "PAULO AFONSO",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 64,
+      "mtm_vd": 39,
+      "mtm_total": 103
+    },
+    {
+      "microrregiao": "PETROLINA",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 412,
+      "mtm_vd": 250,
+      "mtm_total": 662
+    },
+    {
+      "microrregiao": "PORTO NACIONAL",
+      "regional": "R4",
+      "uf": "TO",
+      "mtm_sr": 608,
+      "mtm_vd": 187,
+      "mtm_total": 795
+    },
+    {
+      "microrregiao": "PORTO VELHO",
+      "regional": "R4",
+      "uf": "RO",
+      "mtm_sr": 658,
+      "mtm_vd": 225,
+      "mtm_total": 883
+    },
+    {
+      "microrregiao": "RECIFE",
+      "regional": "R4",
+      "uf": "PE",
+      "mtm_sr": 3017,
+      "mtm_vd": 1524,
+      "mtm_total": 4541
+    },
+    {
+      "microrregiao": "RIO BRANCO",
+      "regional": "R4",
+      "uf": "AC",
+      "mtm_sr": 424,
+      "mtm_vd": 151,
+      "mtm_total": 575
+    },
+    {
+      "microrregiao": "RONDONOPOLIS",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 0,
+      "mtm_vd": 1,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "SALVADOR",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 2947,
+      "mtm_vd": 1311,
+      "mtm_total": 4258
+    },
+    {
+      "microrregiao": "SANTA MARIA",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 3,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "SANTO ANTONIO DE JESUS",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 124,
+      "mtm_vd": 137,
+      "mtm_total": 261
+    },
+    {
+      "microrregiao": "SANTOS",
+      "regional": "R4",
+      "uf": "RN",
+      "mtm_sr": 0,
+      "mtm_vd": 1,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "SENHOR DO BONFIM",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 75,
+      "mtm_vd": 38,
+      "mtm_total": 113
+    },
+    {
+      "microrregiao": "SOBRAL",
+      "regional": "R4",
+      "uf": "CE",
+      "mtm_sr": 265,
+      "mtm_vd": 211,
+      "mtm_total": 476
+    },
+    {
+      "microrregiao": "TERESINA",
+      "regional": "R4",
+      "uf": "PI",
+      "mtm_sr": 922,
+      "mtm_vd": 407,
+      "mtm_total": 1329
+    },
+    {
+      "microrregiao": "UBERLANDIA",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 1,
+      "mtm_vd": 1,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "VALE DO IPOJUCA",
+      "regional": "R4",
+      "uf": "PE",
+      "mtm_sr": 386,
+      "mtm_vd": 213,
+      "mtm_total": 599
+    },
+    {
+      "microrregiao": "VILHENA",
+      "regional": "R4",
+      "uf": "RO",
+      "mtm_sr": 112,
+      "mtm_vd": 58,
+      "mtm_total": 170
+    },
+    {
+      "microrregiao": "VITORIA DA CONQUISTA",
+      "regional": "R4",
+      "uf": "BA",
+      "mtm_sr": 303,
+      "mtm_vd": 142,
+      "mtm_total": 445
+    }
+  ]
+}
