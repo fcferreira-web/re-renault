@@ -1,0 +1,5798 @@
+{
+  "tipo": "base1",
+  "registros": 724,
+  "dados": [
+    {
+      "microrregiao": "7601037",
+      "regional": "GRUPO JORLAN FRANCE BRASILIA",
+      "uf": "BRASILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 34
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 21
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600033",
+      "regional": "GRUPO ARMANDO",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 37
+    },
+    {
+      "microrregiao": "7600007",
+      "regional": "GRUPO AUTOMEGA",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 22
+    },
+    {
+      "microrregiao": "7600824",
+      "regional": "GRUPO BALILLA",
+      "uf": "INDAIATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 31
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "MARINGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 16
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "MONTES CLAROS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "SETE LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "PORTO ALEGRE IESA/DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7601156",
+      "regional": "GRUPO DU NORT MANAUS",
+      "uf": "MANAUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 84
+    },
+    {
+      "microrregiao": "7600990",
+      "regional": "GRUPO ESTACAO",
+      "uf": "CUIABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 21
+    },
+    {
+      "microrregiao": "7600108",
+      "regional": "GRUPO ESTORIL",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 19
+    },
+    {
+      "microrregiao": "7601264",
+      "regional": "GRUPO EUROVIA PB",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "RECIFE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 56
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 22
+    },
+    {
+      "microrregiao": "7601105",
+      "regional": "GRUPO FANCAR",
+      "uf": "RONDONOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 38
+    },
+    {
+      "microrregiao": "7600897",
+      "regional": "GRUPO GRAND CITE",
+      "uf": "MACAPA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600991",
+      "regional": "GRUPO GUARA",
+      "uf": "CAMPO GRANDE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 24
+    },
+    {
+      "microrregiao": "7600991",
+      "regional": "GRUPO GUARA",
+      "uf": "DOURADOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PORTO ALEGRE IESA/DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 31
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 10
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 19
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SAO JOSE DOS CAMPOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 18
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 51
+    },
+    {
+      "microrregiao": "7601091",
+      "regional": "GRUPO JPN",
+      "uf": "CAMPINA GRANDE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 15
+    },
+    {
+      "microrregiao": "7600442",
+      "regional": "GRUPO NISSUL",
+      "uf": "LITORAL LAGUNAR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO NOBRE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "FOZ DO IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "VITORIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 18
+    },
+    {
+      "microrregiao": "7600062",
+      "regional": "GRUPO PREMIER",
+      "uf": "BRASILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 35
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 25
+    },
+    {
+      "microrregiao": "7600948",
+      "regional": "GRUPO REGENCE FORTALEZA",
+      "uf": "FORTALEZA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 28
+    },
+    {
+      "microrregiao": "7600948",
+      "regional": "GRUPO REGENCE FORTALEZA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "VALE DO IPOJUCA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 19
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "RECIFE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 41
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 71
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 24
+    },
+    {
+      "microrregiao": "7600932",
+      "regional": "GRUPO SOMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601136",
+      "regional": "GRUPO TERRA SANTA",
+      "uf": "CARIRI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 20
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 29
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "ITU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 23
+    },
+    {
+      "microrregiao": "7600164",
+      "regional": "GRUPO VIA PARIS",
+      "uf": "TERESINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 35
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "CANOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600501",
+      "regional": "GRUPO BRUNE",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7600417",
+      "regional": "GRUPO DIJON",
+      "uf": "JUIZ DE FORA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "NITEROI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 36
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "ARARANGUA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600466",
+      "regional": "GRUPO DU NORT BELEM",
+      "uf": "BELEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 30
+    },
+    {
+      "microrregiao": "7601291",
+      "regional": "GRUPO DU NORT MACEIO",
+      "uf": "MACEIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7601153",
+      "regional": "GRUPO DU NORT MARABA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7601153",
+      "regional": "GRUPO DU NORT MARABA",
+      "uf": "PARAUAPEBAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7601264",
+      "regional": "GRUPO EUROVIA PB",
+      "uf": "JOAO PESSOA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 19
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PORTO ALEGRE IESA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "SANTA MARIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "CACHOEIRA DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600286",
+      "regional": "GRUPO JANGADA",
+      "uf": "FORTALEZA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 12
+    },
+    {
+      "microrregiao": "7600013",
+      "regional": "GRUPO LEAUTO PARIS",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 38
+    },
+    {
+      "microrregiao": "7600764",
+      "regional": "GRUPO MARLIN",
+      "uf": "BOA VISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 15
+    },
+    {
+      "microrregiao": "7600804",
+      "regional": "GRUPO MAZZUTTI",
+      "uf": "VILHENA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600848",
+      "regional": "GRUPO NASA",
+      "uf": "ANAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 10
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "GOIANIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 31
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "TOLEDO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "JAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600832",
+      "regional": "GRUPO RAVEL",
+      "uf": "SUDOESTE DE GOIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600091",
+      "regional": "GRUPO RENOVEL",
+      "uf": "ARACAJU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 15
+    },
+    {
+      "microrregiao": "7600757",
+      "regional": "GRUPO RUBI",
+      "uf": "EUNAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600757",
+      "regional": "GRUPO RUBI",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7601061",
+      "regional": "GRUPO SAGA LEMANS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600249",
+      "regional": "GRUPO TECAR DF",
+      "uf": "BRASILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 21
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601175",
+      "regional": "GRUPO URCA FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "JOINVILLE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "FRANCA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "JOINVILLE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 10
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "ITAPEVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 40
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "GUARAPUAVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600501",
+      "regional": "GRUPO BRUNE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "CHAPECO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "PORTO ALEGRE DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7600466",
+      "regional": "GRUPO DU NORT BELEM",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601155",
+      "regional": "GRUPO DU NORT SAO LUIS",
+      "uf": "IMPERATRIZ",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7601153",
+      "regional": "GRUPO DU NORT MARABA",
+      "uf": "MARABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7601155",
+      "regional": "GRUPO DU NORT SAO LUIS",
+      "uf": "AGLOMERACAO URBANA DE SAO LUIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 19
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "TUBARAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "OSORIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "MONTENEGRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PASSO FUNDO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "CONTAGEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "FEIRA DE SANTANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600810",
+      "regional": "GRUPO LA VIE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600804",
+      "regional": "GRUPO MAZZUTTI",
+      "uf": "CACOAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "LIMEIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 18
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7600671",
+      "regional": "GRUPO MOREL",
+      "uf": "SINOP",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "CASCAVEL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 12
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "VILA VELHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "LINHARES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "GUARAPARI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "BAURU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600104",
+      "regional": "GRUPO REDENCAO",
+      "uf": "NATAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 24
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "GARANHUNS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600091",
+      "regional": "GRUPO RENOVEL",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601061",
+      "regional": "GRUPO SAGA LEMANS",
+      "uf": "PORTO VELHO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 14
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "RIO CLARO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "ARARAQUARA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 27
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "INDAIATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "POUSO ALEGRE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "CATANDUVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "PORTO NACIONAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601108",
+      "regional": "GRUPO ARAVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600007",
+      "regional": "GRUPO AUTOMEGA",
+      "uf": "TIJUCAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "JARAGUA DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "SAO BENTO DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600732",
+      "regional": "GRUPO AUTOVIA",
+      "uf": "PETROLINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "SERRANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "DUQUE DE CAXIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "PONTA GROSSA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "CONCORDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "BLUMENAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "CAMPOS DOS GOYTACAZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "PORTO ALEGRE IESA/DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "CAXIAS DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601291",
+      "regional": "GRUPO DU NORT MACEIO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7601156",
+      "regional": "GRUPO DU NORT MANAUS",
+      "uf": "RIO BRANCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601156",
+      "regional": "GRUPO DU NORT MANAUS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600990",
+      "regional": "GRUPO ESTACAO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "RIBEIRAO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601105",
+      "regional": "GRUPO FANCAR",
+      "uf": "CUIABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "PORTO ALEGRE GALA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600935",
+      "regional": "GRUPO GAMBOA",
+      "uf": "MOSSORO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "PALHOCA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600991",
+      "regional": "GRUPO GUARA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "ERECHIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "SANTA CRUZ DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PELOTAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "IJUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "CAMPANHA OCIDENTAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600810",
+      "regional": "GRUPO LA VIE",
+      "uf": "ALAGOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "IPATINGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601087",
+      "regional": "GRUPO MAXVEL",
+      "uf": "TATUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "AMERICANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 20
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "VALINHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "MOGI-MIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "VINHEDO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "ANAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600442",
+      "regional": "GRUPO NISSUL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600803",
+      "regional": "GRUPO NOVA BAHIA",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600709",
+      "regional": "GRUPO ORIGINAL",
+      "uf": "AGLOMERACAO URBANA DE SAO LUIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600104",
+      "regional": "GRUPO REDENCAO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600989",
+      "regional": "GRUPO RIO SENA",
+      "uf": "VALE DO PARAIBA FLUMINENSE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601167",
+      "regional": "GRUPO ROMA MG",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 14
+    },
+    {
+      "microrregiao": "7601167",
+      "regional": "GRUPO ROMA MG",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601160",
+      "regional": "GRUPO ROMA RJ",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 12
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "SAO CARLOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7601175",
+      "regional": "GRUPO URCA FRANCE",
+      "uf": "UBERLANDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600164",
+      "regional": "GRUPO VIA PARIS",
+      "uf": "PARNAIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "ARACATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "SAO JOSE DO RIO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7600033",
+      "regional": "GRUPO ARMANDO",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "MONTENEGRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "TRES LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "CASCAVEL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "JEQUIE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "XANXERE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "JOINVILLE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "CAMPO MOURÃO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "JUIZ DE FORA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "POCOS DE CALDAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "BAURU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "BAURU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "VALINHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "ARAGUAINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601108",
+      "regional": "GRUPO ARAVEL",
+      "uf": "APUCARANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "CURITIBANOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "JOACABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 11
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "GRAMADO-CANELA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "CAMPANHA OCIDENTAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "CAMPOS DE LAGES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601155",
+      "regional": "GRUPO DU NORT SAO LUIS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "CAMPANHA MERIDIONAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600671",
+      "regional": "GRUPO MOREL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600803",
+      "regional": "GRUPO NOVA BAHIA",
+      "uf": "FEIRA DE SANTANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "EUNAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601167",
+      "regional": "GRUPO ROMA MG",
+      "uf": "CONTAGEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600932",
+      "regional": "GRUPO SOMA",
+      "uf": "ITAPEVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600897",
+      "regional": "GRUPO GRAND CITE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601097",
+      "regional": "GRUPO V MUCHIUTT",
+      "uf": "PRESIDENTE PRUDENTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7601067",
+      "regional": "GRUPO VIA MG",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601108",
+      "regional": "GRUPO ARAVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "CAMPOS DE LAGES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "RIO DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "NITEROI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 18
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "PARANAGUA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "LONDRINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 17
+    },
+    {
+      "microrregiao": "7600501",
+      "regional": "GRUPO BRUNE",
+      "uf": "FEIRA DE SANTANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "XANXERE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "JOAO PESSOA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "LAGOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "LAJEADO-ESTRELA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "OSORIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601156",
+      "regional": "GRUPO DU NORT MANAUS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "GARANHUNS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601105",
+      "regional": "GRUPO FANCAR",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "PELOTAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600935",
+      "regional": "GRUPO GAMBOA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PORTO ALEGRE GALA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7601299",
+      "regional": "GRUPO IESA",
+      "uf": "TUBARAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "FOZ DO IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601037",
+      "regional": "GRUPO JORLAN FRANCE BRASILIA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601091",
+      "regional": "GRUPO JPN",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600013",
+      "regional": "GRUPO LEAUTO PARIS",
+      "uf": "SERRANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "UBERLANDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601137",
+      "regional": "GRUPO MARSELHA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601137",
+      "regional": "GRUPO MARSELHA",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601137",
+      "regional": "GRUPO MARSELHA",
+      "uf": "JEQUIE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "BOTUCATU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "ARACATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600442",
+      "regional": "GRUPO NISSUL",
+      "uf": "PELOTAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "GUARAPUAVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600709",
+      "regional": "GRUPO ORIGINAL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "BOTUCATU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 9
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "MARILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "ITAPEVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "UBERLANDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600832",
+      "regional": "GRUPO RAVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600091",
+      "regional": "GRUPO RENOVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "CACOAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601160",
+      "regional": "GRUPO ROMA RJ",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 18
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "RIBEIRAO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "VALINHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "VILA VELHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "LIMEIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601175",
+      "regional": "GRUPO URCA FRANCE",
+      "uf": "UBERABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "TATUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 7
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "MACEIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "AMERICANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "VARGINHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 8
+    },
+    {
+      "microrregiao": "7600164",
+      "regional": "GRUPO VIA PARIS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "VOTUPORANGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600863",
+      "regional": "GRUPO LA FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601136",
+      "regional": "GRUPO TERRA SANTA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600927",
+      "regional": "GRUPO NORD",
+      "uf": "SOBRAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "GOIANIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 13
+    },
+    {
+      "microrregiao": "7601067",
+      "regional": "GRUPO VIA MG",
+      "uf": "UNAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "MONTES CLAROS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "VARGINHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "JUIZ DE FORA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "JUIZ DE FORA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600990",
+      "regional": "GRUPO ESTACAO",
+      "uf": "SINOP",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600732",
+      "regional": "GRUPO AUTOVIA",
+      "uf": "PETROLINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7601108",
+      "regional": "GRUPO ARAVEL",
+      "uf": "CASCAVEL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601160",
+      "regional": "GRUPO ROMA RJ",
+      "uf": "ITAGUAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600989",
+      "regional": "GRUPO RIO SENA",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600989",
+      "regional": "GRUPO RIO SENA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "CAXIAS DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "CACHOEIRA DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "CRICIUMA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "TUBARAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "BLUMENAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "JARAGUA DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "AMERICANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "TATUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "MOGI-MIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "ITU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "INDAIATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600932",
+      "regional": "GRUPO SOMA",
+      "uf": "ITAPETININGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "SAO JOSE DOS CAMPOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "LAGOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "FEIRA DE SANTANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600442",
+      "regional": "GRUPO NISSUL",
+      "uf": "PORTO ALEGRE NISSUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600007",
+      "regional": "GRUPO AUTOMEGA",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "PALHOCA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601104",
+      "regional": "GRUPO MULTICAR",
+      "uf": "GOVERNADOR VALADARES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "CACHOEIRO DE ITAPEMIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "JEQUIE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7601167",
+      "regional": "GRUPO ROMA MG",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "MACEIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "BARREIRAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "AGLOMERACAO URBANA DE SAO LUIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "VARGINHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "PORTO VELHO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "BARREIRAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "BELEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "AGLOMERACAO URBANA DE SAO LUIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "CUIABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600417",
+      "regional": "GRUPO DIJON",
+      "uf": "UBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SANTA CRUZ DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600501",
+      "regional": "GRUPO BRUNE",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "PORTO UNIAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601137",
+      "regional": "GRUPO MARSELHA",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600599",
+      "regional": "GRUPO VIA",
+      "uf": "BARREIRAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600757",
+      "regional": "GRUPO RUBI",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "FEIRA DE SANTANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600286",
+      "regional": "GRUPO JANGADA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 6
+    },
+    {
+      "microrregiao": "7600164",
+      "regional": "GRUPO VIA PARIS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600417",
+      "regional": "GRUPO DIJON",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "UBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "ITABIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601264",
+      "regional": "GRUPO EUROVIA PB",
+      "uf": "CAMPINA GRANDE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601097",
+      "regional": "GRUPO V MUCHIUTT",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601108",
+      "regional": "GRUPO ARAVEL",
+      "uf": "LONDRINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "APUCARANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "CAMPOS DOS GOYTACAZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600764",
+      "regional": "GRUPO MARLIN",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "TUBARAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "CAMPOS DE LAGES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "SAO MIGUEL DO OESTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "PRESIDENTE PRUDENTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "LIMEIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "AVARE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "RIBEIRAO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "TATUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "LAGOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "ITAGUAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7601160",
+      "regional": "GRUPO ROMA RJ",
+      "uf": "DUQUE DE CAXIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601291",
+      "regional": "GRUPO DU NORT MACEIO",
+      "uf": "ARAPIRACA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7601105",
+      "regional": "GRUPO FANCAR",
+      "uf": "CAMPO MOURÃO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600810",
+      "regional": "GRUPO LA VIE",
+      "uf": "PAULO AFONSO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600678",
+      "regional": "GRUPO DICAL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600678",
+      "regional": "GRUPO DICAL",
+      "uf": "CAJAZEIRAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "PORTO ALEGRE IESA/DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600023",
+      "regional": "GRUPO ITAIMBE",
+      "uf": "PASSO FUNDO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600417",
+      "regional": "GRUPO DIJON",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 5
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "SETE LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "MONTES CLAROS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "GOIANIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "PORTO ALEGRE DR SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600007",
+      "regional": "GRUPO AUTOMEGA",
+      "uf": "BLUMENAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600848",
+      "regional": "GRUPO NASA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601053",
+      "regional": "GRUPO BESOURO",
+      "uf": "SERRANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600249",
+      "regional": "GRUPO TECAR DF",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO NOBRE",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "OSORIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600104",
+      "regional": "GRUPO REDENCAO",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "CARPINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601091",
+      "regional": "GRUPO JPN",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601091",
+      "regional": "GRUPO JPN",
+      "uf": "GARANHUNS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "BLUMENAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "PARANAGUA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600062",
+      "regional": "GRUPO PREMIER",
+      "uf": "GOIANIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600033",
+      "regional": "GRUPO ARMANDO",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "ALAGOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "PORTO UNIAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600258",
+      "regional": "GRUPO OPEN VEICULOS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "VITORIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "UBERLANDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "CASCAVEL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "MACAE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "MACAE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600442",
+      "regional": "GRUPO NISSUL",
+      "uf": "CAMPANHA MERIDIONAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7601293",
+      "regional": "GRUPO DR SUL",
+      "uf": "OSORIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "PORTO ALEGRE NISSUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "IJUI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "CANOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "JUNDIAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "GUARULHOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600732",
+      "regional": "GRUPO AUTOVIA",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601137",
+      "regional": "GRUPO MARSELHA",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "BARREIRAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600948",
+      "regional": "GRUPO REGENCE FORTALEZA",
+      "uf": "CARIRI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "BRASILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "ANAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "SETE LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "VARGINHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "POCOS DE CALDAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 4
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "MARINGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "FOZ DO IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "ARACAJU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600948",
+      "regional": "GRUPO REGENCE FORTALEZA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SAO JOSE DO RIO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "PORTO UNIAO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "VINHEDO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "LIMEIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "ITAPETININGA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "VALPARAISO DE GOIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "VILA VELHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "SETE LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "MEIA PONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "CONTAGEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "MONTES CLAROS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "UBERLANDIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600804",
+      "regional": "GRUPO MAZZUTTI",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601136",
+      "regional": "GRUPO TERRA SANTA",
+      "uf": "FORTALEZA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "CARPINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600501",
+      "regional": "GRUPO BRUNE",
+      "uf": "ITABUNA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600803",
+      "regional": "GRUPO NOVA BAHIA",
+      "uf": "JEQUIE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600803",
+      "regional": "GRUPO NOVA BAHIA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "JOINVILLE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "JAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "ITU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "MOGI-MIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "CAMPINAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "MOGI-MIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600848",
+      "regional": "GRUPO NASA",
+      "uf": "MEIA PONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "POUSO ALEGRE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600085",
+      "regional": "GRUPO EUROVIA PE",
+      "uf": "VALE DO IPOJUCA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "ALAGOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "PORTO ALEGRE IESA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "GRAMADO-CANELA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "SANTA MARIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "CAMPOS DE LAGES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "OSORIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600895",
+      "regional": "GRUPO PROESTE",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "RIBEIRAO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "ITU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "PRESIDENTE PRUDENTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "VALPARAISO DE GOIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "BRASILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "VILA VELHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600104",
+      "regional": "GRUPO REDENCAO",
+      "uf": "MOSSORO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601086",
+      "regional": "GRUPO VIVANT",
+      "uf": "CARPINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601153",
+      "regional": "GRUPO DU NORT MARABA",
+      "uf": "IMPERATRIZ",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600249",
+      "regional": "GRUPO TECAR DF",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600415",
+      "regional": "GRUPO EUROVIA BA",
+      "uf": "ARACAJU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "CRICIUMA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "ITAJAI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "GUARAPUAVA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "CAMPO MOURÃO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600824",
+      "regional": "GRUPO BALILLA",
+      "uf": "ITU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "PIRACICABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SAO JOSE DO RIO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "LIMEIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "POUSO ALEGRE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601175",
+      "regional": "GRUPO URCA FRANCE",
+      "uf": "POCOS DE CALDAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "MEIA PONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "GOIANIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "CERES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600848",
+      "regional": "GRUPO NASA",
+      "uf": "CERES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600927",
+      "regional": "GRUPO NORD",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NATAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600249",
+      "regional": "GRUPO TECAR DF",
+      "uf": "MANAUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600990",
+      "regional": "GRUPO ESTACAO",
+      "uf": "RONDONOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600100",
+      "regional": "GRUPO GLOBO - SC",
+      "uf": "TIJUCAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "FLORIANOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600991",
+      "regional": "GRUPO GUARA",
+      "uf": "TRES LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "PELOTAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "BAURU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601097",
+      "regional": "GRUPO V MUCHIUTT",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "SOROCABA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "PRESIDENTE PRUDENTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "OSASCO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "CERES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600013",
+      "regional": "GRUPO LEAUTO PARIS",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600976",
+      "regional": "GRUPO ALLIANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "CACHOEIRO DE ITAPEMIRIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600878",
+      "regional": "GRUPO AZZURRA",
+      "uf": "MACAE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "CAMPOS DOS GOYTACAZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600086",
+      "regional": "GRUPO CARMO",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600592",
+      "regional": "GRUPO LEVA",
+      "uf": "GOVERNADOR VALADARES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "PETROLINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600363",
+      "regional": "GRUPO GAMA VEICULOS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "SENHOR DO BONFIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "ALAGOINHAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600473",
+      "regional": "GRUPO JUBIABA",
+      "uf": "SANTO ANTONIO DE JESUS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600927",
+      "regional": "GRUPO NORD",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "CAMPANHA OCIDENTAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600012",
+      "regional": "GRUPO IESA",
+      "uf": "CAXIAS DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "FOZ DO IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600528",
+      "regional": "GRUPO R POINT",
+      "uf": "CHAPECO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600932",
+      "regional": "GRUPO SOMA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "RIO CLARO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "ARARAQUARA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600989",
+      "regional": "GRUPO RIO SENA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "POUSO ALEGRE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "MEIA PONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "SALVADOR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "JEQUIE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601094",
+      "regional": "GRUPO VIA LESTE",
+      "uf": "CAMPINA GRANDE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600803",
+      "regional": "GRUPO NOVA BAHIA",
+      "uf": "VITORIA DA CONQUISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "BELO HORIZONTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "ITABIRA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600013",
+      "regional": "GRUPO LEAUTO PARIS",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600690",
+      "regional": "GRUPO AUTO FRANCE G2",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600989",
+      "regional": "GRUPO RIO SENA",
+      "uf": "NOVA IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "RIO DE JANEIRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601061",
+      "regional": "GRUPO SAGA LEMANS",
+      "uf": "VILHENA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600109",
+      "regional": "GRUPO DR SUL",
+      "uf": "PORTO ALEGRE GALA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "MARILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "SAO PAULO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "AMERICANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600839",
+      "regional": "GRUPO NAVESA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "PONTA GROSSA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "FOZ DO IGUACU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "CASCAVEL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "MONTENEGRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "LONDRINA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600596",
+      "regional": "GRUPO REGENCE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600709",
+      "regional": "GRUPO ORIGINAL",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600382",
+      "regional": "GRUPO MERCANTIL ANDRETA",
+      "uf": "VILA VELHA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "DUQUE DE CAXIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "POUSO ALEGRE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600863",
+      "regional": "GRUPO LA FRANCE",
+      "uf": "SENHOR DO BONFIM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 3
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600810",
+      "regional": "GRUPO LA VIE",
+      "uf": "MACEIO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "PAULO AFONSO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "AGLOMERACAO URBANA DE SAO LUIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "POCOS DE CALDAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600554",
+      "regional": "GRUPO VIA MONDO",
+      "uf": "SETE LAGOAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7601153",
+      "regional": "GRUPO DU NORT MARABA",
+      "uf": "BELEM",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "CAMPO MOURÃO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601160",
+      "regional": "GRUPO ROMA RJ",
+      "uf": "NITEROI",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600983",
+      "regional": "GRUPO GALA",
+      "uf": "MONTENEGRO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "RIO DO SUL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "BLUMENAU",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "SAO JOSE DO RIO PRETO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "ARACATUBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600973",
+      "regional": "GRUPO EURO",
+      "uf": "MARILIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600108",
+      "regional": "GRUPO ESTORIL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600332",
+      "regional": "GRUPO DESTAQUE FRANCE",
+      "uf": "SAO JOSE DOS CAMPOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "RIO CLARO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600822",
+      "regional": "GRUPO ORVEL",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600546",
+      "regional": "GRUPO JORLAN FRANCE MINAS",
+      "uf": "DIVINOPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600549",
+      "regional": "GRUPO SINAL FRANCE",
+      "uf": "CURITIBA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600088",
+      "regional": "GRUPO DINISA",
+      "uf": "SERRANA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "CAMPOS DOS GOYTACAZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600152",
+      "regional": "GRUPO ITAVEMA",
+      "uf": "CHAPECO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600033",
+      "regional": "GRUPO ARMANDO",
+      "uf": "MOGI DAS CRUZES",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600358",
+      "regional": "GRUPO GLOBO - PR",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "LITORAL LAGUNAR",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "CRICIUMA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600393",
+      "regional": "GRUPO RODALEVE",
+      "uf": "CAMPO MOURÃO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600391",
+      "regional": "GRUPO BARIGUI",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600075",
+      "regional": "GRUPO VALEC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "BRAGANCA PAULISTA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600757",
+      "regional": "GRUPO RUBI",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600742",
+      "regional": "GRUPO AUTOPLUS SC",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600167",
+      "regional": "GRUPO DE MARCO",
+      "uf": "SAO MIGUEL DO OESTE",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601062",
+      "regional": "GRUPO AMAZONAS",
+      "uf": "SANTOS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 1
+    },
+    {
+      "microrregiao": "7600519",
+      "regional": "GRUPO SANTA EMILIA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600848",
+      "regional": "GRUPO NASA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 2
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "ANAPOLIS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600520",
+      "regional": "GRUPO TECAR GO",
+      "uf": "SUDOESTE DE GOIAS",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600935",
+      "regional": "GRUPO GAMBOA",
+      "uf": "NATAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7601122",
+      "regional": "GRUPO FABERGE",
+      "uf": "NÃO IDENTIFICADO",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600440",
+      "regional": "GRUPO VILLE",
+      "uf": "SAO PAULO CAPITAL",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    },
+    {
+      "microrregiao": "7600953",
+      "regional": "GRUPO TORIBA",
+      "uf": "VITORIA",
+      "mtm_sr": 0,
+      "mtm_vd": 0,
+      "mtm_total": 0
+    }
+  ]
+}
