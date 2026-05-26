@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<x-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>MA</B>
+		<C>Grupo Du Nort São Luís</C>
+		<D>AGLOMERACAO URBANA DE SAO LUIS</D>
+		<E>7601155</E>
+		<F>0.55</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>MA</B>
+		<C>Grupo Original</C>
+		<D>AGLOMERACAO URBANA DE SAO LUIS</D>
+		<E>7600709</E>
+		<F>0.45</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo La Vie</C>
+		<D>ALAGOINHAS</D>
+		<E>7600810</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>AMERICANA</D>
+		<E>7600382</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>GO</B>
+		<C>Grupo Nasa</C>
+		<D>ANAPOLIS</D>
+		<E>7600848</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Aravel</C>
+		<D>APUCARANA</D>
+		<E>7601108</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>SE</B>
+		<C>Grupo Renovel</C>
+		<D>ARACAJU</D>
+		<E>7600091</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Ville</C>
+		<D>ARACATUBA</D>
+		<E>7600440</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>TO</B>
+		<C>Grupo Alliance</C>
+		<D>ARAGUAINA</D>
+		<E>7600976</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>AL</B>
+		<C>Grupo Du Nort Maceió</C>
+		<D>ARAPIRACA</D>
+		<E>7601291</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo DR Sul SC</C>
+		<D>ARARANGUA</D>
+		<E>7601293</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Santa Emilia</C>
+		<D>ARARAQUARA</D>
+		<E>7600519</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Proeste</C>
+		<D>AVARE</D>
+		<E>7600895</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Via</C>
+		<D>BARREIRAS</D>
+		<E>7600599</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Proeste</C>
+		<D>BAURU</D>
+		<E>7600895</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PA</B>
+		<C>Grupo Du Nort Belém</C>
+		<D>BELEM</D>
+		<E>7600466</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Roma MG</C>
+		<D>BELO HORIZONTE</D>
+		<E>7601167</E>
+		<F>0.375</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Jorlan France Minas</C>
+		<D>BELO HORIZONTE</D>
+		<E>7600546</E>
+		<F>0.625</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>BLUMENAU</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RR</B>
+		<C>Grupo Marlin</C>
+		<D>BOA VISTA</D>
+		<E>7600764</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Proeste</C>
+		<D>BOTUCATU</D>
+		<E>7600895</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>BRAGANCA PAULISTA</D>
+		<E>7600382</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>DF</B>
+		<C>Grupo Tecar DF</C>
+		<D>BRASILIA</D>
+		<E>7600249</E>
+		<F>0.295</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>DF</B>
+		<C>Grupo Premier</C>
+		<D>BRASILIA</D>
+		<E>7600062</E>
+		<F>0.295</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>DF</B>
+		<C>Grupo Jorlan France Brasília</C>
+		<D>BRASILIA</D>
+		<E>7601037</E>
+		<F>0.41</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Itaimbé</C>
+		<D>CACHOEIRA DO SUL</D>
+		<E>7600023</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>ES</B>
+		<C>Grupo Orvel</C>
+		<D>CACHOEIRO DE ITAPEMIRIM</D>
+		<E>7600822</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RO</B>
+		<C>Grupo Mazzutti</C>
+		<D>CACOAL</D>
+		<E>7600804</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo Dical</C>
+		<D>CAJAZEIRAS</D>
+		<E>7600678</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Itaimbé</C>
+		<D>CAMPANHA MERIDIONAL</D>
+		<E>7600023</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Itaimbé</C>
+		<D>CAMPANHA OCIDENTAL</D>
+		<E>7600023</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo JPN</C>
+		<D>CAMPINA GRANDE</D>
+		<E>7601091</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>CAMPINAS</D>
+		<E>7600382</E>
+		<F>0.4</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Valec</C>
+		<D>CAMPINAS</D>
+		<E>7600075</E>
+		<F>0.6</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MS</B>
+		<C>Grupo Guará</C>
+		<D>CAMPO GRANDE</D>
+		<E>7600991</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MT</B>
+		<C>Grupo Fancar</C>
+		<D>CAMPO MOURÃO</D>
+		<E>7601105</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo DR Sul SC</C>
+		<D>CAMPOS DE LAGES</D>
+		<E>7601293</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Auto France G2</C>
+		<D>CAMPOS DOS GOYTACAZES</D>
+		<E>7600690</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Autoplus SC</C>
+		<D>CANOINHAS</D>
+		<E>7600742</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>CE</B>
+		<C>Grupo Terra Santa</C>
+		<D>CARIRI</D>
+		<E>7601136</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PE</B>
+		<C>Grupo Vivant</C>
+		<D>CARPINA</D>
+		<E>7601086</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Open Veículos</C>
+		<D>CASCAVEL</D>
+		<E>7600258</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Ville</C>
+		<D>CATANDUVA</D>
+		<E>7600440</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo DR Sul RS</C>
+		<D>CAXIAS DO SUL</D>
+		<E>7600109</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>GO</B>
+		<C>Grupo Pinauto</C>
+		<D>CERES</D>
+		<E>7600811</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>CHAPECO</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>CONCORDIA</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Roma MG</C>
+		<D>CONTAGEM</D>
+		<E>7601167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo DR Sul SC</C>
+		<D>CRICIUMA</D>
+		<E>7601293</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MT</B>
+		<C>Grupo Estação</C>
+		<D>CUIABA</D>
+		<E>7600990</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>CURITIBA</D>
+		<E>7600391</E>
+		<F>0.46</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Globo - PR</C>
+		<D>CURITIBA</D>
+		<E>7600358</E>
+		<F>0.54</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>CURITIBANOS</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Dijon</C>
+		<D>DIVINOPOLIS</D>
+		<E>7600417</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MS</B>
+		<C>Grupo Guará</C>
+		<D>DOURADOS</D>
+		<E>7600991</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Azzurra</C>
+		<D>DUQUE DE CAXIAS</D>
+		<E>7600878</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>ERECHIM</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Rubi</C>
+		<D>EUNAPOLIS</D>
+		<E>7600757</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Jubiabá</C>
+		<D>FEIRA DE SANTANA</D>
+		<E>7600473</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Globo - SC</C>
+		<D>FLORIANOPOLIS</D>
+		<E>7600100</E>
+		<F>0.4</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Automega</C>
+		<D>FLORIANOPOLIS</D>
+		<E>7600007</E>
+		<F>0.6</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>CE</B>
+		<C>Grupo Regence Fortaleza</C>
+		<D>FORTALEZA</D>
+		<E>7600948</E>
+		<F>0.6</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>CE</B>
+		<C>Grupo Jangada</C>
+		<D>FORTALEZA</D>
+		<E>7600286</E>
+		<F>0.4</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Open Veículos</C>
+		<D>FOZ DO IGUACU</D>
+		<E>7600258</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Euro</C>
+		<D>FRANCA</D>
+		<E>7600973</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo JPN</C>
+		<D>GARANHUNS</D>
+		<E>7601091</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>GO</B>
+		<C>Grupo Navesa</C>
+		<D>GOIANIA</D>
+		<E>7600839</E>
+		<F>0.5</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>GO</B>
+		<C>Grupo Tecar GO</C>
+		<D>GOIANIA</D>
+		<E>7600520</E>
+		<F>0.5</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Multicar</C>
+		<D>GOVERNADOR VALADARES</D>
+		<E>7601104</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo DR Sul RS</C>
+		<D>GRAMADO-CANELA</D>
+		<E>7600109</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo Eurovia PB</C>
+		<D>GUARABIRA</D>
+		<E>7601264</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>ES</B>
+		<C>Grupo Orvel</C>
+		<D>GUARAPARI</D>
+		<E>7600822</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>GUARAPUAVA</D>
+		<E>7600391</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Itavema</C>
+		<D>GUARULHOS</D>
+		<E>7600152</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Itaimbé</C>
+		<D>IJUI</D>
+		<E>7600023</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>MA</B>
+		<C>Grupo Du Nort São Luís</C>
+		<D>IMPERATRIZ</D>
+		<E>7601155</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Balilla</C>
+		<D>INDAIATUBA</D>
+		<E>7600824</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Leva</C>
+		<D>IPATINGA</D>
+		<E>7600592</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Leva</C>
+		<D>ITABIRA</D>
+		<E>7600592</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Rubi</C>
+		<D>ITABUNA</D>
+		<E>7600757</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Azzurra</C>
+		<D>ITAGUAI</D>
+		<E>7600878</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Globo - SC</C>
+		<D>ITAJAI</D>
+		<E>7600100</E>
+		<F>0.5</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Autoplus SC</C>
+		<D>ITAJAI</D>
+		<E>7600742</E>
+		<F>0.5</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Soma</C>
+		<D>ITAPETININGA</D>
+		<E>7600932</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Soma</C>
+		<D>ITAPEVA</D>
+		<E>7600932</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Autoplus SC</C>
+		<D>JARAGUA DO SUL</D>
+		<E>7600742</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Proeste</C>
+		<D>JAU</D>
+		<E>7600895</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Rodaleve</C>
+		<D>JEQUIE</D>
+		<E>7600393</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>JOACABA</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo Eurovia PB</C>
+		<D>JOAO PESSOA</D>
+		<E>7601264</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Globo - SC</C>
+		<D>JOINVILLE</D>
+		<E>7600100</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Dijon</C>
+		<D>JUIZ DE FORA</D>
+		<E>7600417</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Valec</C>
+		<D>JUNDIAI</D>
+		<E>7600075</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Auto France G2</C>
+		<D>LAGOS</D>
+		<E>7600690</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo DR Sul RS</C>
+		<D>LAJEADO-ESTRELA</D>
+		<E>7600109</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>LIMEIRA</D>
+		<E>7600382</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>ES</B>
+		<C>Grupo Orvel</C>
+		<D>LINHARES</D>
+		<E>7600822</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Nissul</C>
+		<D>LITORAL LAGUNAR</D>
+		<E>7600442</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>LONDRINA</D>
+		<E>7600391</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Auto France G2</C>
+		<D>MACAE</D>
+		<E>7600690</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>AP</B>
+		<C>Grupo Grand Cite</C>
+		<D>MACAPA</D>
+		<E>7600897</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>AL</B>
+		<C>Grupo Du Nort Maceió</C>
+		<D>MACEIO</D>
+		<E>7601291</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>AM</B>
+		<C>Grupo Du Nort Manaus</C>
+		<D>MANAUS</D>
+		<E>7601156</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PA</B>
+		<C>Grupo Du Nort Marabá</C>
+		<D>MARABA</D>
+		<E>7601153</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Proeste</C>
+		<D>MARILIA</D>
+		<E>7600895</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>MARINGA</D>
+		<E>7600391</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Urca France</C>
+		<D>MEIA PONTE</D>
+		<E>7601175</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Destaque France</C>
+		<D>MOGI DAS CRUZES</D>
+		<E>7600332</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>MOGI-MIRIM</D>
+		<E>7600382</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>MONTENEGRO</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Carmo</C>
+		<D>MONTES CLAROS</D>
+		<E>7600086</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RN</B>
+		<C>Grupo Gamboa</C>
+		<D>MOSSORO</D>
+		<E>7600935</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>NÃO IDENTIFICADO</A>
+		<B>NÃO IDENTIFICADO</B>
+		<C>NÃO IDENTIFICADO</C>
+		<D>NÃO IDENTIFICADO</D>
+		<E>0</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RN</B>
+		<C>Grupo Redenção</C>
+		<D>NATAL</D>
+		<E>7600104</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Dinisa</C>
+		<D>NITEROI</D>
+		<E>7600088</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Roma RJ</C>
+		<D>NOVA IGUACU</D>
+		<E>7601160</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Sinal France</C>
+		<D>OSASCO</D>
+		<E>7600549</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>OSORIO</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Globo - SC</C>
+		<D>PALHOCA</D>
+		<E>7600100</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>PARANAGUA</D>
+		<E>7600391</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PA</B>
+		<C>Grupo Du Nort Marabá</C>
+		<D>PARAUAPEBAS</D>
+		<E>7601153</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PI</B>
+		<C>Grupo Via Paris</C>
+		<D>PARNAIBA</D>
+		<E>7600164</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>PASSO FUNDO</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PB</B>
+		<C>Grupo Via Leste</C>
+		<D>PATOS</D>
+		<E>7601094</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo La Vie</C>
+		<D>PAULO AFONSO</D>
+		<E>7600810</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Nissul</C>
+		<D>PELOTAS</D>
+		<E>7600442</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PE</B>
+		<C>Grupo Autovia</C>
+		<D>PETROLINA</D>
+		<E>7600732</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Mercantil Andreta</C>
+		<D>PIRACICABA</D>
+		<E>7600382</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Via Mondo</C>
+		<D>POCOS DE CALDAS</D>
+		<E>7600554</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Barigui</C>
+		<D>PONTA GROSSA</D>
+		<E>7600391</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo DR Sul RS</C>
+		<D>PORTO ALEGRE DR SUL</D>
+		<E>7600109</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Gala</C>
+		<D>PORTO ALEGRE GALA</D>
+		<E>7600983</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>PORTO ALEGRE IESA</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>PORTO ALEGRE IESA/DR SUL</D>
+		<E>7600012</E>
+		<F>0.66</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo DR Sul RS</C>
+		<D>PORTO ALEGRE IESA/DR SUL</D>
+		<E>7600109</E>
+		<F>0.34</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Nissul</C>
+		<D>PORTO ALEGRE NISSUL</D>
+		<E>7600442</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>TO</B>
+		<C>Grupo Alliance</C>
+		<D>PORTO NACIONAL</D>
+		<E>7600976</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>PORTO UNIAO</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RO</B>
+		<C>Grupo Saga Lemans</C>
+		<D>PORTO VELHO</D>
+		<E>7601061</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Via Mondo</C>
+		<D>POUSO ALEGRE</D>
+		<E>7600554</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo V Muchiutt</C>
+		<D>PRESIDENTE PRUDENTE</D>
+		<E>7601097</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PE</B>
+		<C>Grupo Regence</C>
+		<D>RECIFE</D>
+		<E>7600596</E>
+		<F>0.4</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PE</B>
+		<C>Grupo Eurovia PE</C>
+		<D>RECIFE</D>
+		<E>7600085</E>
+		<F>0.6</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Euro</C>
+		<D>RIBEIRAO PRETO</D>
+		<E>7600973</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>AM</B>
+		<C>Grupo Du Nort Manaus</C>
+		<D>RIO BRANCO</D>
+		<E>7601156</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Santa Emilia</C>
+		<D>RIO CLARO</D>
+		<E>7600519</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Azzurra</C>
+		<D>RIO DE JANEIRO</D>
+		<E>7600878</E>
+		<F>0.406</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Leauto Paris</C>
+		<D>RIO DE JANEIRO</D>
+		<E>7600013</E>
+		<F>0.494</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Roma RJ</C>
+		<D>RIO DE JANEIRO</D>
+		<E>7601160</E>
+		<F>0.1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Autoplus SC</C>
+		<D>RIO DO SUL</D>
+		<E>7600742</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MT</B>
+		<C>Grupo Fancar</C>
+		<D>RONDONOPOLIS</D>
+		<E>7601105</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Brune</C>
+		<D>SALVADOR</D>
+		<E>7600501</E>
+		<F>0.32</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Eurovia BA</C>
+		<D>SALVADOR</D>
+		<E>7600415</E>
+		<F>0.4</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Nova Bahia</C>
+		<D>SALVADOR</D>
+		<E>7600803</E>
+		<F>0.28</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Iesa RS</C>
+		<D>SANTA CRUZ DO SUL</D>
+		<E>7600012</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>RS</B>
+		<C>Grupo Itaimbé</C>
+		<D>SANTA MARIA</D>
+		<E>7600023</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Marselha</C>
+		<D>SANTO ANTONIO DE JESUS</D>
+		<E>7601137</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Estoril</C>
+		<D>SANTOS</D>
+		<E>7600108</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Autoplus SC</C>
+		<D>SAO BENTO DO SUL</D>
+		<E>7600742</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Santa Emilia</C>
+		<D>SAO CARLOS</D>
+		<E>7600519</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Ville</C>
+		<D>SAO JOSE DO RIO PRETO</D>
+		<E>7600440</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Itavema</C>
+		<D>SAO JOSE DOS CAMPOS</D>
+		<E>7600152</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>SAO MIGUEL DO OESTE</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Armando</C>
+		<D>SAO PAULO</D>
+		<E>7600033</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Amazonas</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7601062</E>
+		<F>0.15</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Itavema</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7600152</E>
+		<F>0.12</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo R Point</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7600528</E>
+		<F>0.24</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Faberge</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7601122</E>
+		<F>0.05</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Sinal France</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7600549</E>
+		<F>0.33</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Toriba</C>
+		<D>SAO PAULO CAPITAL</D>
+		<E>7600953</E>
+		<F>0.11</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo La France</C>
+		<D>SENHOR DO BONFIM</D>
+		<E>7600863</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Besouro</C>
+		<D>SERRANA</D>
+		<E>7601053</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Carmo</C>
+		<D>SETE LAGOAS</D>
+		<E>7600086</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MT</B>
+		<C>Grupo Morel</C>
+		<D>SINOP</D>
+		<E>7600671</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>CE</B>
+		<C>Grupo Nord</C>
+		<D>SOBRAL</D>
+		<E>7600927</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Valec</C>
+		<D>SOROCABA</D>
+		<E>7600075</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>GO</B>
+		<C>Grupo Ravel</C>
+		<D>SUDOESTE DE GOIAS</D>
+		<E>7600832</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Maxvel</C>
+		<D>TATUI</D>
+		<E>7601087</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PI</B>
+		<C>Grupo Via Paris</C>
+		<D>TERESINA</D>
+		<E>7600164</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Automega</C>
+		<D>TIJUCAS</D>
+		<E>7600007</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>PR</B>
+		<C>Grupo Open Veículos</C>
+		<D>TOLEDO</D>
+		<E>7600258</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>MS</B>
+		<C>Grupo Guará</C>
+		<D>TRES LAGOAS</D>
+		<E>7600991</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo Iesa SC</C>
+		<D>TUBARAO</D>
+		<E>7601299</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Dijon</C>
+		<D>UBA</D>
+		<E>7600417</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Urca France</C>
+		<D>UBERABA</D>
+		<E>7601175</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Urca France</C>
+		<D>UBERLANDIA</D>
+		<E>7601175</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Via MG</C>
+		<D>UNAI</D>
+		<E>7601067</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>PE</B>
+		<C>Grupo Regence</C>
+		<D>VALE DO IPOJUCA</D>
+		<E>7600596</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>RJ</B>
+		<C>Grupo Rio Sena</C>
+		<D>VALE DO PARAIBA FLUMINENSE</D>
+		<E>7600989</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Valec</C>
+		<D>VALINHOS</D>
+		<E>7600075</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>MG</B>
+		<C>Grupo Via Mondo</C>
+		<D>VARGINHA</D>
+		<E>7600554</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>ES</B>
+		<C>Grupo Orvel</C>
+		<D>VILA VELHA</D>
+		<E>7600822</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>RO</B>
+		<C>Grupo Mazzutti</C>
+		<D>VILHENA</D>
+		<E>7600804</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R3</A>
+		<B>ES</B>
+		<C>Grupo Orvel</C>
+		<D>VITORIA</D>
+		<E>7600822</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R4</A>
+		<B>BA</B>
+		<C>Grupo Rodaleve</C>
+		<D>VITORIA DA CONQUISTA</D>
+		<E>7600393</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R2</A>
+		<B>SP</B>
+		<C>Grupo Ville</C>
+		<D>VOTUPORANGA</D>
+		<E>7600440</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+	<PERF_MERC_B3>
+		<A>R1</A>
+		<B>SC</B>
+		<C>Grupo De Marco</C>
+		<D>XANXERE</D>
+		<E>7600167</E>
+		<F>1</F>
+	</PERF_MERC_B3>
+</x-data>
