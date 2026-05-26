@@ -1,0 +1,1582 @@
+{
+  "tipo": "base3",
+  "registros": 197,
+  "dados": [
+    {
+      "regional": "R4",
+      "uf": "MA",
+      "grupo": "Grupo Du Nort São Luís",
+      "microrregiao": "AGLOMERACAO URBANA DE SAO LUIS",
+      "bir": "7601155",
+      "peso": 0.55
+    },
+    {
+      "regional": "R4",
+      "uf": "MA",
+      "grupo": "Grupo Original",
+      "microrregiao": "AGLOMERACAO URBANA DE SAO LUIS",
+      "bir": "7600709",
+      "peso": 0.45
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo La Vie",
+      "microrregiao": "ALAGOINHAS",
+      "bir": "7600810",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "AMERICANA",
+      "bir": "7600382",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "GO",
+      "grupo": "Grupo Nasa",
+      "microrregiao": "ANAPOLIS",
+      "bir": "7600848",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Aravel",
+      "microrregiao": "APUCARANA",
+      "bir": "7601108",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "SE",
+      "grupo": "Grupo Renovel",
+      "microrregiao": "ARACAJU",
+      "bir": "7600091",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Ville",
+      "microrregiao": "ARACATUBA",
+      "bir": "7600440",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "TO",
+      "grupo": "Grupo Alliance",
+      "microrregiao": "ARAGUAINA",
+      "bir": "7600976",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "AL",
+      "grupo": "Grupo Du Nort Maceió",
+      "microrregiao": "ARAPIRACA",
+      "bir": "7601291",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo DR Sul SC",
+      "microrregiao": "ARARANGUA",
+      "bir": "7601293",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Santa Emilia",
+      "microrregiao": "ARARAQUARA",
+      "bir": "7600519",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Proeste",
+      "microrregiao": "AVARE",
+      "bir": "7600895",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Via",
+      "microrregiao": "BARREIRAS",
+      "bir": "7600599",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Proeste",
+      "microrregiao": "BAURU",
+      "bir": "7600895",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PA",
+      "grupo": "Grupo Du Nort Belém",
+      "microrregiao": "BELEM",
+      "bir": "7600466",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Roma MG",
+      "microrregiao": "BELO HORIZONTE",
+      "bir": "7601167",
+      "peso": 0.375
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Jorlan France Minas",
+      "microrregiao": "BELO HORIZONTE",
+      "bir": "7600546",
+      "peso": 0.625
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "BLUMENAU",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RR",
+      "grupo": "Grupo Marlin",
+      "microrregiao": "BOA VISTA",
+      "bir": "7600764",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Proeste",
+      "microrregiao": "BOTUCATU",
+      "bir": "7600895",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "BRAGANCA PAULISTA",
+      "bir": "7600382",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "DF",
+      "grupo": "Grupo Tecar DF",
+      "microrregiao": "BRASILIA",
+      "bir": "7600249",
+      "peso": 0.295
+    },
+    {
+      "regional": "R3",
+      "uf": "DF",
+      "grupo": "Grupo Premier",
+      "microrregiao": "BRASILIA",
+      "bir": "7600062",
+      "peso": 0.295
+    },
+    {
+      "regional": "R3",
+      "uf": "DF",
+      "grupo": "Grupo Jorlan France Brasília",
+      "microrregiao": "BRASILIA",
+      "bir": "7601037",
+      "peso": 0.41
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Itaimbé",
+      "microrregiao": "CACHOEIRA DO SUL",
+      "bir": "7600023",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "ES",
+      "grupo": "Grupo Orvel",
+      "microrregiao": "CACHOEIRO DE ITAPEMIRIM",
+      "bir": "7600822",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RO",
+      "grupo": "Grupo Mazzutti",
+      "microrregiao": "CACOAL",
+      "bir": "7600804",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo Dical",
+      "microrregiao": "CAJAZEIRAS",
+      "bir": "7600678",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Itaimbé",
+      "microrregiao": "CAMPANHA MERIDIONAL",
+      "bir": "7600023",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Itaimbé",
+      "microrregiao": "CAMPANHA OCIDENTAL",
+      "bir": "7600023",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo JPN",
+      "microrregiao": "CAMPINA GRANDE",
+      "bir": "7601091",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "CAMPINAS",
+      "bir": "7600382",
+      "peso": 0.4
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Valec",
+      "microrregiao": "CAMPINAS",
+      "bir": "7600075",
+      "peso": 0.6
+    },
+    {
+      "regional": "R1",
+      "uf": "MS",
+      "grupo": "Grupo Guará",
+      "microrregiao": "CAMPO GRANDE",
+      "bir": "7600991",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MT",
+      "grupo": "Grupo Fancar",
+      "microrregiao": "CAMPO MOURÃO",
+      "bir": "7601105",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo DR Sul SC",
+      "microrregiao": "CAMPOS DE LAGES",
+      "bir": "7601293",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Auto France G2",
+      "microrregiao": "CAMPOS DOS GOYTACAZES",
+      "bir": "7600690",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Autoplus SC",
+      "microrregiao": "CANOINHAS",
+      "bir": "7600742",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "CE",
+      "grupo": "Grupo Terra Santa",
+      "microrregiao": "CARIRI",
+      "bir": "7601136",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PE",
+      "grupo": "Grupo Vivant",
+      "microrregiao": "CARPINA",
+      "bir": "7601086",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Open Veículos",
+      "microrregiao": "CASCAVEL",
+      "bir": "7600258",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Ville",
+      "microrregiao": "CATANDUVA",
+      "bir": "7600440",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo DR Sul RS",
+      "microrregiao": "CAXIAS DO SUL",
+      "bir": "7600109",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "GO",
+      "grupo": "Grupo Pinauto",
+      "microrregiao": "CERES",
+      "bir": "7600811",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "CHAPECO",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "CONCORDIA",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Roma MG",
+      "microrregiao": "CONTAGEM",
+      "bir": "7601167",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo DR Sul SC",
+      "microrregiao": "CRICIUMA",
+      "bir": "7601293",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MT",
+      "grupo": "Grupo Estação",
+      "microrregiao": "CUIABA",
+      "bir": "7600990",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "CURITIBA",
+      "bir": "7600391",
+      "peso": 0.46
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Globo - PR",
+      "microrregiao": "CURITIBA",
+      "bir": "7600358",
+      "peso": 0.54
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "CURITIBANOS",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Dijon",
+      "microrregiao": "DIVINOPOLIS",
+      "bir": "7600417",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MS",
+      "grupo": "Grupo Guará",
+      "microrregiao": "DOURADOS",
+      "bir": "7600991",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Azzurra",
+      "microrregiao": "DUQUE DE CAXIAS",
+      "bir": "7600878",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "ERECHIM",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Rubi",
+      "microrregiao": "EUNAPOLIS",
+      "bir": "7600757",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Jubiabá",
+      "microrregiao": "FEIRA DE SANTANA",
+      "bir": "7600473",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Globo - SC",
+      "microrregiao": "FLORIANOPOLIS",
+      "bir": "7600100",
+      "peso": 0.4
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Automega",
+      "microrregiao": "FLORIANOPOLIS",
+      "bir": "7600007",
+      "peso": 0.6
+    },
+    {
+      "regional": "R4",
+      "uf": "CE",
+      "grupo": "Grupo Regence Fortaleza",
+      "microrregiao": "FORTALEZA",
+      "bir": "7600948",
+      "peso": 0.6
+    },
+    {
+      "regional": "R4",
+      "uf": "CE",
+      "grupo": "Grupo Jangada",
+      "microrregiao": "FORTALEZA",
+      "bir": "7600286",
+      "peso": 0.4
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Open Veículos",
+      "microrregiao": "FOZ DO IGUACU",
+      "bir": "7600258",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Euro",
+      "microrregiao": "FRANCA",
+      "bir": "7600973",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo JPN",
+      "microrregiao": "GARANHUNS",
+      "bir": "7601091",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "GO",
+      "grupo": "Grupo Navesa",
+      "microrregiao": "GOIANIA",
+      "bir": "7600839",
+      "peso": 0.5
+    },
+    {
+      "regional": "R3",
+      "uf": "GO",
+      "grupo": "Grupo Tecar GO",
+      "microrregiao": "GOIANIA",
+      "bir": "7600520",
+      "peso": 0.5
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Multicar",
+      "microrregiao": "GOVERNADOR VALADARES",
+      "bir": "7601104",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo DR Sul RS",
+      "microrregiao": "GRAMADO-CANELA",
+      "bir": "7600109",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo Eurovia PB",
+      "microrregiao": "GUARABIRA",
+      "bir": "7601264",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "ES",
+      "grupo": "Grupo Orvel",
+      "microrregiao": "GUARAPARI",
+      "bir": "7600822",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "GUARAPUAVA",
+      "bir": "7600391",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Itavema",
+      "microrregiao": "GUARULHOS",
+      "bir": "7600152",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Itaimbé",
+      "microrregiao": "IJUI",
+      "bir": "7600023",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "MA",
+      "grupo": "Grupo Du Nort São Luís",
+      "microrregiao": "IMPERATRIZ",
+      "bir": "7601155",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Balilla",
+      "microrregiao": "INDAIATUBA",
+      "bir": "7600824",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Leva",
+      "microrregiao": "IPATINGA",
+      "bir": "7600592",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Leva",
+      "microrregiao": "ITABIRA",
+      "bir": "7600592",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Rubi",
+      "microrregiao": "ITABUNA",
+      "bir": "7600757",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Azzurra",
+      "microrregiao": "ITAGUAI",
+      "bir": "7600878",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Globo - SC",
+      "microrregiao": "ITAJAI",
+      "bir": "7600100",
+      "peso": 0.5
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Autoplus SC",
+      "microrregiao": "ITAJAI",
+      "bir": "7600742",
+      "peso": 0.5
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Soma",
+      "microrregiao": "ITAPETININGA",
+      "bir": "7600932",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Soma",
+      "microrregiao": "ITAPEVA",
+      "bir": "7600932",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Autoplus SC",
+      "microrregiao": "JARAGUA DO SUL",
+      "bir": "7600742",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Proeste",
+      "microrregiao": "JAU",
+      "bir": "7600895",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Rodaleve",
+      "microrregiao": "JEQUIE",
+      "bir": "7600393",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "JOACABA",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo Eurovia PB",
+      "microrregiao": "JOAO PESSOA",
+      "bir": "7601264",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Globo - SC",
+      "microrregiao": "JOINVILLE",
+      "bir": "7600100",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Dijon",
+      "microrregiao": "JUIZ DE FORA",
+      "bir": "7600417",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Valec",
+      "microrregiao": "JUNDIAI",
+      "bir": "7600075",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Auto France G2",
+      "microrregiao": "LAGOS",
+      "bir": "7600690",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo DR Sul RS",
+      "microrregiao": "LAJEADO-ESTRELA",
+      "bir": "7600109",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "LIMEIRA",
+      "bir": "7600382",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "ES",
+      "grupo": "Grupo Orvel",
+      "microrregiao": "LINHARES",
+      "bir": "7600822",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Nissul",
+      "microrregiao": "LITORAL LAGUNAR",
+      "bir": "7600442",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "LONDRINA",
+      "bir": "7600391",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Auto France G2",
+      "microrregiao": "MACAE",
+      "bir": "7600690",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "AP",
+      "grupo": "Grupo Grand Cite",
+      "microrregiao": "MACAPA",
+      "bir": "7600897",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "AL",
+      "grupo": "Grupo Du Nort Maceió",
+      "microrregiao": "MACEIO",
+      "bir": "7601291",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "AM",
+      "grupo": "Grupo Du Nort Manaus",
+      "microrregiao": "MANAUS",
+      "bir": "7601156",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PA",
+      "grupo": "Grupo Du Nort Marabá",
+      "microrregiao": "MARABA",
+      "bir": "7601153",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Proeste",
+      "microrregiao": "MARILIA",
+      "bir": "7600895",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "MARINGA",
+      "bir": "7600391",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Urca France",
+      "microrregiao": "MEIA PONTE",
+      "bir": "7601175",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Destaque France",
+      "microrregiao": "MOGI DAS CRUZES",
+      "bir": "7600332",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "MOGI-MIRIM",
+      "bir": "7600382",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "MONTENEGRO",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Carmo",
+      "microrregiao": "MONTES CLAROS",
+      "bir": "7600086",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RN",
+      "grupo": "Grupo Gamboa",
+      "microrregiao": "MOSSORO",
+      "bir": "7600935",
+      "peso": 1
+    },
+    {
+      "regional": "NÃO IDENTIFICADO",
+      "uf": "NÃO IDENTIFICADO",
+      "grupo": "NÃO IDENTIFICADO",
+      "microrregiao": "NÃO IDENTIFICADO",
+      "bir": "0",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RN",
+      "grupo": "Grupo Redenção",
+      "microrregiao": "NATAL",
+      "bir": "7600104",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Dinisa",
+      "microrregiao": "NITEROI",
+      "bir": "7600088",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Roma RJ",
+      "microrregiao": "NOVA IGUACU",
+      "bir": "7601160",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Sinal France",
+      "microrregiao": "OSASCO",
+      "bir": "7600549",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "OSORIO",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Globo - SC",
+      "microrregiao": "PALHOCA",
+      "bir": "7600100",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "PARANAGUA",
+      "bir": "7600391",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PA",
+      "grupo": "Grupo Du Nort Marabá",
+      "microrregiao": "PARAUAPEBAS",
+      "bir": "7601153",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PI",
+      "grupo": "Grupo Via Paris",
+      "microrregiao": "PARNAIBA",
+      "bir": "7600164",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "PASSO FUNDO",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PB",
+      "grupo": "Grupo Via Leste",
+      "microrregiao": "PATOS",
+      "bir": "7601094",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo La Vie",
+      "microrregiao": "PAULO AFONSO",
+      "bir": "7600810",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Nissul",
+      "microrregiao": "PELOTAS",
+      "bir": "7600442",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PE",
+      "grupo": "Grupo Autovia",
+      "microrregiao": "PETROLINA",
+      "bir": "7600732",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Mercantil Andreta",
+      "microrregiao": "PIRACICABA",
+      "bir": "7600382",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Via Mondo",
+      "microrregiao": "POCOS DE CALDAS",
+      "bir": "7600554",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Barigui",
+      "microrregiao": "PONTA GROSSA",
+      "bir": "7600391",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo DR Sul RS",
+      "microrregiao": "PORTO ALEGRE DR SUL",
+      "bir": "7600109",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Gala",
+      "microrregiao": "PORTO ALEGRE GALA",
+      "bir": "7600983",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "PORTO ALEGRE IESA",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "PORTO ALEGRE IESA/DR SUL",
+      "bir": "7600012",
+      "peso": 0.66
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo DR Sul RS",
+      "microrregiao": "PORTO ALEGRE IESA/DR SUL",
+      "bir": "7600109",
+      "peso": 0.34
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Nissul",
+      "microrregiao": "PORTO ALEGRE NISSUL",
+      "bir": "7600442",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "TO",
+      "grupo": "Grupo Alliance",
+      "microrregiao": "PORTO NACIONAL",
+      "bir": "7600976",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "PORTO UNIAO",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RO",
+      "grupo": "Grupo Saga Lemans",
+      "microrregiao": "PORTO VELHO",
+      "bir": "7601061",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Via Mondo",
+      "microrregiao": "POUSO ALEGRE",
+      "bir": "7600554",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo V Muchiutt",
+      "microrregiao": "PRESIDENTE PRUDENTE",
+      "bir": "7601097",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PE",
+      "grupo": "Grupo Regence",
+      "microrregiao": "RECIFE",
+      "bir": "7600596",
+      "peso": 0.4
+    },
+    {
+      "regional": "R4",
+      "uf": "PE",
+      "grupo": "Grupo Eurovia PE",
+      "microrregiao": "RECIFE",
+      "bir": "7600085",
+      "peso": 0.6
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Euro",
+      "microrregiao": "RIBEIRAO PRETO",
+      "bir": "7600973",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "AM",
+      "grupo": "Grupo Du Nort Manaus",
+      "microrregiao": "RIO BRANCO",
+      "bir": "7601156",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Santa Emilia",
+      "microrregiao": "RIO CLARO",
+      "bir": "7600519",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Azzurra",
+      "microrregiao": "RIO DE JANEIRO",
+      "bir": "7600878",
+      "peso": 0.406
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Leauto Paris",
+      "microrregiao": "RIO DE JANEIRO",
+      "bir": "7600013",
+      "peso": 0.494
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Roma RJ",
+      "microrregiao": "RIO DE JANEIRO",
+      "bir": "7601160",
+      "peso": 0.1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Autoplus SC",
+      "microrregiao": "RIO DO SUL",
+      "bir": "7600742",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MT",
+      "grupo": "Grupo Fancar",
+      "microrregiao": "RONDONOPOLIS",
+      "bir": "7601105",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Brune",
+      "microrregiao": "SALVADOR",
+      "bir": "7600501",
+      "peso": 0.32
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Eurovia BA",
+      "microrregiao": "SALVADOR",
+      "bir": "7600415",
+      "peso": 0.4
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Nova Bahia",
+      "microrregiao": "SALVADOR",
+      "bir": "7600803",
+      "peso": 0.28
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Iesa RS",
+      "microrregiao": "SANTA CRUZ DO SUL",
+      "bir": "7600012",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "RS",
+      "grupo": "Grupo Itaimbé",
+      "microrregiao": "SANTA MARIA",
+      "bir": "7600023",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Marselha",
+      "microrregiao": "SANTO ANTONIO DE JESUS",
+      "bir": "7601137",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Estoril",
+      "microrregiao": "SANTOS",
+      "bir": "7600108",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Autoplus SC",
+      "microrregiao": "SAO BENTO DO SUL",
+      "bir": "7600742",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Santa Emilia",
+      "microrregiao": "SAO CARLOS",
+      "bir": "7600519",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Ville",
+      "microrregiao": "SAO JOSE DO RIO PRETO",
+      "bir": "7600440",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Itavema",
+      "microrregiao": "SAO JOSE DOS CAMPOS",
+      "bir": "7600152",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "SAO MIGUEL DO OESTE",
+      "bir": "7600167",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Armando",
+      "microrregiao": "SAO PAULO",
+      "bir": "7600033",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Amazonas",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7601062",
+      "peso": 0.15
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Itavema",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7600152",
+      "peso": 0.12
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo R Point",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7600528",
+      "peso": 0.24
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Faberge",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7601122",
+      "peso": 0.05
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Sinal France",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7600549",
+      "peso": 0.33
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Toriba",
+      "microrregiao": "SAO PAULO CAPITAL",
+      "bir": "7600953",
+      "peso": 0.11
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo La France",
+      "microrregiao": "SENHOR DO BONFIM",
+      "bir": "7600863",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Besouro",
+      "microrregiao": "SERRANA",
+      "bir": "7601053",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Carmo",
+      "microrregiao": "SETE LAGOAS",
+      "bir": "7600086",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MT",
+      "grupo": "Grupo Morel",
+      "microrregiao": "SINOP",
+      "bir": "7600671",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "CE",
+      "grupo": "Grupo Nord",
+      "microrregiao": "SOBRAL",
+      "bir": "7600927",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Valec",
+      "microrregiao": "SOROCABA",
+      "bir": "7600075",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "GO",
+      "grupo": "Grupo Ravel",
+      "microrregiao": "SUDOESTE DE GOIAS",
+      "bir": "7600832",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Maxvel",
+      "microrregiao": "TATUI",
+      "bir": "7601087",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PI",
+      "grupo": "Grupo Via Paris",
+      "microrregiao": "TERESINA",
+      "bir": "7600164",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Automega",
+      "microrregiao": "TIJUCAS",
+      "bir": "7600007",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "PR",
+      "grupo": "Grupo Open Veículos",
+      "microrregiao": "TOLEDO",
+      "bir": "7600258",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "MS",
+      "grupo": "Grupo Guará",
+      "microrregiao": "TRES LAGOAS",
+      "bir": "7600991",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo Iesa SC",
+      "microrregiao": "TUBARAO",
+      "bir": "7601299",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Dijon",
+      "microrregiao": "UBA",
+      "bir": "7600417",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Urca France",
+      "microrregiao": "UBERABA",
+      "bir": "7601175",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Urca France",
+      "microrregiao": "UBERLANDIA",
+      "bir": "7601175",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Via MG",
+      "microrregiao": "UNAI",
+      "bir": "7601067",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "PE",
+      "grupo": "Grupo Regence",
+      "microrregiao": "VALE DO IPOJUCA",
+      "bir": "7600596",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "RJ",
+      "grupo": "Grupo Rio Sena",
+      "microrregiao": "VALE DO PARAIBA FLUMINENSE",
+      "bir": "7600989",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Valec",
+      "microrregiao": "VALINHOS",
+      "bir": "7600075",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "MG",
+      "grupo": "Grupo Via Mondo",
+      "microrregiao": "VARGINHA",
+      "bir": "7600554",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "ES",
+      "grupo": "Grupo Orvel",
+      "microrregiao": "VILA VELHA",
+      "bir": "7600822",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "RO",
+      "grupo": "Grupo Mazzutti",
+      "microrregiao": "VILHENA",
+      "bir": "7600804",
+      "peso": 1
+    },
+    {
+      "regional": "R3",
+      "uf": "ES",
+      "grupo": "Grupo Orvel",
+      "microrregiao": "VITORIA",
+      "bir": "7600822",
+      "peso": 1
+    },
+    {
+      "regional": "R4",
+      "uf": "BA",
+      "grupo": "Grupo Rodaleve",
+      "microrregiao": "VITORIA DA CONQUISTA",
+      "bir": "7600393",
+      "peso": 1
+    },
+    {
+      "regional": "R2",
+      "uf": "SP",
+      "grupo": "Grupo Ville",
+      "microrregiao": "VOTUPORANGA",
+      "bir": "7600440",
+      "peso": 1
+    },
+    {
+      "regional": "R1",
+      "uf": "SC",
+      "grupo": "Grupo De Marco",
+      "microrregiao": "XANXERE",
+      "bir": "7600167",
+      "peso": 1
+    }
+  ]
+}
