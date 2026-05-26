@@ -5,216 +5,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RÊ — BI Cognitivo Renault</title>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; background: #0F0F0F; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
 
-  body {
-    font-family: 'Segoe UI', 'Inter', sans-serif;
-    background: #0F0F0F;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    color: #1A1A1A;
-  }
+/* LOGIN */
+#login-screen { position: fixed; inset: 0; background: #0F0F0F; display: flex; align-items: center; justify-content: center; z-index: 100; }
+.login-box { background: #fff; border-radius: 16px; padding: 44px 40px; width: 390px; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.login-logo { text-align: center; margin-bottom: 24px; }
+.login-logo .re-name { font-size: 32px; font-weight: 900; color: #1A1A1A; letter-spacing: -1px; }
+.login-logo .re-sub  { font-size: 12px; color: #6B7280; margin-top: 2px; }
+.login-box label { display: block; font-size: 13px; font-weight: 600; color: #374151; margin-bottom: 5px; }
+.login-box input { width: 100%; padding: 10px 14px; border: 1.5px solid #E5E7EB; border-radius: 8px; font-size: 14px; outline: none; margin-bottom: 14px; font-family: inherit; transition: border-color .2s; }
+.login-box input:focus { border-color: #FFCC00; }
+#login-btn { width: 100%; padding: 12px; background: #FFCC00; border: none; border-radius: 8px; font-weight: 700; font-size: 15px; cursor: pointer; color: #1A1A1A; }
+#login-btn:hover { opacity: .85; }
+#login-error { color: #DC2626; font-size: 13px; text-align: center; margin-bottom: 12px; display: none; }
 
-  /* ── LOGIN ───────────────────────────────────────── */
-  #login-screen {
-    position: fixed; inset: 0;
-    background: #0F0F0F;
-    display: flex; align-items: center; justify-content: center;
-    z-index: 100;
-  }
-  .login-box {
-    background: #fff;
-    border-radius: 16px;
-    padding: 48px 40px;
-    width: 380px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-  }
-  .login-logo {
-    text-align: center;
-    margin-bottom: 28px;
-  }
-  .login-logo .re-name {
-    font-size: 32px; font-weight: 900;
-    color: #1A1A1A; letter-spacing: -1px;
-  }
-  .login-logo .re-sub {
-    font-size: 12px; color: #6B7280; margin-top: 2px;
-  }
-  .login-box label {
-    display: block; font-size: 13px; font-weight: 600;
-    color: #374151; margin-bottom: 6px;
-  }
-  .login-box input {
-    width: 100%; padding: 10px 14px;
-    border: 1.5px solid #E5E7EB; border-radius: 8px;
-    font-size: 14px; outline: none; margin-bottom: 16px;
-    font-family: inherit; transition: border-color .2s;
-  }
-  .login-box input:focus { border-color: #FFCC00; }
-  #login-btn {
-    width: 100%; padding: 12px;
-    background: #FFCC00; border: none; border-radius: 8px;
-    font-weight: 700; font-size: 15px; cursor: pointer;
-    color: #1A1A1A; transition: opacity .2s;
-  }
-  #login-btn:hover { opacity: .85; }
-  #login-error {
-    color: #DC2626; font-size: 13px;
-    text-align: center; margin-bottom: 12px; display: none;
-  }
+/* APP */
+#app { display: none; height: 100vh; flex-direction: column; }
 
-  /* ── APP ─────────────────────────────────────────── */
-  #app { display: none; height: 100vh; flex-direction: column; }
+/* HEADER */
+#header { background: #fff; border-bottom: 1px solid #E5E7EB; padding: 12px 24px; display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.re-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg,#FFCC00,#FFB300); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 13px; color: #1A1A1A; flex-shrink: 0; }
+.h-title { font-weight: 700; font-size: 15px; color: #1A1A1A; }
+.h-sub   { font-size: 12px; color: #6B7280; }
+#header-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: #22C55E; }
+#user-label { font-size: 12px; color: #6B7280; }
+#logout-btn { background: none; border: 1px solid #E5E7EB; border-radius: 6px; padding: 4px 10px; font-size: 12px; color: #6B7280; cursor: pointer; }
+#logout-btn:hover { border-color: #EF4444; color: #EF4444; }
 
-  /* HEADER */
-  #header {
-    background: #fff; border-bottom: 1px solid #E5E7EB;
-    padding: 14px 24px;
-    display: flex; align-items: center; gap: 12;
-    flex-shrink: 0;
-  }
-  .re-avatar {
-    width: 38px; height: 38px; border-radius: 50%;
-    background: linear-gradient(135deg, #FFCC00, #FFB300);
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 900; font-size: 14px; color: #1A1A1A;
-    flex-shrink: 0;
-  }
-  #header-info { flex: 1; margin-left: 12px; }
-  #header-info .h-title { font-weight: 700; font-size: 15px; }
-  #header-info .h-sub { font-size: 12px; color: #6B7280; margin-top: 1px; }
-  #header-right { display: flex; align-items: center; gap: 8px; margin-left: auto; }
-  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: #22C55E; }
-  #user-label { font-size: 12px; color: #6B7280; }
-  #logout-btn {
-    background: none; border: 1px solid #E5E7EB;
-    border-radius: 6px; padding: 4px 10px;
-    font-size: 12px; color: #6B7280; cursor: pointer;
-    transition: all .2s;
-  }
-  #logout-btn:hover { border-color: #EF4444; color: #EF4444; }
+/* MESSAGES */
+#messages { flex: 1; overflow-y: auto; padding: 28px 24px; display: flex; flex-direction: column; gap: 20px; background: #F3F4F6; }
+#welcome { margin: auto; text-align: center; max-width: 500px; }
+#welcome .w-av { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg,#FFCC00,#FFB300); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 20px; color: #1A1A1A; margin: 0 auto 14px; }
+#welcome h2 { font-size: 22px; font-weight: 800; color: #1A1A1A; }
+#welcome p  { font-size: 14px; color: #6B7280; margin-top: 8px; line-height: 1.6; }
+.suggestions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px; }
+.sug-btn { padding: 8px 14px; background: #fff; border: 1.5px solid #E5E7EB; border-radius: 20px; font-size: 13px; cursor: pointer; color: #374151; font-family: inherit; }
+.sug-btn:hover { border-color: #FFCC00; background: #FFFBEB; }
 
-  /* MESSAGES */
-  #messages {
-    flex: 1; overflow-y: auto;
-    padding: 28px 24px;
-    display: flex; flex-direction: column; gap: 20px;
-    background: #F3F4F6;
-  }
+/* BUBBLES */
+.msg-row { display: flex; gap: 10px; align-items: flex-start; }
+.msg-row.user { flex-direction: row-reverse; }
+.bav { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13px; flex-shrink: 0; margin-top: 2px; }
+.bav.re  { background: linear-gradient(135deg,#FFCC00,#FFB300); color: #1A1A1A; }
+.bav.usr { background: linear-gradient(135deg,#2563EB,#1D4ED8); color: #fff; }
+.bubble { max-width: 72%; padding: 12px 16px; font-size: 14px; line-height: 1.65; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.bubble.re  { background: #fff; border-radius: 4px 18px 18px 18px; color: #1A1A1A; }
+.bubble.usr { background: #1A1A1A; border-radius: 18px 4px 18px 18px; color: #fff; }
+.bubble table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 13px; }
+.bubble th { background: #1A1A1A; color: #FFCC00; padding: 7px 12px; text-align: left; border-bottom: 2px solid #FFCC00; white-space: nowrap; }
+.bubble td { padding: 6px 12px; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
+.bubble tr:nth-child(even) td { background: #f9f9f9; }
+.bubble strong { font-weight: 700; }
+.bubble-actions { display: flex; gap: 6px; margin-top: 5px; }
+.act-btn { background: none; border: none; cursor: pointer; font-size: 13px; color: #9CA3AF; padding: 2px 5px; border-radius: 4px; }
+.act-btn:hover { color: #374151; }
+.act-btn.up.active { color: #22C55E; }
+.act-btn.down.active { color: #EF4444; }
 
-  /* WELCOME */
-  #welcome {
-    margin: auto; text-align: center; max-width: 500px;
-  }
-  #welcome .w-avatar {
-    width: 56px; height: 56px; border-radius: 50%;
-    background: linear-gradient(135deg, #FFCC00, #FFB300);
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 900; font-size: 20px; color: #1A1A1A;
-    margin: 0 auto 14px;
-  }
-  #welcome h2 { font-size: 22px; font-weight: 800; color: #1A1A1A; }
-  #welcome p { font-size: 14px; color: #6B7280; margin-top: 8px; line-height: 1.6; }
-  .suggestions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px; }
-  .sug-btn {
-    padding: 8px 14px; background: #fff;
-    border: 1.5px solid #E5E7EB; border-radius: 20px;
-    font-size: 13px; cursor: pointer; color: #374151;
-    font-family: inherit; transition: all .15s;
-  }
-  .sug-btn:hover { border-color: #FFCC00; background: #FFFBEB; }
+/* TYPING */
+.typing-dots { display: flex; gap: 5px; align-items: center; padding: 4px 0; }
+.typing-dots span { width: 7px; height: 7px; border-radius: 50%; background: #FFCC00; display: inline-block; animation: bounce 1.2s infinite; }
+.typing-dots span:nth-child(2) { animation-delay: .2s; }
+.typing-dots span:nth-child(3) { animation-delay: .4s; }
+@keyframes bounce { 0%,80%,100%{transform:scale(.7);opacity:.5} 40%{transform:scale(1.2);opacity:1} }
 
-  /* BUBBLES */
-  .msg-row { display: flex; gap: 10px; align-items: flex-start; }
-  .msg-row.user { flex-direction: row-reverse; }
-
-  .bubble-avatar {
-    width: 36px; height: 36px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 800; font-size: 13px; flex-shrink: 0; margin-top: 2px;
-  }
-  .bubble-avatar.re  { background: linear-gradient(135deg,#FFCC00,#FFB300); color:#1A1A1A; }
-  .bubble-avatar.usr { background: linear-gradient(135deg,#2563EB,#1D4ED8); color:#fff; }
-
-  .bubble {
-    max-width: 72%; padding: 12px 16px;
-    font-size: 14px; line-height: 1.65;
-    box-shadow: 0 1px 3px rgba(0,0,0,.08);
-  }
-  .bubble.re  { background:#fff; border-radius: 4px 18px 18px 18px; color:#1A1A1A; }
-  .bubble.usr { background:#1A1A1A; border-radius: 18px 4px 18px 18px; color:#fff; }
-
-  /* Markdown inside bubble */
-  .bubble table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 13px; }
-  .bubble th { background: #1A1A1A; color: #FFCC00; padding: 7px 12px; text-align: left; border-bottom: 2px solid #FFCC00; white-space: nowrap; }
-  .bubble td { padding: 6px 12px; border-bottom: 1px solid #e5e7eb; white-space: nowrap; }
-  .bubble tr:nth-child(even) td { background: #f9f9f9; }
-  .bubble strong { font-weight: 700; }
-  .bubble h3 { font-size: 14px; font-weight: 700; margin: 10px 0 4px; }
-  .bubble ul  { margin: 6px 0 6px 16px; }
-  .bubble li  { margin-bottom: 3px; }
-
-  /* Actions */
-  .bubble-actions { display: flex; gap: 6px; margin-top: 5px; padding-left: 2px; }
-  .act-btn {
-    background: none; border: none; cursor: pointer;
-    font-size: 13px; color: #9CA3AF; padding: 2px 5px;
-    border-radius: 4px; transition: color .15s;
-  }
-  .act-btn:hover { color: #374151; }
-  .act-btn.up.active   { color: #22C55E; }
-  .act-btn.down.active { color: #EF4444; }
-
-  /* TYPING */
-  .typing-dots { display: flex; gap: 5px; align-items: center; padding: 4px 0; }
-  .typing-dots span {
-    width: 7px; height: 7px; border-radius: 50%;
-    background: #FFCC00; display: inline-block;
-    animation: bounce 1.2s infinite;
-  }
-  .typing-dots span:nth-child(2) { animation-delay: .2s; }
-  .typing-dots span:nth-child(3) { animation-delay: .4s; }
-  @keyframes bounce {
-    0%,80%,100% { transform: scale(.7); opacity:.5; }
-    40%          { transform: scale(1.2); opacity:1; }
-  }
-
-  /* INPUT BAR */
-  #input-bar {
-    background: #fff; border-top: 1px solid #E5E7EB;
-    padding: 16px 24px; flex-shrink: 0;
-  }
-  .input-wrap {
-    display: flex; gap: 10px; align-items: flex-end;
-    max-width: 860px; margin: 0 auto;
-  }
-  #user-input {
-    flex: 1; padding: 11px 16px;
-    border: 1.5px solid #E5E7EB; border-radius: 12px;
-    font-size: 14px; resize: none; outline: none;
-    font-family: inherit; line-height: 1.5; max-height: 120px;
-    overflow-y: auto; transition: border-color .2s;
-  }
-  #user-input:focus { border-color: #FFCC00; }
-  #send-btn {
-    padding: 11px 20px; background: #FFCC00;
-    border: none; border-radius: 12px;
-    font-weight: 700; font-size: 14px; cursor: pointer;
-    color: #1A1A1A; white-space: nowrap; transition: opacity .2s;
-  }
-  #send-btn:disabled { background: #E5E7EB; cursor: default; }
-  #send-btn:not(:disabled):hover { opacity: .85; }
-  .input-hint {
-    text-align: center; margin-top: 7px;
-    font-size: 11px; color: #9CA3AF;
-  }
+/* INPUT BAR */
+#input-bar { background: #fff; border-top: 1px solid #E5E7EB; padding: 14px 24px; flex-shrink: 0; }
+.input-wrap { display: flex; gap: 10px; align-items: flex-end; max-width: 860px; margin: 0 auto; }
+#user-input { flex: 1; padding: 11px 16px; border: 1.5px solid #E5E7EB; border-radius: 12px; font-size: 14px; resize: none; outline: none; font-family: inherit; line-height: 1.5; max-height: 120px; overflow-y: auto; transition: border-color .2s; }
+#user-input:focus { border-color: #FFCC00; }
+#send-btn { padding: 11px 20px; background: #FFCC00; border: none; border-radius: 12px; font-weight: 700; font-size: 14px; cursor: pointer; color: #1A1A1A; white-space: nowrap; }
+#send-btn:disabled { background: #E5E7EB; cursor: default; }
+.input-hint { text-align: center; margin-top: 7px; font-size: 11px; color: #9CA3AF; }
 </style>
 </head>
 <body>
 
-<!-- ═══════════ LOGIN ═══════════ -->
+<!-- LOGIN -->
 <div id="login-screen">
   <div class="login-box">
     <div class="login-logo">
@@ -226,22 +96,19 @@
     <label>E-mail</label>
     <input id="login-email" type="email" placeholder="seu@email.com.br">
     <label>Senha</label>
-    <input id="login-senha" type="password" placeholder="••••••••"
-           onkeydown="if(event.key==='Enter') doLogin()">
-    <div id="login-error">E-mail ou senha inválidos.</div>
+    <input id="login-senha" type="password" placeholder="••••••••" onkeydown="if(event.key==='Enter') doLogin()">
+    <div id="login-error"></div>
     <button id="login-btn" onclick="doLogin()">Entrar</button>
   </div>
 </div>
 
-<!-- ═══════════ APP ═══════════ -->
+<!-- APP -->
 <div id="app">
-
-  <!-- HEADER -->
   <div id="header">
     <div class="re-avatar">RÊ</div>
-    <div id="header-info">
+    <div>
       <div class="h-title">RÊ — Renault Rede Insights</div>
-      <div class="h-sub">BI Cognitivo · Bases: Jan/2025 – Mar/2026</div>
+      <div class="h-sub" id="bases-status">BI Cognitivo · Bases: Jan/2025 – Mar/2026</div>
     </div>
     <div id="header-right">
       <div class="status-dot"></div>
@@ -250,127 +117,55 @@
     </div>
   </div>
 
-  <!-- MESSAGES -->
   <div id="messages">
     <div id="welcome">
-      <div class="w-avatar">RÊ</div>
+      <div class="w-av">RÊ</div>
       <h2 id="welcome-name">Olá!</h2>
       <p>Eu sou a RÊ, seu assistente de BI Cognitivo especializado em insights da Rede Renault.<br>Como posso te ajudar hoje?</p>
       <div class="suggestions">
-        <button class="sug-btn" onclick="setSuggestion(this)">Qual modelo mais emplacou em 2025?</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">PDS do Duster por estado</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">Top 10 grupos em Curitiba — Dez/2025</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">Concorrentes do Kardian</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">PDM Kwid vs mercado total em 2025</button>
+        <button class="sug-btn" onclick="setSug(this)">Qual modelo mais emplacou em 2025?</button>
+        <button class="sug-btn" onclick="setSug(this)">PDS do Duster por estado</button>
+        <button class="sug-btn" onclick="setSug(this)">Top 10 grupos em Curitiba — Dez/2025</button>
+        <button class="sug-btn" onclick="setSug(this)">Concorrentes do Kardian</button>
+        <button class="sug-btn" onclick="setSug(this)">PDM Kwid vs mercado total em 2025</button>
       </div>
     </div>
   </div>
 
-  <!-- INPUT -->
   <div id="input-bar">
     <div class="input-wrap">
       <textarea id="user-input" rows="1"
         placeholder="Pergunte sobre emplacamentos, PDS, PDM, rankings, concorrentes..."
-        onkeydown="handleKey(event)"
-        oninput="autoResize(this)"></textarea>
+        onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
       <button id="send-btn" onclick="sendMessage()">Enviar →</button>
     </div>
     <div class="input-hint">Enter para enviar · Shift+Enter para nova linha</div>
   </div>
-
 </div>
 
 <script>
-// ─────────────────────────────────────────────────────
-// CONFIG — substitua pela sua API key real
-// ─────────────────────────────────────────────────────
-let API_KEY = "";
-const MODEL   = "claude-sonnet-4-20250514";
+const WORKER = "https://re-nault.fcferreira.workers.dev";
 
-const SYSTEM_PROMPT = `Você é RÊ (Renault Rede Insights), especialista analítico e consultor de dados da área REDE da Renault do Brasil. Projeto: POC — BI Cognitivo Renault (Marketdata&Match).
-
-REGRAS ABSOLUTAS:
-- Responda SOMENTE com base nos arquivos da base de conhecimento da Renault.
-- PROIBIDO buscar, inferir ou inventar dados que não estejam nessas bases.
-- Se a informação não existir nas bases, diga exatamente: "Essa informação não está disponível nas bases carregadas."
-- NUNCA extrapole dados de um período para outro.
-- NUNCA misture dados de fontes diferentes sem explicitar qual base foi usada.
-
-TOM E POSTURA:
-- Idioma: Português do Brasil.
-- Tom: formal, objetivo e analítico.
-- Direto ao ponto — sem introduções longas, sem frases decorativas.
-- Proibido: "é importante destacar", "vale ressaltar", "sugiro analisar também".
-- Use tabelas markdown para múltiplos dados (rankings, comparativos, por estado, por modelo).
-- Negrito apenas em valores-chave.
-
-BASES DISPONÍVEIS:
-- Base 1: Mercado MTM por microrregião. Campos: nmbr_sr, nmbr_vd, nmbr_total, MTM_FIGHT_[MODELO]_SR/_VD, PLACAS_[MARCA]_SR/_VD, PLACAS_[MODELO]_[CONCORRENTE]_SR/_VD.
-- Base 2: Emplacamentos Renault por grupo. Campos: PLACAS_SR, PLACAS_REFAT (Showroom = SR + REFAT), PLACAS_DVE+TD+FAB (VD), PLACAS_SR_[MODELO], PLACAS_VD_[MODELO].
-- Base 3: Pesos ZI por grupo e microrregião (peso 0.0 a 1.0).
-
-MODELOS RENAULT: KWID, KARDIAN, DUSTER, OROCH, BOREAL, KWID E-TECH, MEGANE E-TECH, KANGOO, KANGOO E-TECH, MASTER, KOLEOS.
-
-CÁLCULOS:
-- Showroom = PLACAS_SR + PLACAS_REFAT
-- PDS Grupo = Σ(Placas SR grupo) / Σ(MTM_FIGHT_SR × peso ZI)
-- PDS Estado = Σ(PLACAS_SR_[MODELO] no estado) / Σ(MTM_FIGHT_[MODELO]_SR no estado)
-- PDM = Σ(PLACAS_SR_[MODELO]) / Σ(nmbr_sr)
-- MTM SR Grupo = Σ(nmbr_sr × peso ZI) — apenas ZIs da Base 3
-
-FIGHTS:
-- KWID: MOBI, 208, ARGO, C3, ONIX, POLO, HB20
-- KARDIAN: PULSE, NIVUS, TERA
-- DUSTER: CRETA, FASTBACK, KICKS, NOVO_KICKS, RENEGADE, T_CROSS, TRACKER
-- OROCH: MONTANA, SAVEIRO, STRADA
-- BOREAL: 3008, COMPASS, COROLLA_CROSS, ECLIPSE, HAVAL_H6, SONG_PLUS, TAOS, TERRITORY, TIGGO_7, TIGGO_8, TUCSON, ZR-V
-- KWID E-TECH: DOLPHIN, DOLPHIN_MINI, E-JS1, ORA_03
-- MEGANE E-TECH: DOLPHIN_PLUS, EC40, EX30, EX40, IONIQ5, XC40, YUAN_PRO
-- KANGOO: FIORINO, PARTNER_RAPID
-- MASTER: BONGO, BOXER, DAILY, DUCATO, SPRINTER, TRANSIT e outros
-- KOLEOS: BRONCO, COMMANDER, CRV, EQUINOX, RAV4, TIGUAN e outros
-
-Quando não houver dados disponíveis para responder, informe claramente o período disponível ou diga "Essa informação não está disponível nas bases carregadas."`;
-
-// ─────────────────────────────────────────────────────
-// USUÁRIOS (POC — substitua por autenticação real)
-// ─────────────────────────────────────────────────────
 const USERS = [
   { email: "consultor@renault.com.br", senha: "renault123", nome: "Ana Souza",      perfil: "Consultor Renault" },
   { email: "gerente@barigui.com.br",   senha: "barigui123", nome: "Carlos Menezes", perfil: "Gerente de Concessionária" },
 ];
 
-// ─────────────────────────────────────────────────────
-// STATE
-// ─────────────────────────────────────────────────────
-let currentUser  = null;
-let history      = [];   // { role, content }[]
-let isLoading    = false;
+let API_KEY = "", currentUser = null, history = [], isLoading = false;
 
-// ─────────────────────────────────────────────────────
-// AUTH
-// ─────────────────────────────────────────────────────
+// ── AUTH ──────────────────────────────────────────────────
 function doLogin() {
-  const email = document.getElementById("login-email").value.trim();
-  const senha = document.getElementById("login-senha").value;
-  const user  = USERS.find(u => u.email === email && u.senha === senha);
   const apikey = document.getElementById("login-apikey").value.trim();
+  const email  = document.getElementById("login-email").value.trim();
+  const senha  = document.getElementById("login-senha").value;
   const errEl  = document.getElementById("login-error");
+  const user   = USERS.find(u => u.email === email && u.senha === senha);
 
-  if (!user) {
-    errEl.textContent = "E-mail ou senha inválidos.";
-    errEl.style.display = "block";
-    return;
-  }
-  if (!apikey.startsWith("sk-ant-")) {
-    errEl.textContent = "API Key inválida. Deve começar com sk-ant-";
-    errEl.style.display = "block";
-    return;
-  }
+  if (!user) { errEl.textContent = "E-mail ou senha inválidos."; errEl.style.display = "block"; return; }
+  if (!apikey.startsWith("sk-ant-")) { errEl.textContent = "API Key inválida. Deve começar com sk-ant-"; errEl.style.display = "block"; return; }
+
   errEl.style.display = "none";
-  API_KEY = apikey;
-  currentUser = user;
-
+  API_KEY = apikey; currentUser = user;
   document.getElementById("login-screen").style.display = "none";
   document.getElementById("app").style.display = "flex";
   document.getElementById("user-label").textContent = `${user.nome} · ${user.perfil}`;
@@ -379,218 +174,122 @@ function doLogin() {
 }
 
 function doLogout() {
-  currentUser = null;
-  history     = [];
+  currentUser = null; history = []; API_KEY = "";
   document.getElementById("app").style.display = "none";
   document.getElementById("login-screen").style.display = "flex";
-  document.getElementById("login-email").value = "";
-  document.getElementById("login-senha").value = "";
-  clearMessages();
+  ["login-apikey","login-email","login-senha"].forEach(id => document.getElementById(id).value = "");
+  resetMessages();
 }
 
-// ─────────────────────────────────────────────────────
-// MESSAGES UI
-// ─────────────────────────────────────────────────────
-function clearMessages() {
-  const el = document.getElementById("messages");
-  el.innerHTML = `
-    <div id="welcome">
-      <div class="w-avatar">RÊ</div>
-      <h2 id="welcome-name">Olá!</h2>
-      <p>Eu sou a RÊ, seu assistente de BI Cognitivo especializado em insights da Rede Renault.<br>Como posso te ajudar hoje?</p>
-      <div class="suggestions">
-        <button class="sug-btn" onclick="setSuggestion(this)">Qual modelo mais emplacou em 2025?</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">PDS do Duster por estado</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">Top 10 grupos em Curitiba — Dez/2025</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">Concorrentes do Kardian</button>
-        <button class="sug-btn" onclick="setSuggestion(this)">PDM Kwid vs mercado total em 2025</button>
-      </div>
-    </div>`;
-}
-
-function hideWelcome() {
-  const w = document.getElementById("welcome");
-  if (w) w.remove();
-}
-
-function appendBubble(role, html) {
-  hideWelcome();
-  const msgs = document.getElementById("messages");
-  const initials = role === "assistant"
-    ? "RÊ"
-    : (currentUser?.nome?.[0] || "U");
-  const avatarClass = role === "assistant" ? "re" : "usr";
-  const bubbleClass = role === "assistant" ? "re" : "usr";
-  const rowClass    = role === "user" ? "user" : "";
-
-  const row = document.createElement("div");
-  row.className = `msg-row ${rowClass}`;
-  row.innerHTML = `
-    <div class="bubble-avatar ${avatarClass}">${initials}</div>
-    <div>
-      <div class="bubble ${bubbleClass}">${html}</div>
-      ${role === "assistant" ? `
-      <div class="bubble-actions">
-        <button class="act-btn" onclick="copyMsg(this)" title="Copiar">⎘</button>
-        <button class="act-btn up"   onclick="feedback(this,'up')"   title="Útil">👍</button>
-        <button class="act-btn down" onclick="feedback(this,'down')" title="Não útil">👎</button>
-      </div>` : ""}
-    </div>`;
-  msgs.appendChild(row);
-  msgs.scrollTop = msgs.scrollHeight;
-  return row;
-}
-
-function showTyping() {
-  hideWelcome();
-  const msgs = document.getElementById("messages");
-  const row = document.createElement("div");
-  row.className = "msg-row";
-  row.id = "typing-row";
-  row.innerHTML = `
-    <div class="bubble-avatar re">RÊ</div>
-    <div class="bubble re">
-      <div class="typing-dots"><span></span><span></span><span></span></div>
-    </div>`;
-  msgs.appendChild(row);
-  msgs.scrollTop = msgs.scrollHeight;
-}
-
-function removeTyping() {
-  const t = document.getElementById("typing-row");
-  if (t) t.remove();
-}
-
-// ─────────────────────────────────────────────────────
-// MARKDOWN → HTML (simples)
-// ─────────────────────────────────────────────────────
-function mdToHtml(text) {
-  const lines  = text.split("\n");
-  let out      = "";
-  let inTable  = false;
-  let tableHtml = "";
-
-  const parseLine = s => s
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*(.+?)\*/g, "<em>$1</em>");
-
-  const flushTable = () => {
-    if (tableHtml) { out += tableHtml + "</tbody></table>"; tableHtml = ""; }
-    inTable = false;
-  };
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-
-    if (line.trim().startsWith("|")) {
-      const cells = line.split("|").map(c => c.trim()).filter(Boolean);
-      if (!inTable) {
-        inTable = true;
-        tableHtml = '<div style="overflow-x:auto"><table>';
-        tableHtml += "<thead><tr>" + cells.map(c => `<th>${parseLine(c)}</th>`).join("") + "</tr></thead><tbody>";
-      } else if (/^[\s|:-]+$/.test(line)) {
-        // separator row — skip
-      } else {
-        tableHtml += "<tr>" + cells.map(c => `<td>${parseLine(c)}</td>`).join("") + "</tr>";
-      }
-      continue;
-    }
-
-    if (inTable) flushTable();
-
-    if (!line.trim())          { out += "<br>"; continue; }
-    if (line.startsWith("### ")) { out += `<h3>${parseLine(line.slice(4))}</h3>`; continue; }
-    if (line.startsWith("## "))  { out += `<h3>${parseLine(line.slice(3))}</h3>`; continue; }
-    if (line.startsWith("- ") || line.startsWith("• ")) {
-      out += `<div style="display:flex;gap:8px;margin:3px 0"><span style="color:#FFCC00;font-weight:700">•</span><span>${parseLine(line.slice(2))}</span></div>`;
-      continue;
-    }
-    out += `<p style="margin:3px 0;line-height:1.65">${parseLine(line)}</p>`;
-  }
-  if (inTable) flushTable();
-  return out;
-}
-
-// ─────────────────────────────────────────────────────
-// SEND MESSAGE
-// ─────────────────────────────────────────────────────
+// ── CHAT ──────────────────────────────────────────────────
 async function sendMessage() {
-  const input = document.getElementById("user-input");
-  const text  = input.value.trim();
+  const inp  = document.getElementById("user-input");
+  const text = inp.value.trim();
   if (!text || isLoading) return;
-
-  input.value = "";
-  autoResize(input);
+  inp.value = ""; autoResize(inp);
   isLoading = true;
   document.getElementById("send-btn").disabled = true;
 
   appendBubble("user", text.replace(/\n/g, "<br>"));
   history.push({ role: "user", content: text });
-
   showTyping();
 
   try {
-    const res = await fetch("https://re-nault.fcferreira.workers.dev", {
+    const res  = await fetch(`${WORKER}/chat`, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-api-key": API_KEY,
-      },
-      body: JSON.stringify({
-        model: MODEL,
-        max_tokens: 1024,
-        system: SYSTEM_PROMPT,
-        messages: history
-      })
+      headers: { "Content-Type": "application/json", "x-api-key": API_KEY },
+      body: JSON.stringify({ messages: history })
     });
-
     const data  = await res.json();
     const reply = data?.content?.[0]?.text || "Não foi possível obter uma resposta.";
-
     history.push({ role: "assistant", content: reply });
     removeTyping();
     appendBubble("assistant", mdToHtml(reply));
-
-  } catch (err) {
+  } catch {
     removeTyping();
-    appendBubble("assistant", "⚠️ Erro ao conectar com a API. Verifique sua chave e conexão.");
-    console.error(err);
+    appendBubble("assistant", "⚠️ Erro ao conectar com o Worker. Verifique a conexão.");
   }
 
   isLoading = false;
   document.getElementById("send-btn").disabled = false;
-  input.focus();
-}
-
-// ─────────────────────────────────────────────────────
-// HELPERS
-// ─────────────────────────────────────────────────────
-function handleKey(e) {
-  if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); }
-}
-
-function autoResize(el) {
-  el.style.height = "auto";
-  el.style.height = Math.min(el.scrollHeight, 120) + "px";
-}
-
-function setSuggestion(btn) {
-  document.getElementById("user-input").value = btn.textContent;
   document.getElementById("user-input").focus();
 }
 
-function copyMsg(btn) {
-  const bubble = btn.closest(".msg-row").querySelector(".bubble");
-  navigator.clipboard?.writeText(bubble.innerText);
-  btn.textContent = "✓";
-  setTimeout(() => btn.textContent = "⎘", 1500);
+// ── UI ────────────────────────────────────────────────────
+function resetMessages() {
+  document.getElementById("messages").innerHTML = `
+    <div id="welcome">
+      <div class="w-av">RÊ</div>
+      <h2 id="welcome-name">Olá!</h2>
+      <p>Eu sou a RÊ, seu assistente de BI Cognitivo especializado em insights da Rede Renault.<br>Como posso te ajudar hoje?</p>
+      <div class="suggestions">
+        <button class="sug-btn" onclick="setSug(this)">Qual modelo mais emplacou em 2025?</button>
+        <button class="sug-btn" onclick="setSug(this)">PDS do Duster por estado</button>
+        <button class="sug-btn" onclick="setSug(this)">Top 10 grupos em Curitiba — Dez/2025</button>
+        <button class="sug-btn" onclick="setSug(this)">Concorrentes do Kardian</button>
+      </div>
+    </div>`;
 }
 
-function feedback(btn, type) {
-  const row = btn.closest(".bubble-actions");
-  row.querySelectorAll(".act-btn.up, .act-btn.down").forEach(b => b.classList.remove("active"));
-  btn.classList.add("active");
+function hideWelcome() { const w = document.getElementById("welcome"); if (w) w.remove(); }
+
+function appendBubble(role, html) {
+  hideWelcome();
+  const msgs = document.getElementById("messages");
+  const ini  = role === "assistant" ? "RÊ" : (currentUser?.nome?.[0] || "U");
+  const row  = document.createElement("div");
+  row.className = `msg-row ${role === "user" ? "user" : ""}`;
+  row.innerHTML = `
+    <div class="bav ${role === "assistant" ? "re" : "usr"}">${ini}</div>
+    <div>
+      <div class="bubble ${role === "assistant" ? "re" : "usr"}">${html}</div>
+      ${role === "assistant" ? `<div class="bubble-actions">
+        <button class="act-btn" onclick="copyMsg(this)">⎘</button>
+        <button class="act-btn up"   onclick="fbk(this,'up')">👍</button>
+        <button class="act-btn down" onclick="fbk(this,'down')">👎</button>
+      </div>` : ""}
+    </div>`;
+  msgs.appendChild(row);
+  msgs.scrollTop = msgs.scrollHeight;
 }
+
+function showTyping() {
+  hideWelcome();
+  const msgs = document.getElementById("messages");
+  const row  = document.createElement("div");
+  row.className = "msg-row"; row.id = "typing-row";
+  row.innerHTML = `<div class="bav re">RÊ</div><div class="bubble re"><div class="typing-dots"><span></span><span></span><span></span></div></div>`;
+  msgs.appendChild(row); msgs.scrollTop = msgs.scrollHeight;
+}
+function removeTyping() { const t = document.getElementById("typing-row"); if (t) t.remove(); }
+
+function mdToHtml(text) {
+  const lines = text.split("\n"); let out = "", inTable = false, tHtml = "";
+  const p = s => s.replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\*(.+?)\*/g,"<em>$1</em>");
+  const flushT = () => { out += tHtml + "</tbody></table></div>"; tHtml = ""; inTable = false; };
+  for (const line of lines) {
+    if (line.trim().startsWith("|")) {
+      const cells = line.split("|").map(c => c.trim()).filter(Boolean);
+      if (!inTable) { inTable = true; tHtml = '<div style="overflow-x:auto"><table><thead><tr>' + cells.map(c=>`<th>${p(c)}</th>`).join("") + "</tr></thead><tbody>"; }
+      else if (/^[\s|:-]+$/.test(line)) { /* separador */ }
+      else tHtml += "<tr>" + cells.map(c=>`<td>${p(c)}</td>`).join("") + "</tr>";
+      continue;
+    }
+    if (inTable) flushT();
+    if (!line.trim()) { out += "<br>"; continue; }
+    if (line.startsWith("### ")) { out += `<h3 style="font-size:14px;font-weight:700;margin:10px 0 4px">${p(line.slice(4))}</h3>`; continue; }
+    if (line.startsWith("- ") || line.startsWith("• ")) { out += `<div style="display:flex;gap:8px;margin:3px 0"><span style="color:#FFCC00;font-weight:700">•</span><span>${p(line.slice(2))}</span></div>`; continue; }
+    out += `<p style="margin:3px 0;line-height:1.65">${p(line)}</p>`;
+  }
+  if (inTable) flushT();
+  return out;
+}
+
+function handleKey(e) { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); } }
+function autoResize(el) { el.style.height = "auto"; el.style.height = Math.min(el.scrollHeight, 120) + "px"; }
+function setSug(btn) { document.getElementById("user-input").value = btn.textContent; document.getElementById("user-input").focus(); }
+function copyMsg(btn) { const b = btn.closest(".msg-row").querySelector(".bubble"); navigator.clipboard?.writeText(b.innerText); btn.textContent = "✓"; setTimeout(() => btn.textContent = "⎘", 1500); }
+function fbk(btn) { btn.closest(".bubble-actions").querySelectorAll(".up,.down").forEach(b => b.classList.remove("active")); btn.classList.add("active"); }
 </script>
 </body>
 </html>
